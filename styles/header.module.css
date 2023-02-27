@@ -1,0 +1,27 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5vh 2vw;
+    background-color: #7ce3ff;
+}
+.search{
+    width: 20vw;
+    height: 5vh;
+    background-color: blue;
+}
+.links ul{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+.gap{
+    gap: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+}
