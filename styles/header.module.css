@@ -1,27 +1,147 @@
-.nav{
+/* Navbar */
+.nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5vh 2vw;
+    padding: 1rem 2rem;
     background-color: #7ce3ff;
+    width: 100%;
 }
-.search{
-    width: 20vw;
-    height: 5vh;
-    background-color: blue;
+
+.logo {
+    font-weight: 700;
+    letter-spacing: 0.3rem;
 }
-.links ul{
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3vw;
+}
+
+.links ul {
     display: flex;
     flex-direction: row;
     gap: 3vw;
 }
-.gap{
-    gap: 3vw;
+
+.gap {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 3vw;
 }
-.logo{
-    font-weight: 700;
-    letter-spacing: 0.3rem;
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    max-width: 30rem;
+}
+
+.searchBar input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+
+/* Responsive styles */
+@media screen and (max-width: 878px) {
+    .nav {
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        margin-right: auto;
+        margin-left: 1rem;
+    }
+
+    .search {
+        margin-left: auto;
+        margin-right: 1rem;
+    }
+
+    .links {
+        position: fixed;
+        top: 5rem;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 5rem);
+        background-color: #7ce3ff;
+        padding: 2rem;
+        display: none;
+        transition: all 0.3s ease-in-out;
+        z-index: 1;
+    }
+
+    .links.show {
+        display: block;
+    }
+
+    .links ul {
+        flex-direction: column;
+        gap: 2vw;
+    }
+
+    .burger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+      
+      .burger div {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 5px;
+        transition: all 0.3s ease;
+        transform-origin: 4px 0px;
+      }
+      
+      .burger.active div:first-child {
+        transform: rotate(45deg) translate(5px, 5px);
+      }
+      
+      .burger.active div:nth-child(2) {
+        opacity: 0;
+      }
+      
+      .burger.active div:last-child {
+        transform: rotate(-45deg) translate(6px, -7px);
+      }
+      
+}
+
+@media screen and (max-width: 480px) {
+    .nav {
+        padding: 1rem;
+    }
+
+    .searchBar input {
+        display: none;
+    }
 }
