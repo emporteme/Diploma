@@ -1,38 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Diploma - Frontend
+The project is client side app
+(The map is rendering in client side)
 
-## Getting Started
+## Tools
+* Next.js (last version)
+* Redux toolkit (state manager)
+* Leaflet (map)
+* Jsx / Css
+* Axios (API fetching)
 
-First, run the development server:
+## Requirements
+* "@next/font": "13.1.6",
+* "eslint": "8.33.0",
+* "eslint-config-next": "13.1.6",
+* "next": "13.1.6",
+* "react": "18.2.0",
+* "react-dom": "18.2.0",
+* "react-icons": "^4.7.1",
+* "sass": "^1.58.0",
+* "leaflet": "^1.9.3",
+* "react-leaflet": "^4.2.0"
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Installation
+* Clone the repository: git clone https://github.com/emporteme/Diploma.git
+* Don't forget to change directory
+* Install node_modules "npm i"
+* Run on development mode "npm run dev"
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The application will be available at http://localhost:3000
+The deploy on https://diploma-five.vercel.app/
