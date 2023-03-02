@@ -1,4 +1,4 @@
-import styles from '../styles/logo.module.css'
+import styles from '../styles/logo.module.scss'
 export function Logo() {
     return (
         <>

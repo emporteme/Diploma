@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaSearch } from "react-icons/fa";
-import styles from "../styles/SearchBar.module.css";
+import styles from "../styles/SearchBar.module.scss";
 
 interface Props {
   onSearch: (query: string) => void;

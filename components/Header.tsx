@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 //import { FaUser, FaBars } from "react-icons/fa";
 //import SearchBar from "../components/SearchBar";
 import { Logo } from '../components/Logo'
-import styles from "../styles/header.module.css";
+import styles from "../styles/header.module.scss";
 
 export default function Header() {
 

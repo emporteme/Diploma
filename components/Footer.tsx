@@ -7,7 +7,7 @@ import { FiInstagram } from "react-icons/fi"
 import { SiGmail } from "react-icons/si"
 import { AiOutlineCopyrightCircle } from "react-icons/ai"
 // Style imports
-import styles from '../styles/footer.module.css'
+import styles from '../styles/footer.module.scss'
 export default function Footer() {
     return (
         <div className={styles.footer}>
