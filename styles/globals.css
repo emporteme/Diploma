@@ -86,7 +86,6 @@ select {
 
 a {
     text-decoration: none;
-    color: black;
 }
 ul{
     padding-inline-start: 0;
@@ -104,9 +103,9 @@ li{
 }
 
 .mainText {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
 }
 
 .subText {
-    font-size: 0.7rem;
+    font-size: 1rem;
 }

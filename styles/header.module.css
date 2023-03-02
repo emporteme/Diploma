@@ -3,34 +3,39 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 2rem;
+    padding: 1vh 2vw;
     background-color: #7ce3ff;
     width: 100%;
 }
 
 .logo {
     font-weight: 700;
-    letter-spacing: 0.3rem;
-}
-
-.links {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 3vw;
-}
-
-.links ul {
-    display: flex;
-    flex-direction: row;
-    gap: 3vw;
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
 }
 
 .gap {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 10vw;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.links ul {
+    display: flex;
+    flex-direction: row;
     gap: 3vw;
+    
+}
+.links ul li a{
+    color: black;
 }
 
 .search {
@@ -67,9 +72,28 @@
     cursor: pointer;
 }
 
+.btn {
+    padding: 0.5vh 2vw;
+    border: solid #9997D6;
+    border-radius: 1vw;
+    transition: all 0.3s ease;
+    color: black;
+}
+
+.btn:hover {
+    background-color: #9997D650;
+}
+
+.activeBtn {
+    background-color: #9997D670;
+}
+
+.activeHeader {
+    font-weight: 600;
+}
 
 /* Responsive styles */
-@media screen and (max-width: 878px) {
+@media screen and (max-width: 776px) {
     .nav {
         flex-wrap: wrap;
     }
@@ -111,29 +135,29 @@
         align-items: center;
         justify-content: center;
         cursor: pointer;
-      }
-      
-      .burger div {
+    }
+
+    .burger div {
         width: 25px;
         height: 3px;
         background-color: #fff;
         margin: 5px;
         transition: all 0.3s ease;
         transform-origin: 4px 0px;
-      }
-      
-      .burger.active div:first-child {
+    }
+
+    .burger.active div:first-child {
         transform: rotate(45deg) translate(5px, 5px);
-      }
-      
-      .burger.active div:nth-child(2) {
+    }
+
+    .burger.active div:nth-child(2) {
         opacity: 0;
-      }
-      
-      .burger.active div:last-child {
+    }
+
+    .burger.active div:last-child {
         transform: rotate(-45deg) translate(6px, -7px);
-      }
-      
+    }
+
 }
 
 @media screen and (max-width: 480px) {
