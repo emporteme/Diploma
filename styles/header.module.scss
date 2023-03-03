@@ -24,17 +24,24 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 .links ul {
     display: flex;
+    align-items: center;
     flex-direction: row;
     gap: 3vw;
-    
+
 }
-.links ul li a{
+
+.links ul li a {
     color: black;
+    transition: all 0.3s ease;
+}
+
+.links ul li a:hover {
+    font-weight: 600;
 }
 
 .search {
@@ -90,6 +97,8 @@
 
 .activeHeader {
     font-weight: 600;
+    border-bottom: solid 0.1rem #9997D6;
+    border-radius: 0.2rem;
 }
 
 /* Responsive styles */
