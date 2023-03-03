@@ -1,0 +1,78 @@
+.flex {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 20vw;
+    border: solid #9997D6;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.checkBox:hover {
+    cursor: pointer;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    width: 68vw;
+    border: solid #9997D6;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.ratingUniversity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    transition: all 0.3s ease;
+    padding: 1rem 1rem;
+}
+
+.ratingUniversity:hover {
+    cursor: pointer;
+    background-color: #9997d61a;
+    border-radius: 1rem;
+}
+
+.unikImg {
+    width: 12rem;
+}
+
+.unikImg img {
+    width: 12rem;
+    height: 5rem;
+    border-radius: 1rem;
+}
+
+.ratingNumber {
+    font-weight: 600;
+    font-size: 1.5rem;
+    width: 5rem;
+}
+
+.unikName {
+    font-size: 1.2rem;
+    width: 10rem;
+}
+
+.unikDescription {
+    font-size: 0.9rem;
+    width: 60rem;
+}
+
+.line {
+    width: 100%;
+    background-color: #9997D6;
+    border-radius: 2rem;
+    height: 0.1rem;
+}

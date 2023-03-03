@@ -1,0 +1,19 @@
+.checkBox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.btn {
+    border-radius: 0.5rem;
+    border: solid #9997D6;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #9997D6;
+    color: white;
+    padding: 0.2rem;
+    cursor: pointer;
+}
