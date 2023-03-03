@@ -5,7 +5,6 @@ export function Slider() {
 
     return (
         <div
-            className={styles.banner__info2}
             data-aos="fade-right"
             data-aos-offset="200"
             data-aos-duration="1000"
@@ -14,9 +13,6 @@ export function Slider() {
         >
             <section className={styles.ourPartnersBlock}>
                 <div className={styles.ourPartnersGroup}>
-
-
-
                     <div className={styles.logos} >
                         {mockAPI.map((item) => (
                             <div key={item.id}>
@@ -24,9 +20,6 @@ export function Slider() {
                             </div>
                         ))}
                     </div>
-
-
-
                 </div>
 
             </section>
