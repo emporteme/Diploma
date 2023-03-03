@@ -1,9 +1,20 @@
-import MainLayout from '../../components/MainLayout'
+import dynamic from "next/dynamic";
+import { useEffect, useState } from "react";
 
-export default function Country() {
+const Map = dynamic(() => import("../../components/Map"), {
+  ssr: false,
+});
+
+export default function Inicio() {
+  const [isBrowser, setIsBrowser] = useState(false);
+
+  useEffect(() => {
+    setIsBrowser(true);
+  }, []);
+
   return (
-    <MainLayout spacing='0 5vw'>
-      <h2>This is Country</h2>
-    </MainLayout>
-  )
+    <>
+      {isBrowser && <Map />}
+    </>
+  );
 }
