@@ -33,7 +33,7 @@ export default function Footer() {
                 </div>
                 <div className={styles.contacts}>
                     <a href="tell:+77766860652">+7 (776) 686 06 52</a>
-                    <a href="mail:magzhan_volk@outlook.com">magzhan_volk@outlook.com</a>
+                    <a href="tell:+77766860653">+7 (776) 686 06 53</a>
                     <a href="tell:+77766860654">+7 (776) 686 06 54</a>
                     <a href="mail:magzhan_volk@outlook.com">magzhan_volk@outlook.com</a>
                 </div>
@@ -42,7 +42,7 @@ export default function Footer() {
             <div className={styles.line} />
             <div className={styles.copyright}>
                 <AiOutlineCopyrightCircle />
-                <div className='subText'>Copyright. All rights reserved</div>
+                <div className='mainText'>Copyright.  All rights reserved</div>
             </div>
         </div>
     )

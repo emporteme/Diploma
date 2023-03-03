@@ -3,8 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1vh 2vw;
-    background-color: #7ce3ff;
+    padding: 1vh 5vw;
     width: 100%;
 }
 
@@ -85,7 +84,8 @@
 }
 
 .activeBtn {
-    background-color: #9997D670;
+    background-color: #9997D6;
+    color: white;
 }
 
 .activeHeader {

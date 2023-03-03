@@ -87,25 +87,32 @@ select {
 a {
     text-decoration: none;
 }
-ul{
+
+ul {
     padding-inline-start: 0;
 }
-li{
+
+li {
     list-style-type: none;
 }
+
 /*  Our global styles here  */
 .mainHeader {
-    font-size: 1.2rem;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 .subHeader {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .mainText {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 .subText {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    font-weight: 400;
 }
