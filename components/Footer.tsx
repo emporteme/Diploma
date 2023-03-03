@@ -32,10 +32,10 @@ export default function Footer() {
                     <a href={'#'} target="_blank"><SiGmail color="white" /></a>
                 </div>
                 <div className={styles.contacts}>
-                    <a href="tell:+77766860652">+7 (776) 686 06 52</a>
-                    <a href="tell:+77766860653">+7 (776) 686 06 53</a>
-                    <a href="tell:+77766860654">+7 (776) 686 06 54</a>
-                    <a href="mail:magzhan_volk@outlook.com">magzhan_volk@outlook.com</a>
+                    <a href="tel:+77766860652">+7 (776) 686 06 52</a>
+                    <a href="tel:+77766860653">+7 (776) 686 06 53</a>
+                    <a href="mailto:magzhan_volk@outlook.com">magzhan_volk@outlook.com</a>
+                    <a href="mailto:magzhan_volk@outlook.com">magzhan_volk@outlook.com</a>
                 </div>
 
             </div>
