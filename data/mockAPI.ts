@@ -1,4 +1,11 @@
-export const mockAPI = [
+type API = {
+    id: number;
+    title: string;
+    description: string;
+    image: string;
+};
+
+export const mockAPI: API[] = [
     {
         id: 1,
         title: "AITU",

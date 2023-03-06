@@ -8,13 +8,16 @@
 }
 
 .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search input {
     border: solid #9997D6;
     border-radius: 0.5rem;
     width: 20rem;
     height: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .list {
@@ -69,7 +72,8 @@
     border-radius: 0.5rem;
     transition: all 0.3s ease;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #9997D6;
     color: white;
     padding: 0.4rem 0.6rem;
