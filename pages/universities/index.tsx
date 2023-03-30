@@ -9,6 +9,7 @@ import styles from '../../styles/universities.module.scss'
 import { mockDATA } from '../../data/MOCK_DATA'
 export default function Universities() {
 
+	// Code for search
 	const [search, setSearch] = useState('')  // Search field
 	console.log(search)
 
