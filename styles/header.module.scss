@@ -144,15 +144,15 @@
         align-items: center;
         justify-content: center;
         cursor: pointer;
-    }
 
-    .burger div {
-        width: 25px;
-        height: 3px;
-        background-color: #fff;
-        margin: 5px;
-        transition: all 0.3s ease;
-        transform-origin: 4px 0px;
+        div {
+            width: 25px;
+            height: 3px;
+            background-color: #fff;
+            margin: 5px;
+            transition: all 0.3s ease;
+            transform-origin: 4px 0px;
+        }
     }
 
     .burger.active div:first-child {

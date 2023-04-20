@@ -13,47 +13,56 @@ export default function Universities() {
 	const [search, setSearch] = useState('')  // Search field
 	console.log(search)
 
+	// Code for description letter length 
+	const truncateDescription = (description: string, maxLength = 60): string => {
+		if (description.length > maxLength) {
+			return description.substring(0, maxLength) + "...";
+		} else {
+			return description;
+		}
+	};
 	return (
 		<MainLayout spacing='0 5vw'>
 			<div className={styles.unik}>
-				<div className={styles.search}>
-					<input
-						type="text"
-						onChange={(e) => setSearch(e.target.value)}
-						placeholder='Search here...' />
-				</div>
-				<div className={styles.list}>
-					{mockDATA.filter((API) => {
-						return (
-							API
-								.unik_name
-								.toLowerCase()
-								.includes(search.toLowerCase()) ||
-							API
-								.unik_description
-								.toLowerCase()
-								.includes(search.toLowerCase())
-						)
-						{/*search.toLowerCase() === ''
-							? API
-						: API.unik_name.toLowerCase().includes(search);*/}
-					}).map((API) => (
-						<div className={styles.item} key={API.id}>
-							<div className={styles.image}>
-								<img src={API.unik_image} alt={API.unik_image} />
+				<>
+					<div className={styles.search}>
+						<input
+							type="text"
+							onChange={(e) => setSearch(e.target.value)}
+							placeholder='Search here...' />
+					</div>
+				</>
+				<></>
+				<>
+					<div className={styles.list}>
+						{mockDATA.filter((API) => {
+							return (
+								API
+									.unik_name
+									.toLowerCase()
+									.includes(search.toLowerCase()) ||
+								API
+									.unik_description
+									.toLowerCase()
+									.includes(search.toLowerCase())
+							)
+						}).map((API) => (
+							<div className={styles.item} key={API.id}>
+								<div className={styles.image}>
+									<img src={API.unik_image} alt={API.unik_image} />
+								</div>
+								<div className="mainText">{API.unik_name}</div>
+								<div className="subText">{truncateDescription(API.unik_description)}</div>
+								<div className={styles.flex}>
+									<div className={styles.rating}>Rating: {API.id}</div>
+									<Link href={'/apply'}>
+										<div className={styles.btn}>Apply</div>
+									</Link>
+								</div>
 							</div>
-							<div className="mainText">{API.unik_name}</div>
-							<div className="subText">{API.unik_description}</div>
-							<div className={styles.flex}>
-								<div className={styles.rating}>Rating: {API.id}</div>
-								<Link href={'/apply'}>
-									<div className={styles.btn}>Apply</div>
-								</Link>
-							</div>
-
-						</div>
-					))}
-				</div>
+						))}
+					</div>
+				</>
 			</div>
 		</MainLayout>
 	)

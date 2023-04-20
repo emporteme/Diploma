@@ -16,13 +16,14 @@
 .search input {
     border: solid #9997D6;
     border-radius: 0.5rem;
-    width: 20rem;
+    width: 30rem;
     height: 2rem;
+    padding-left: 1rem;
 }
 
 .list {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     gap: 1.5rem;
     flex-wrap: wrap;
