@@ -1,11 +1,12 @@
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
+import universities from '../../data/unik.json';
 
 const Map = dynamic(() => import("../../components/Map"), {
   ssr: false,
 });
 
-export default function Inicio() {
+export default function Inicio({ universities }) {
   const [isBrowser, setIsBrowser] = useState(false);
 
   useEffect(() => {
@@ -14,7 +15,15 @@ export default function Inicio() {
 
   return (
     <>
-      {isBrowser && <Map />}
+      {isBrowser && <Map universities={universities} />}
     </>
   );
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      universities,
+    },
+  };
 }

@@ -1,0 +1,1951 @@
+[
+    {
+        "model": "uns.university",
+        "pk": 1,
+        "fields": {
+            "university_name": "Astana IT University",
+            "short_name": "AITU",
+            "location": "Mangilik El Avenue, 55/11, EXPO Business Center, block C1, Astana, Kazakhstan, 010000y",
+            "latitude": 51.0907,
+            "longitude": 71.418163,
+            "description": "Astana IT University is the leader of innovative continuous IT education and science with stable academic traditions and high social responsibility",
+            "website": "https://astanait.edu.kz/",
+            "logo": "https://astanait.edu.kz/wp-content/uploads/2020/05/aitu-logo-3-400x205.png",
+            "established_year": 2020,
+            "study_type": ["Bachelor's", "Master's", "Doctorate"],
+            "study_language": ["English"],
+            "study_year": [3, 2, 3],
+            "student_count": 4000,
+            "faculty_count": 6,
+            "faculty": [
+                "Information Technology", 
+                "Information security", 
+                "Communications and communication technologies",
+                "Electrical engineering and automation", 
+                "Management and administration", 
+                "Journalism"],
+            "edu_programm": [
+                "Software Engineering", 
+                "Computer Science", 
+                "Big Data Analysis", 
+                "Media Technologies",
+                "Mathematical and Computational Science", 
+                "Cyber Security", 
+                "Smart Technologies", 
+                "Industrial Internet of Things",
+                "IT Entrepreneurship", 
+                "IT Management", 
+                "Digital Public Administration and Services", 
+                "Digital Journalism"],
+            "email": "info@astanait.edu.kz",
+            "phone_number": ["+7 (7172) 645-716 - office", "+7 (7172) 645-710 - admissions office"],
+            "min_unt": 70,
+            "min_ielts": 6.5,
+            "tuition": 2000000,
+            "admission_criteria": ["AET - AITU Excellence Test", "UNT - Unified National Testing"],
+            "dormitory": "Astana It University provides its students with accommodation and an environment that encourages students to fulfill themselves and be more active. Living in residential buildings of the university is not only good conditions, but also an active and rich student life.",
+            "student_life": "Student Government - an initiative form of management that involves the active participation of students in the preparation, adoption and implementation of management decisions related to the life of the University, as well as the protection of the rights and interests of students, the inclusion of students in various types of socially significant activities",
+            "alumni": ["Number of graduates in 2022: 523", "Percentage of employed graduates: 80%", "Officially employed and continue their education in the magistracy: 376"],
+            "athletics": "Sport is an alternative to bad habits and the basis of a healthy lifestyle. Physical education and the formation of a healthy lifestyle for students at Astana IT University are considered as the most important component of the educational process. We support students in their aspirations for an active lifestyle by providing opportunities for sports and participation in sports competitions and events of various levels. Students are provided with a fully equipped sports complex 'Cyber Arena' and a universal sports hall. All members of the University community have the opportunity to use sports services for free. A large comfortable sports hall with high-quality non-slip flooring ensures the safety of training in football, volleyball, basketball and tennis. In the gym, both individual trainings and group classes, competitions, tournaments are held.",
+            "financial_aid": "Those studying on higher education programs on a paid basis, who do not have current academic debts, who scored at least 3.2 points for the entire period of study and successfully passed the examination session (with grades A, A-, B +, B, B-), can apply for receiving a discount of 30% for a period of one trimester.",
+            "required_tests": ["AET - AITU Excellence Test", "UNT - Unified National Testing"],
+            "application_fee": "Free",
+            "application_deadline": "June 1 - Opening of the university admissions office, August 25 - Closing of the university admissions office",
+            "acceptance_rate": 70.00,
+            "internship_opportunities": "Internship opportunities available through the career center",
+            "study_abroad_programs": [
+                "University of Latvia - Latvia", "Beijing Institute of Technology - China",
+                "Lawrence Technological University - USA", "Ankara University - Turkey", "Kyungpook National University - South Korea",
+                "Inha University - South Korea", "Schmalkalden University of Applied Sciences - Germany", "Cracow University of Technology - Poland"
+            ],
+            "clubs_and_organizations": [
+                "Gamin club", "Senatus Populusque Romanus (Сенат и народ Рима)", 
+                "AITU Production", "AITU Mafia Club", "Music club", "SCA", "AITU Orchestra", "Dance club", 
+                "KCA AITU", "Basketball club", "Football club", "AITU Volleyball club", "Chess club",
+                "Event club", "AITUKIT", "Reading club", "Charity club", "Volunteer club", "Debate club",
+                "AITU PHOENIX", "Oratory club", "AITU WEB DESIGN CLUB", "Anime club", "Filmy"
+            ],
+            "social_media": {  
+                "facebook": "https://www.facebook.com/astanaituniversity",
+                "instagram": "https://www.instagram.com/astana_it_university/",
+                "youtube": "https://www.youtube.com/@AstanaITUniversity",
+                "linkedin": "https://www.linkedin.com/school/astanait-university/"
+            },
+            "accreditation": ["Independent agency for accreditation and rating (IAAR)"],
+            "source": "astana-it-university"
+        }
+    },
+
+    
+
+    {
+        "model": "uns.university",
+        "pk": 2,
+        "fields": {
+            "university_name": "Eurasian National University L.N. Gumilyov",
+            "short_name": "ENU",
+            "location": "Satpaeva, 2, Astana, Kazakhstan, 010008",
+            "latitude": 51.158179,
+            "longitude": 71.467529,
+            "description": "Rector of the ENU L.N. Gumilyova E.B. Sydykov www.enu.kz L.N. Gumilev was founded by the Decree of the President of the Republic of Kazakhstan N.A. Nazarbayev dated May 23, 1996 on the basis of the merger of two universities - the Tselinograd Civil Engineering Institute (TsISI) and the Tselinograd Pedagogical Institute.",
+            "website": "https://enu.kz/",
+            "logo": "https://enu.kz/bitrix/templates/university3.0-new_copy/images/logo_eng.png",
+            "established_year": 1996,
+            "study_type": ["Bachelor's", "Master's", "Doctorate"],
+            "study_language": ["English"],
+            "study_year": [4, 2, 3],
+            "student_count": 13267,
+            "faculty_count": 6,
+            "faculty": [
+                "Faculty of Mechanics and Mathematics", 
+                "Faculty of Information Technology", 
+                "Physics and Technology Faculty", 
+                "Faculty of Natural Sciences", 
+                "Faculty of Architecture and Civil Engineering", 
+                "Faculty of Philology", 
+                "Faculty of International Relations", 
+                "Faculty of Law", 
+                "Faculty of Economics",
+                "Faculty of Social Sciences", 
+                "Faculty of Journalism and Political Science", 
+                "Transport and Energy Faculty",
+                "History department"
+            ],
+            "edu_programm": [
+                [
+                    "Mathematics (education)", 
+                    "Mathematics (natural sciences)", 
+                    "Mechanics", 
+                    "Mathematical and computer modeling"
+                ],
+                [
+                    "Computer science (education)", 
+                    "Computer Science (natural sciences)", 
+                    "Automation and Control", 
+                    "Information Systems", 
+                    "Computing and software", 
+                    "Information security systems"
+                ],
+                [
+                    "Physics (natural sciences)",
+                    "Nuclear physics",
+                    "Radio engineering, electronics and telecommunications",
+                    "Technical Physics",
+                    "Space technics and technologies"
+                ],
+                [
+                    "Chemistry (natural sciences)",
+                    "Biology (natural sciences)",
+                    "Ecology",
+                    "Geography (natural sciences)",
+                    "Biotechnology",
+                    "Hydrology"
+                ],
+                [
+                    "Architecture",
+                    "Design",
+                    "Geodesy and cartography",
+                    "Construction",
+                    "Engineering systems and networks"
+                ],
+                [
+                    "Kazakh language and literature",
+                    "Russian language and literature",
+                    "Foreign language: two foreign languages (English)",
+                    "Foreign language: two foreign languages (German)",
+                    "Philology: Kazakh language",
+                    "Translation business",
+                    "Foreign Philology: (Chinese)",
+                    "Foreign Philology: (English)"
+                ],
+                [
+                    "International relationships",
+                    "Oriental studies",
+                    "Turkology"
+                ],
+                [
+                    "Regional studies"
+                ],
+                [
+                    "Jurisprudence",
+                    "International law"
+                ],
+                [
+                    "Economy",
+                    "Management",
+                    "Accounting and Auditing",
+                    "Finance",
+                    "State and local government",
+                    "Tourism"
+                ],
+                [
+                    "Social pedagogy and self-knowledge",
+                    "Physical Culture and Sport",
+                    "Culturology",
+                    "Religious studies",
+                    "Sociology",
+                    "Psychology",
+                    "Philosophy"
+                ],
+                [
+                    "Publishing",
+                    "Political science",
+                    "Journalism",
+                    "Public Relations"
+                ],
+                [
+                    "Transport, transport equipment and technologies",
+                    "Thermal power engineering",
+                    "Standardization, metrology and certification",
+                    "Organization of transportation, movement and operation of transport"
+                ],
+                [
+                    "History (humanities)",
+                    "Archeology and ethnology"
+                ]
+            ],
+            "email": "enu@enu.kz",
+            "phone_number": ["+7 (7172) 709-482 - office", "+7 (7172) 709-500 - admissions office"],
+            "min_unt": 70,
+            "min_ielts": 0,
+            "tuition": 1000000,
+
+            "admission_criteria": ["ENU entrance exams", "UNT - Unified National Testing"],
+            "dormitory": "The Eurasian National University has six student houses that provide a warm and comfortable living environment. Each student house has its own student council and offers various amenities such as gyms, furnished rooms, and internet access. Student house #1 is located on Yanushkevich Street and has 49 rooms with 106 beds. The studio is equipped with CCTV cameras and is guarded by security from 7 pm to 7 am. The hostel payment for the year is 28,910 tenge and the contract period runs from September 1st to June 30th.",
+            "student_life": "The life of students is interesting and varied. at the Eurasian National University. L.N. Gumilyov, there are all opportunities for the manifestation of talent and the disclosure of the creative potential and abilities of young people.",
+            "alumni": ["The mission of the ENU Alumni Association L.N. Gumilev is to unite graduates' intellectual, creative, and business potential to solve socio-economic problems in Kazakhstan and support the university's strategic development. Membership privileges include free access to educational buildings, library and electronic resources, participation in special programs, and discounts on sports complexes. The Association aims to unite and promote ENU graduates of all generations to contribute to the university's progressive development."],
+            "athletics": "The Eurasian National University has a modern sports complex where students can engage in a variety of physical activities, including weightlifting, gymnastics, basketball, and volleyball. The gym is equipped with modern exercise equipment and has a team of qualified instructors who provide fitness programs and training sessions to students. The complex also houses a swimming pool, a sauna, and a spa, making it an ideal place for students to relax and unwind after a long day of classes. The gym is open to all students and offers affordable membership fees.",
+            "financial_aid": "Those studying on higher education programs on a paid basis, who do not have current academic debts, who scored at least 3.2 points for the entire period of study and successfully passed the examination session (with grades A, A-, B +, B, B-), can apply for receiving a discount of 30% for a period of one trimester.",
+            "required_tests": ["ENU entrance exams", "UNT - Unified National Testing"],
+            "application_fee": "Free",
+            "application_deadline": "No info",
+            
+            "acceptance_rate": 70.00,
+            "internship_opportunities": "Internship opportunities available through the career center",
+            "study_abroad_programs": [
+                "Program Erasmus +", "MEVLANA Academic Exchange Program", "International Scholarship Programs", 
+                "Academic Mobility Program within the framework of bilateral agreements and agreements between L.N. Gumilyov ENU and partner universities", 
+                "ENU STUDENTS AMBASSADOR Program", "Academic mobility program at the expense of the Republican Budget (GRANT MES RK)", 
+                "University mobility in the Asia-Pacific region (UMAP)"
+            ],
+            "clubs_and_organizations": [
+                "«ДНК»", "«НеоГео»", "«Спектр»", "«Таза Болашақ»", "«Шахмат»", "«Gezellig»", 
+                "«Бережливое производство»", "«Колесо»", "«Optimus»", "«Энергетик»", "«Kappa epsilon»",
+                "«Алгоритм»", "«Спортклуб ММФ ЕНУ»", "«Art-Creative» центр", "«Геоматик»", "«Зодчий»",
+                "«Строитель»", "Speaking club «Talking to the moon»", "Творческое объединение разносторонних и трудолюбивых",
+                "«Алқа»", "«Лағыл»", "«Абай әлеміне саяхат»", "«Parasat» дебатный клуб", "«Student's club FL»",
+                "«Жас ғалымдар клубы»", "«Филологический альянс»", "«Иностранный язык для решения практических задач»",
+                "«21 Ғасыр лингвисстері»", "«Young translation»", "«Бәйтерек»", "«Жас аудитор»", "«Жас бухгалтер»",
+                "«Мақсат»", "«Фестина»", "«Финансовый аналитик", "«Оратор» ДК", "Лидер", "Адам-зат", "Пирамида",
+                "Руханият", "Волонтерский клуб «Сана»", "Феникс", "Клуб экологического волонтерства"
+            ],
+            
+            "social_media": {  
+                "facebook": "https://www.facebook.com/enukz",
+                "instagram": "https://www.instagram.com/enugumilyov_official/",
+                "youtube": "https://www.youtube.com/user/ENUGumilyov"
+            },
+            "accreditation": ["Independent Agency for Quality Assurance in Education (IQAQO)", "Specialized accreditation in the KAZSEE agency"],
+            "source": "eurasian-national-university"
+        }
+    },
+
+
+
+    {
+        "model": "uns.university",
+        "pk": 3,
+        "fields": {
+            "university_name": "Nazarbayev University",
+            "short_name": "NU",
+            "location": "Republic of Kazakhstan, 010000, Astana, Kabanbai Batyr Ave., 53",
+            "latitude": 51.090195,
+            "longitude": 71.39968,
+            "description": "Nazarbayev University (NU) is an international English-speaking research university located in Astana, in the heart of Eurasia, the capital of the Republic of Kazakhstan. Admission and study at the University are based on the principles of meritocracy, include collaboration with a professor and research activities from the very first day of study. We are much more than just a new university. NU provides higher education and prepares graduates for success in an era of globalization and technological upheaval. Our graduates earn world-class degrees in geosciences, digital sciences, government, education, engineering, medicine, and more. Nazarbayev University, established on the initiative of the First President of the Republic of Kazakhstan in 2010, is the flagship of higher education in the country aiming to become an international research university. This is the first University of Kazakhstan, whose activities are based on the principles of autonomy and academic freedom. Autonomous status was assigned to the University in accordance with the Law of the Republic of Kazakhstan dated January 19, 2011 “On the status of Nazarbayev University”, “Nazarbayev Intellectual Schools” and “Nazarbayev Foundation”.",
+            "website": "https://nu.edu.kz/",
+            "logo": "https://static.tildacdn.com/tild3731-3534-4564-a433-363633326465/noroot.png",
+            "established_year": 2010,
+            "study_type": ["Bachelor's", "Master's", "Doctorate"],
+            "study_language": ["English"],
+            "study_year": [4, 2, 4],
+            "student_count": 6811,
+            "faculty_count": 4,
+            "faculty": [
+                "School of Sciences and Humanities", 
+                "School of Engineering and Digital Sciences", 
+                "School of Mining and Geosciences",
+                "School of Medicine"
+            ],
+            "edu_programm": [
+                "Biological sciences", 
+                "Mathematics", 
+                "Chemistry", 
+                "Physics",
+                "Anthropology", 
+                "History", 
+                "World languages, Literatures and Cultures", 
+                "Political Science and International Relations",
+                "Sociology", 
+                "Economics", 
+                "Chemical and Materials Engineering", 
+                "Civil and Environmental Engineering",
+                "Electrical and Computer Engineering",
+                "Mechanical and Aerospace Engineering", 
+                "Computer Science", 
+                "Robotics and Mechatronics", 
+                "Petroleum Engineering",
+                "Mining Engineering",
+                "Geology",
+                "Medical Sciences",
+                "Bachelor of Science in Nursing Program (BSN)",
+                "Bachelor in Nursing (2 years program)"
+            ],
+            "email": "nu@nu.edu.kz",
+            "phone_number": ["+7 (7172) 706-688 - office"],
+            "min_unt": 0,
+            "min_ielts": 6.5,
+            "tuition": 9000000,
+            "admission_criteria": ["NUFYP - Nazarbayev University Foundation Year Program", "IELTS - International English Language Testing System", "NUET - Nazarbayev University Entrance Test", "TOEFL - Test of English as a Foreign Language"],
+            "dormitory": "Living in the dormitories of NU and taking advantage of its academic, sport and other facilities will inspire the students' future commitments to the University and the surrounding environment. All rooms have beds, desks and closet space. Room dimensions vary according to the block. The space is limited and bringing the extra furniture is strongly prohibited. ",
+            "student_life": "NU Student Government is the supreme body of student self-governance system representing the interests of students to the administration of the University, and the global community with its structure and activities set in the form of areal school of management, a model system of the Government of the Republic of Kazakhstan.",
+            "alumni": ["For the first time since 2015 when graduates of Nazarbayev University created the first Alumni Association to follow its mission to combine the creative and intellectual potential of graduates for the development of the University and the Republic of Kazakhstan."],
+            "athletics": "NU Sports complex (planned to be renamed as Wellness and Sport complex) located on the territory of Nazarbayev University, includes the following facilities: Athletic Center (planned to be renamed as Wellness and Athletic Center); Sport Center (planned to be renamed as Training Center (SST)); Outdoor summer sports fields",
+            "financial_aid": "The Nazarbayev University Stipend is awarded to students studying under the “Nazarbayev University” educational grant, in accordance with the procedures established by the Regulations on stipend support provision to the students of the autonomous organization of education “Nazarbayev University”.",
+            "required_tests": ["NUFYP - Nazarbayev University Foundation Year Program", "IELTS - International English Language Testing System", "NUET - Nazarbayev University Entrance Test", "TOEFL - Test of English as a Foreign Language"],
+            "application_fee": "Free",
+            "application_deadline": "Online application deadlines: for the citizens of the Republic of Kazakhstan - April 17, 2023 inclusively; for applicants of “NUET applicant” category - December 29, 2022 inclusively; for international applicants - March 9, 2023 inclusively.",
+            "acceptance_rate": 65.00,
+            "internship_opportunities": "Internship opportunities available through the career center",
+            "study_abroad_programs": [
+                "University at Buffalo - USA", " The State University of New York - USA"
+            ],
+            "clubs_and_organizations": [
+                "NU Business Club", "NU History Club", "NU Eco-Vehicles Club", "NU Green Technologies & Innovations",
+                "NU Green and Safe Campus Initiative student club", "NU IET On Campus Group", "NU iGEM", 
+                "NU Math Club", "Association of World Languages and Literature Scholars", "Sociology and Anthropology Students Association", 
+                "NU Robotics Club", "NU Science Cafe", "Graphic Designers Association", "Kazakh Stage", "KVN",
+                "Entrepreneurship Club (Graduate School of Business)", "FLEX Alumni Community at NU", 
+                "Ladies Health & Beauty", "Legal Literacy Club", "MBA Consulting", "MentorGnX",
+                "Book Club", "Case Club", "Cooking Club", "Eco&Vegetarian Club", "DJing Club", "NU Ballroom Dance",
+                "FOCUS: SHSS Magazine", "Geeks Club", "Guitar club", "Hip-Hop Club", "LCA club", "Live Music Club",
+                "LOUD", "K-pop Cover Dance Club", "Legion Club", "Nazarbayev University Football League",
+                "Nazarbayev University Table Tennis Club (NUTTC)", "Nine Q", "NU Aikido club", "NU American Football Club"
+            ],
+            "social_media": {  
+                "facebook": "https://www.facebook.com/nuedukz/",
+                "instagram": "https://www.instagram.com/nuedukz/",
+                "youtube": "https://www.youtube.com/user/NazarbayevUniversity",
+                "linkedin": "https://www.linkedin.com/school/nazarbayev-university"
+            },
+            "accreditation": ["European Association for Public Administration Accreditation (EAPAA)"],
+            "source": "nazarbayev-university"
+        }
+    },
+
+
+
+    {
+        "model": "uns.university",
+        "pk": 4,
+        "fields": {
+            "university_name": "KAZGUU University M.Narikbaev",
+            "short_name": "KAZGUU",
+            "location": "010000, Republic of Kazakhstan, Astana, Korgalzhinskoe highway, 8",
+            "latitude": 51.148859,
+            "longitude": 71.379853,
+            "description": "KAZGUU University named after M.S. Narikbaeva is a higher educational institution located in Nur-Sultan and established in 1994. The university has 4 schools - the Higher Humanitarian School, the Higher School of Law, the International School of Economics and the Business School.",
+            "website": "https://kazguu.kz/",
+            "logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/8/84/KAZGUUUniversityLogo.jpg/800px-KAZGUUUniversityLogo.jpg",
+            "established_year": 1994,
+            "study_type": ["Bachelor's", "Master's", "Doctorate"],
+            "study_language": ["Kazakh", "Russian", "English"],
+            "study_year": [3, 2, 3],
+            "student_count": 3000,
+            "faculty_count": 6,
+            "faculty": [
+                "Graduate School of Law",
+                "International School of Economics",
+                "Higher Humanitarian School",
+                "Business School"
+            ],
+            "edu_programm": [
+                "Jurisprudence", 
+                "International law", 
+                "Law and Law Enforcement", 
+                "Applied Linguistics",
+                "Kazakh-English languages and Linguistics", 
+                "Translation business", 
+                "Hospitality", 
+                "Tourism",
+                "Psychology", 
+                "Journalism: Analytics and Investigations", 
+                "BBA in Accounting", 
+                "BBA in Finance",
+                "BBA in Information Technology", 
+                "BA in International Relations", 
+                "BBA in Economics and Data Science"
+            ],
+            "email": "info@astanait.edu.kz",
+            "phone_number": ["+7 (7172) 703-030 - office"],
+            "min_unt": 70,
+            "min_ielts": 0,
+            "tuition": 2000000,
+            "admission_criteria": ["KAZGUU Entrance exams", "UNT - Unified National Testing"],
+            "dormitory": "Places in the Student's House, first of all, are provided to students from socially vulnerable strata of society and orphans left without parental care. When settling, non-resident students also enjoy priority right. In the Student's House, full-fledged conditions for life and study have been created. So, at the service of the guys - a living room, a kitchen, a bathroom, showers and a laundry. Each room has all the necessary furniture.",
+            "student_life": "This is the highest body of the student self-government system, representing the interests of students in the administration of the university and other organizations, including in their structure and activities in the form of School management. The work of the organization will be built on the model of the current Government of the Republic of Kazakhstan as a coordinating body. The efforts of students will be focused on solving academic and extracurricular problems, the implementation of student self-government.",
+            "alumni": ["Today, KAZGUU graduates adequately represent their university in all areas of Kazakhstan. A total of 30 thousand professional specialists, managers of various levels work in government organizations, the quasi-public sector, foreign, international, national companies and private structures. Having received a quality education, graduates successfully realize the high mission of serving their people, thereby demonstrating their commitment to professional duty and the chosen path."],
+            "athletics": "In order to implement the State Program for the Development of Physical Culture and Sports, as well as to promote a healthy lifestyle, sports sections for volleyball, basketball, table tennis, and mini-football operate free of charge, where everyone is welcome. All athletes of the University are members of the KAZGUU EAGLES Club.",
+            "financial_aid": "Every year, M. Narikbayev KAZGUU University allocates more than 50 million tenge for financial support of gifted, motivated applicants and students. Other financial support can be provided by the KAZGUU Endowment Corporate Fund, which was created to attract additional funds that provide financial support to students.",
+            "required_tests": ["KAZGUU Entrance exams", "UNT - Unified National Testing"],
+            "application_fee": "Free",
+            "application_deadline": "On website",
+            "acceptance_rate": 70.00,
+            "internship_opportunities": "Internship opportunities available through the career center",
+            "study_abroad_programs": [
+                "SolBridge International School of Business - South Korea", "Woosong University - South Korea",
+                "Bologna University - Italy", "University of Wrocław - Poland", "Corvinus university of Budapest - Hungary",
+                "Seoul National University - South Korea", "Anyang University - South Korea", "University Turiba - Latvia",
+                "Rhine-Waal University of Applied Sciences - Germany", "Viadrina European University - Germany",
+                "Batumi Shota Rustaveli State University - Georgia", "Mendel University in Brno - Czech Republic",
+                "University of Ostrava - Czech Republic", "Akdeniz University - Turkey", "HAMK Häme University of Applied Sciences - Finland",
+                "Gaziantep University - Turkey", "Universidade do Porto - Portugal", "Nagoya University - Japan",
+                "Higher School of Economics - Russia", "Russian Academy of Advocacy and Notaries - Russia",
+                "Universidad de Jaen - Spain", "Hof University - Germany"
+            ],
+            "clubs_and_organizations": [
+                "TheActre KAZGUU", "ORDA debate club", "Volonteer league KAZGUU", "Art House", "Avvaare",
+                "ACHIEVE", "Ecovlub IrBIS", "Enactus KAZGUU", "EVEREVENT", "KAZGUU Greeters", "IT club",
+                "JBM", "KAZGUU MUN", "KAZGUU Times", "KITS Podcast", "LIGHT", "Language Skills Improvement Academy (LSIA)",
+                "MO 'Student'", "Moot Court", "Namaste", "Pro Et Contra - political discussions "
+            ],
+            "social_media": {  
+                "facebook": "https://www.facebook.com/kazguuKZ/",
+                "instagram": "https://www.instagram.com/kazguukz/",
+                "youtube": "https://www.youtube.com/channel/UCunfcAqeE1B6Hy2Y61GAKdA"
+            },
+            "accreditation": [
+                "Foundation for International Business Administration Accreditation (FIBBA)", 
+                "HR Certification Institute (HRCI)", 
+                "Institute of Chartered Accountants in England and Wales - ICAEW", 
+                "Central and East European Management Development Association (CEEMAN)", 
+                "Chartered Institute of Management Accountants (CIMA)"
+            ],
+            "source": "narikbayev-kazguu"
+        }
+    },
+
+
+
+    {
+        "model": "uns.university",
+        "pk": 5,
+        "fields": {
+            "university_name": "Astana Medical University",
+            "short_name": "AMU",
+            "location": "Beybitshilik koshesi 49a, Astana, Kazakhstan, 010000",
+            "latitude": 51.181475,
+            "longitude": 71.416205,
+            "description": "Astana Medical University is one of the largest and dynamically developing medical universities in our country, has a high reputation in the field of higher medical education, its own traditions, both in the provision of educational services and in the development of medical science and clinical activities. On October 26, 1964, the Council of Ministers of the Republic adopted a resolution on the opening of a medical institute in the city of Tselinograd. In 1997, the Institute was reorganized into an academy, and since January 2009 it has achieved the status of a University. Based on the Decree of the Government of the Republic of Kazakhstan, the University became part of the National Medical Holding. Since July 2010, it has been transferred to the jurisdiction of the Ministry of Health of the Republic of Kazakhstan.",
+            "website": "https://amu.edu.kz",
+            "logo": "https://amu.edu.kz/upload/iblock/e64/e644e611b38fac24e6e5803f62ef159f.png",
+            "established_year": 1964,
+            "study_type": ["Bachelor's", "Residency", "Master's", "Doctorate"],
+            "study_language": ["Kazakh", "Russian"],
+            "study_year": [4, 6, 2, 3],
+            "student_count": 4000,
+            "faculty_count": 6,
+            "faculty": [
+                "School of Medicine",
+                "School of Dentistry",
+                "School of Pediatrics",
+                "School of Nursing",
+                "School of Pharmacy",
+                "Residency School",
+                "Research School",
+                "Selection committee",
+                "Non-clinical departments",
+                "Clinical departments"
+            ],
+            "edu_programm": [],
+            "email": "rektorat@amu.edu.kz",
+            "phone_number": ["+7 (7172) 539-447 - office", "+7 (7172) 539-512 - admissions office"],
+            "min_unt": 70,
+            "min_ielts": 0,
+            "tuition": 1000000,
+            "admission_criteria": ["UNT - Unified National Testing"],
+            "dormitory": "The student dormitories in Astana Medical University provide comfortable accommodation for students. There are two dormitories with a total of 1,500 beds. Each room is designed to accommodate two to three people and is equipped with a desk, wardrobe, and beds. In addition, the dormitories have a study room, a laundry room, a fitness room, and a kitchen on each floor. The dormitories also have 24-hour security, a medical center, and a fire alarm system.",
+            "student_life": "The student representation of the university is the highest body of student self-government in NJSC 'MUA', whose activities are aimed at solving important issues of student youth and developing their social activity.",
+            "alumni": ["The purpose of establishing the Association of Alumni of the Astana Medical University is to form a unity of graduates of the University based on the principles of humanism, mutual assistance, support, transfer of experience to young graduates and development of continuity of generations. The activities of the Association provide encouragement in the nomination 'Best Graduate'."],
+            "athletics": "The Center's main tasks include promoting interethnic harmony, preventing delinquency and crime among students, instilling social and political literacy, developing a humane system of values, creating conditions for creative self-realization, and organizing social support for students. It also aims to develop students' citizenship, professional competence, and respect for cultural and social traditions, as well as to scientifically substantiate existing methods and create a system of moral and material incentives.",
+            "financial_aid": "no info",
+            "required_tests": ["UNT - Unified National Testing"],
+            "application_fee": "Free",
+            "application_deadline": "on website",
+            "acceptance_rate": 70.00,
+            "internship_opportunities": "Internship opportunities available through the career center",
+            "study_abroad_programs": [
+                "Czech", "Lithuania", "Poland", "South Korea", "Italy", "Slovenia", "Latvia", "Türkiye", "Russia", 
+                "Armenia", "Republic of Belarus", "Ukraine", "Uzbekistan", "Kyrgyzstan", "Tajikistan"
+            ],
+            "clubs_and_organizations": [
+                "Student team 'Enactus-MUA'", "Volunteer organizations 'Zhastar Zhyluy', 'Ak Zhurek' and 'Bonum-I'", "Student Council of the University",
+                "Student Council of the Hostel", "Club of cheerful and resourceful (CCR)", "National Association of Medical Youth 'KazMSA'",
+                "Student scientific society and research work of students in the departments (NIRS)", "Debate club 'Eskulap'",
+                "Student poetry club 'Muse'", "Student art show ballet 'Shugyla'", "Student Hip-Hop group 'Hyperactive'", "Student dombra ensemble"
+            ],
+            "social_media": {  
+                "facebook": "https://www.facebook.com/MeduniverAstana/",
+                "instagram": "https://www.instagram.com/amu_mua_official/",
+                "youtube": "https://www.youtube.com/channel/UCxoJTRfEXwrojx0wub6ZvQQ"
+            },
+            "accreditation": ["Ministry of Education and Science Republic of Kazakhstan", "European Quality Assurance Register (EQAR)"],
+            "source": "astana-medical-university"
+        }
+    },
+
+
+
+    {
+        "model": "uns.university",
+        "pk": 6,
+        "fields": {
+            "university_name": "Narxoz University",
+            "short_name": "NARXOZ",
+            "location": "st. Zhandosov, 55 Almaty, Kazakhstan, 050035",
+            "latitude": 43.214618,
+            "longitude": 76.871137,
+            "description": "Narxoz University was founded in 1963, in an era of grandiose plans, large-scale reforms and great achievements. Following the spirit of the times, the progress of the university was rapid - only a few years passed from foundation to all-Union recognition. Narxoz started a new life in the new millennium In 2002, our University went through the corporatization procedure and was one of the first Kazakh universities to adopt a strategic planning tool. The new approach to management is due to the need for quick and flexible adaptation to constantly changing market demands and prompt response to environmental challenges.",
+            "website": "https://narxoz.edu.kz",
+            "logo": "https://narxoz.edu.kz/images_1/tild3966-3736-4666-b434-333337386661__1_obr.svg",
+            "established_year": 1963,
+            "study_type": ["Bachelor's", "Master's", "Doctorate"],
+            "study_language": ["Kazakh", "Russian", "English"],
+            "study_year": [4, 2, 3],
+            "student_count": 4380,
+            "faculty_count": 4,
+            "faculty": [
+                "Humanitarian School",
+                "School of Law and Public Administration",
+                "School of Digital Technology",
+                "School of Economics and Management"
+            ],
+            "edu_programm": [
+                "Public administration", 
+                "Political mass communications", 
+                "International relationships", 
+                "Statistics", 
+                "Economy", 
+                "Social work", 
+                "Psychological counseling", 
+                "HR and business planning", 
+                "Sociology", 
+                "Restaurant and hotel business", 
+                "Digital Management and Design", 
+                "Applied Mathematics in the Digital Economy", 
+                "Digital Engineering", 
+                "Tourism and hospitality", 
+                "International law", 
+                "Environment and sustainability", 
+                "Jurisprudence", 
+                "Ecology", 
+                "Marketing", 
+                "Finance", 
+                "IT in Business", 
+                "Accounting and Auditing", 
+                "Management", 
+                "Technology and Innovation Management", 
+                "Marketing and PR Management + BBA", 
+                "International Accounting + BBA", 
+                "Finance and Data Analytics + BBA", 
+                "Financial risk management", 
+                "Cybersecurity"
+            ],
+            "email": "narxoz@narxoz.kz",
+            "phone_number": ["+7 (7172) 645-716 - office", "+7 (7172) 645-710 - admissions office"],
+            "min_unt": 70,
+            "min_ielts": 6.5,
+            "tuition": 1100000,
+            "admission_criteria": ["UNT - Unified National Testing"],
+            "dormitory": "All students in need of housing will be accommodated in one of the three hostels. Dormitory buildings are located next to the educational buildings. The total area of the dormitories is 18819.9 square meters. Capacity up to 821 students. Living area per person - 6.6 sq.m. Each room in the hostel is designed for 2-3 people and is equipped with beds, bedside tables, ottomans, wardrobes and a refrigerator. Each hostel building has a kitchen, lounges, sports rooms, showers and laundries equipped with modern appliances - washing and drying machines, ironing boards and irons. All hostels have Wi-Fi internet. Lounges are equipped with plasma TVs with satellite and local channels. To ensure the safety of all residents, the hostel is guarded around the clock.",
+            "student_life": "Student Government - an initiative form of management that involves the active participation of students in the preparation, adoption and implementation of management decisions related to the life of the University, as well as the protection of the rights and interests of students, the inclusion of students in various types of socially significant activities",
+            "alumni": ["Graduates, you are the product of our joint work and yours, and I would like you to remain an example for the next generation and always be the pride of Narxoz. I urge you to develop in yourself such qualities as diligence, creativity, the desire to constantly develop and learn something new."],
+            "athletics": "Narxoz offers ample opportunities for physical education and sports. Within the framework of the sports club 'Narxoz Pride' there are more than 15 sports teams, such as: basketball (boys), basketball (girls), boxing, tennis, freestyle wrestling, volleyball (boys), volleyball (girls), judo, kazaksha kures, table tennis, swimming, sambo, chess, futsal (boys), cheerleading. On the territory of the main building on the street. Zhandosov is the building of the Grand Pool fitness center, which offers a modern gym, a 25-meter swimming pool, group classes from dance to strength classes, martial arts and children's sections.",
+            "financial_aid": "NAO Narxoz University provides for a number of educational benefits provided for the academic achievements of students. All educational benefits are provided for the entire period of study, subject to the student meeting the conditions established for maintaining the educational benefit, one of which is the level of the average GPA score - not lower than 3.33 for the last semester (for certain categories, a different GPA level may be established). The educational benefit is reviewed every semester. In the event of a decrease in the average GPA score, the discount for the next period of study is not provided.",
+            "required_tests": ["UNT - Unified National Testing", "Placement test to determine the level of English proficiency"],
+            "application_fee": "Free",
+            "application_deadline": "The period of work of the selection committee from May 16 to August 25",
+            "acceptance_rate": 70.00,
+            "internship_opportunities": "Internship opportunities available through the career center",
+            "study_abroad_programs": [
+                "Poznan University of Economics and Business (Poland)", "Krakow University of Economics (Poland)",
+                "University of Lodz (Poland)", "CEFAM School of Management (France)",
+                "University of Applied Sciences. F.H. Joanneuma (Austria)", "Amsterdam University of Applied Sciences (Netherlands)",
+                "University of Granada (Spain)", "University of Szeged (Hungary)", "Debrecen University (Hungary)",
+                "Riga International School of Economics and Business Administration (Latvia)",
+                "University of Western Attica (Greece)", "Struga University (Macedonia)"
+            ],
+            "clubs_and_organizations": [
+                "Yummy Narxoz", "Dispute", "Financial institution", "Adrenaline", "Gamelab", "Art revolution",
+                "Medialab", "Grow up", "Enactus Narxoz", "Narxoz Pride", "Narxoz Kuramasy", "Amanat", 
+                "Narxoz Zhastar theaters", "Narxoz International", "Student Research Club", "League of Volunteers Narxoz",
+                "Do-It-Yourself Reading Club", "Narxoz Team", "Feasibility study-Tandauly Economist Odagy"
+            ],
+            "social_media": {  
+                "facebook": "https://www.facebook.com/narxozkz",
+                "instagram": "https://www.instagram.com/narxozkz/",
+                "youtube": "https://www.youtube.com/channel/UCcR2IfrIG53yxZZbWoYirHQ"
+            },
+            "accreditation": ["Association of Chartered Certified Accountants (ACCA)", "Chartered Institute of Management Accountants (CIMA)", "Central and East European Management Development Association (CEEMAN)"],
+            "source": "narxoz-university"
+        }
+    },
+
+
+
+    {
+        "model": "uns.university",
+        "pk": 7,
+        "fields": {
+            "university_name": "Kazakh-British Technical University",
+            "short_name": "KBTU",
+            "location": "st. Tole bi, 59 Almaty, Kazakhstan, 050000",
+            "latitude": 43.255323,
+            "longitude": 76.943229,
+            "description": "Kazakh-British Technical University is one of the leading technical universities in the region. We work in partnership with the global academic community, corporate and government sectors on the fundamental values of quality, academic integrity and openness. KBTU is a world-class university engaged in scientific research, education and training of the scientific elite and highly qualified personnel for various areas of the world economy.",
+            "website": "https://kbtu.edu.kz",
+            "logo": "https://upload.wikimedia.org/wikipedia/ru/archive/3/31/20090516224137%21Logotip_KBTU.jpg",
+            "established_year": 2001,
+            "study_type": ["Bachelor's", "Master's", "Doctorate"],
+            "study_language": ["English"],
+            "study_year": [4, 2, 3],
+            "student_count": 2200,
+            "faculty_count": 10,
+            "faculty": [
+                "Faculty of Energy and Oil and Gas Industry",
+                "Faculty of Geology and Exploration",
+                "Faculty of Information Technology",
+                "Business School",
+                "International School of Economics",
+                "Kazakhstan Maritime Academy",
+                "REC of Mathematics and Cybernetics",
+                "REC Alternative Energy",
+                "REC of Chemical Engineering",
+                "Basic Faculty"
+            ],
+            "edu_programm": [],
+            "email": "info@kbtu.kz",
+            "phone_number": ["+7 (7273) 574-242 - office", "+7 (7173) 574-251 - admissions office"],
+            "min_unt": 70,
+            "min_ielts": 6,
+            "tuition": 2000000,
+            "admission_criteria": ["UNT - Unified National Testing", "KBTU English Language Entrance Test", "Math exam", "Passing an interview with the admissions committee"],
+            "dormitory": "The Student House (DMIS) is a hostel of a new generation with comfortable furnished rooms, where all conditions for life, study and recreation are created. DMS KBTU includes four residential buildings for 825 seats. Comfortable 1, 2, 3 and 4-bed rooms are furnished and provided with Internet connection (wi-fi), as well as common spaces for study. The utility rooms are equipped with automatic washing machines and ironing boards. The reading room contains a rich library, including periodicals. Every year, repairs are carried out and furniture and household appliances are updated. Linen washing, deratization, disinfestation of the territory, premises, basements, heat treatment of bedding, dry cleaning of carpets and upholstered furniture, repair of household appliances, recharging of fire extinguishers, garbage disposal, etc. are carried out in a planned manner.",
+            "student_life": "There is a student government in KBTU, which is represented by the Student Government. The joint venture is headed by the President, who is elected at the end of each academic year, in April. The composition of the Student Government is formed by 50% of the previous composition and 50% of the team of the new president. The Student Government carries out registration of activists and volunteers, quality control of services provided to students (evaluation of the Canteen, hostel, Library and educational programs) and consideration of complaints, disciplinary work with violators of the order, promotion of activities of Student organizations and their projects. The Student Government has its own cabinet.",
+            "alumni": ["The KBTU Alumni Association is glad to welcome you. We rightfully consider you the best and are proud of our graduates who work in the world's leading companies in the field of IT, such as Google, Microsoft, Facebook, Twitter, Booking, etc., as well as in national and international oil and gas companies, such as KazMunayGas, TCO, NCOC, Schlumberger, Halliburton, BakerHughes, Karachaganak Petroleum Operating, Eni and others. From year to year, we are actively working with our graduates around the world, involving them in the activities of our Alma Mater. Thanks to an extensive network of partner universities and the involvement of all major companies in Kazakhstan and abroad (through the Advisory Board of KBTU), we provide all possible assistance and support to our students in employment and keep in touch with our graduates."],
+            "athletics": "'KBTU HIGHLANDERS' is a new trend in KBTU student life. The name of the team - highlanders - reflects the high location of the city of Almaty. They are ready to overcome any obstacles, conquer the highest peaks and go only forward. Their motto is: 'Victory is not far off', they intend to achieve the intended goal. The players independently developed the design of the team's logo, depicting a snow leopard with its tail encircling the mountains. Horse polo is a team sport with a ball in which participants play on horseback and move the ball around the field using a special stick. The goal of the game is to hit the opponent's goal. The game originated many centuries ago among the nomadic peoples of Central Asia, and became widespread in Persia since the 6th century. The Karabair KBTU team conducts its training at the central hippodrome of Almaty. The main team consists of 5 people.",
+            "financial_aid": "on website",
+            "required_tests": ["UNT - Unified National Testing", "KBTU English Language Entrance Test", "Math exam", "Passing an interview with the admissions committee"],
+            "application_fee": "Free",
+            "application_deadline": "on website",
+            "acceptance_rate": 70.00,
+            "internship_opportunities": "Internship opportunities available through the career center",
+            "study_abroad_programs": [
+                "European universities", "Southeast Asia", "USA"
+            ],
+            "clubs_and_organizations": [
+                "S-Cubed", "SEG (Society of Exploration Geophysiests)", "SPE (Society of Petroleum Engineers Student Chapter)",
+                "Elite Club", "Debate Club IDC Club", "Parasat", "Column Magazine", "Art House", "Girls club B-kesh",
+                "Unit", "Big City Lights", "Faces Group", "Alive Students", "ProFit", "Crystal", "FunLife"
+            ],
+            "social_media": {  
+                "facebook": "https://www.facebook.com/groups/kbtuofficialgroup",
+                "instagram": "https://www.instagram.com/kbtu_official",
+                "youtube": "https://www.youtube.com/channel/UCMRF1_QzLIRx5E9wv-a-vCw"
+            },
+            "accreditation": [
+                "Association of Chartered Certified Accountants (ACCA)", "Chartered Institute of Management Accountants (CIMA)", "Accreditation Board for Engineering and Technology (ABET)",
+                "Accreditation Council for Business Schools and Programs (ACBSP)", "Independent Agency for Quality Assurance in Education (IQAA)", "Chartered Financial Analyst (CFA)"
+            ],
+            "source": "kazakh-british-technical-university"
+        }
+    },
+
+
+
+    {
+        "model": "uns.university",
+        "pk": 8,
+        "fields": {
+            "university_name": "KIMEP University",
+            "short_name": "KIMEP",
+            "location": "Abay Avenue 2 Almaty, Kazakhstan, 050010",
+            "latitude": 43.242643,
+            "longitude": 76.956554,
+            "description": "KIMEP University is the oldest and largest North American format university in Central Asia. It was founded in 1992 by the decree of the First President of the Republic of Kazakhstan Nursultan Nazarbayev. KIMEP is an independent, non-profit educational institution serving a multicultural and multinational student body. It is located on a modern campus in the center of Almaty, the largest city in Kazakhstan.",
+            "website": "https://www.kimep.kz",
+            "logo": "https://hr.kimep.kz/Images/logo2b.png",
+            "established_year": 1992,
+            "study_type": ["Bachelor's", "Master's", "Doctorate"],
+            "study_language": ["Kazakh", "Russian", "English"],
+            "study_year": [4, 2, 3],
+            "student_count": 2000,
+            "faculty_count": 4,
+            "faculty": [
+                "Bang College of Business",
+                "Faculty of Social Sciences",
+                "School of Law",
+                "Faculty of Education and Humanities"
+            ],
+            "edu_programm": [
+                "Information systems in business",
+                "Marketing",
+                "Management",
+                "Accounting and Auditing",
+                "Finance",
+                "State and local government",
+                "Journalism",
+                "International relationships",
+                "Economy",
+                "International law",
+                "Jurisprudence",
+                "Cognitive Sciences",
+                "Foreign languages",
+                "Translation and professional communication",
+                "Psychology"
+            ],
+            "email": "astnedop@kimep.kz",
+            "phone_number": ["+7 (7272) 704-314 - office"],
+            "min_unt": 70,
+            "min_ielts": 6,
+            "tuition": 2300000,
+            "admission_criteria": ["UNT - Unified National Testing", "KIMEP english text"],
+            "dormitory": "The hostel is conveniently located on the territory of KIMEP University. It accommodates up to 406 students. Students are provided with comfortable and clean rooms, which are serviced by polite and friendly staff. The hostel also has on each floor a laundry room, a study room, a recreation room and 2 kitchens, which are available around the clock. Utilities such as internet, cable TV, electricity and water are included in the rent. The hostel, as well as the entire campus, is guarded around the clock.",
+            "student_life": "KIMEP University has more than 35 different clubs and organizations for students, which are an excellent platform for personal growth and self-realization. Students can actively participate in extracurricular activities by forming many different student organizations. The extracurricular program also includes the KIMEP Student Government (KSA), which acts as an intermediary between students and the university's senior management.",
+            "alumni": ["The goal of KIMEP is to provide education that changes society and transforms lives. Our graduates embody the spirit of our Institute. The education and training you receive at KIMEP is the cornerstone of your career. KIMEP is proud of its alumni, which include domestic and international business leaders, high-level government officials, leaders in the non-profit sector, and university professors. We value our relationship with you and are constantly looking for ways to fruitfully maintain our contacts. We invite you to learn more about the benefits that the Institute is ready to provide you, and we are extremely interested in working with you for the prosperity and development of KIMEP and Kazakhstan."],
+            "athletics": "The mission of the Sports Center is to provide a wide range of opportunities in the field of sports services, outdoor activities, fitness, sporting events and health care for students, teachers, non-academic staff and university graduates. We strive to raise the status of a healthy lifestyle and to create a favorable, safe and healthy atmosphere at the university. Students on the territory of the university are provided with a fully equipped sports complex, including an aerobics room, a cardio room, a free weights room and a multi-purpose sports hall. On the territory next to the sports center there is a summer football field. Also, on the territory there is an open fitness and warm-up area and a street ball court. All members of the University community can use sports facilities free of charge. All students are invited to take part in the internal sports life of the university. The University's sports teams compete locally, regionally, and internationally in a variety of sports; A number of intra-university competitions are also held. KIMEP University is unique in that it hosted the first university American football team in Kazakhstan, the Titans.",
+            "financial_aid": "KIMEP University offers a wide range of grants. There are no government grants at KIMEP University. All grants are distributed on a competitive basis according to approved criteria. The distribution takes into account the academic performance of the student, as well as the academic achievements of the international and national level over the past few years. The provision and amount of financial support are determined in accordance with the established rules and the financial capabilities of the University. KIMEP University does not guarantee the receipt of financial support for all students who apply, and also reserves the right to change the conditions, criteria, as well as the procedure for the distribution and provision of financial support.",
+            "required_tests": ["UNT - Unified National Testing", "KIMEP english text"],
+            "application_fee": "Free",
+            "application_deadline": "on website",
+            "acceptance_rate": 70.00,
+            "internship_opportunities": "Internship opportunities available through the career center",
+            "study_abroad_programs": [
+                "Austria", "Bulgaria", "Canada", "China", "Croatia", "Czech Republic", "Denmark", "Estonia", 
+                "France", "Germany", "Georgia", "Greece", "Hungary", "Iceland", "India", "Indonesia", "Italy", 
+                "Japan", "Kazakhstan", "Kyrgyzstan", "Latvia", "Liechtenstein", "Lithuania", "Malaysia", 
+                "Netherlands", "Norway", "Poland", "Russia", "Romania", "Slovenia", "Singapore", "South Korea", 
+                "Spain", "Sweden", "Switzerland", "Tajikistan", "Turkey", "UK", "USA"
+            ],
+            "clubs_and_organizations": [
+                "Intellectual Debate Club — IDC", "Kimep Accounting and Finance Club", "Kimep Case Club", "Legal clinic",
+                "Kimep AstroClub", "Jarqyn.me KIMEP", "KIMEP Peer", "Art Revolution", "KELT",
+                "KADA — Kimep Art and Dance Association", "ALTO", "KIMEP Films", "KIMEP Eco", "Kimep Pie", "Kimep Friends", 
+                "KISA — Kimep Independent Student Association", "Kimep Fashion Industry — KFI", "Kimep Geeks", 
+                "Kimep Cinema", "KIMEP Gift", "Kimep Times", "Kimep Association of Sports Development — KASD", 
+                "Kimep Cyberclub", "KIMEP Foxes", "KIMEP Running Club", "Kimep Chess Team", "AIESEC", 
+                "Buddies of International Students — BIS", "Kimep Chinese Student Association"
+            ],
+            "social_media": {  
+                "facebook": "https://www.facebook.com/kimep/",
+                "instagram": "https://www.instagram.com/kimep_university/",
+                "youtube": "https://www.youtube.com/user/kimepweb",
+                "linkedin": "https://www.linkedin.com/school/kimep/"
+            },
+            "accreditation": [
+                "Association of Chartered Certified Accountants (ACCA)", 
+                "Foundation for International Business Administration Accreditation (FIBBA)",
+                "Chartered Institute of Management Accountants (CIMA)", 
+                "European Foundation for Management Development (EFMD)",
+                "Independent Agency for Quality Assurance in Education (IQAA)",
+                "Institute of Chartered Accountants in England and Wales (ICAEW)"
+            ],
+            "source": "kimep-university"
+        }
+    },
+
+
+
+    {
+        "model": "uns.university",
+        "pk": 9,
+        "fields": {
+            "university_name": "Almaty Management University",
+            "short_name": "ALMAU",
+            "location": "Rozybakiev 227 Almaty, Kazakhstan, 050060",
+            "latitude": 43.206341,
+            "longitude": 76.893147,
+            "description": "More than 34 years in the education market, the oldest private university in the country, the 1st business school of the Republic of Kazakhstan, a pioneer of business education in the CIS. The history of AlmaU began with a small School of Management back in 1988. The school, which became the first sign that produces a new generation of managers for our young country. In 1996, when the first stage of development was successfully completed, the Almaty School of Managers (ASM) was transformed into the International Academy of Business. And 25 years after its creation, the MAB entered the next round of the upward spiral - the Academy received the status of a UNIVERSITY. In accordance with the new strategy of AlmaU, in 2014 the university set a course to create a model of an entrepreneurial university.",
+            "website": "https://www.almau.edu.kz",
+            "logo": "https://www.almau.edu.kz/img/logo_new.jpg",
+            "established_year": 1988,
+            "study_type": ["Bachelor's", "Master's", "Doctorate"],
+            "study_language": ["Kazakh", "Russian", "English"],
+            "study_year": [4, 2, 3],
+            "student_count": 2000,
+            "faculty_count": 14,
+            "faculty": [
+                "Graduate School of Business", 
+                "School of Management", 
+                "School of Economics and Finance", 
+                "School of Digital Technologies", 
+                "School of Politics and Law", 
+                "School of Entrepreneurship and Innovation", 
+                "School of Hospitality and Tourism", 
+                "School of Media and Cinema", 
+                "Center for Urban Studies", 
+                "AlmaU Sharmanov School of Health Scenes", 
+                "Center for Creative Industries", 
+                "Sports Management Center", 
+                "Language centre", 
+                "Institute for Educational Development"
+            ],
+            "edu_programm": [],
+            "email": "info@almau.edu.kz",
+            "phone_number": ["+7 (7273) 133-040 - office"],
+            "min_unt": 50,
+            "min_ielts": 5,
+            "tuition": 1200000,
+            "admission_criteria": ["UNT - Unified National Testing", "ALMAU english text"],
+            "dormitory": "on website",
+            "student_life": "University students are the most important component of the AlmaU community. The participation of students in the development of university life is carried out through the institution of student self-government - the Student Council, which operates on the basis of the Regulations on the Student Council. The Student Council is headed by the President of the AlmaU Student Council, who is elected only by students of the University on the basis of universal, equal and direct suffrage by secret ballot for a period of 1 academic year. The process of choosing the President of the Student Council is covered by all communication channels of the University, while the University Administration undertakes to ensure full transparency of the elections. The elected President of the Student Council is a permanent member of the Academic Council and speaks on behalf of all students at its meetings.",
+            "alumni": ["Alumni of a university are the former students who have graduated from that institution. They form a network of individuals who have shared experiences and knowledge gained during their time at the university. This network can be a valuable resource for career development and personal growth, as well as for the university itself. Alumni often stay connected with their alma mater by attending events, contributing financially to support university programs, and mentoring current students. Many universities have active alumni associations that help to maintain these connections and facilitate ongoing relationships between alumni and the institution."],
+            "athletics": "What do we spend most of our free time on in our age of scientific and technological progress? Buried into a computer monitor, we burn through life in the stuffy rooms of cramped apartments. Sports complex Almaty Management University (AlmaU) says 'NO!' boring everyday life, leading to health problems and making a person insecure (extra pounds, not at all an athletic build, shortness of breath, etc.), and invites students and employees of AlmaU, as well as everyone to their sports sections. Football, basketball, volleyball, table tennis, sambo, jiu-jitsu, Kyokushin karate - whatever is closer to anyone.",
+            "financial_aid": "Persons who have scored the highest scores in CT and (or) the entrance exam are enrolled for training under the state educational order on a competitive basis: 1) for scientific and pedagogical and specialized master's programs - at least 75 points out of 150 points; 2) for a master's program with English as the language of instruction - at least 50 points out of 100 baals. Every year, Almaty Management University allocates preferential places to support gifted, motivated to study applicants and students, as part of the social responsibility of the University. Almaty Management University also cooperates with various foundations, organizations and companies, attracting external grant funds to financially support its applicants and students",
+            "required_tests": ["UNT - Unified National Testing", "ALMAU english text"],
+            "application_fee": "Free",
+            "application_deadline": "on website",
+            "acceptance_rate": 70.00,
+            "internship_opportunities": "Internship opportunities available through the career center",
+            "study_abroad_programs": [
+                "Austria", "Belgium", "Bulgaria", "Great Britain", "Hungary", "Germany", "Hong Kong", "Israel", 
+                "Italy", "Canada", "Cyprus", "China", "Kyrgyzstan", "Latvia", "Malaysia", "Lithuania", "Netherlands", 
+                "Poland", "Russia", "Singapore", "USA", "France", "Tajikistan", "Ukraine", "Finland", "Czech Republic", 
+                "Switzerland", "South Korea", "Türkiye", "Japan"
+            ],
+            "clubs_and_organizations": [
+                "DOS Charity Club", "Most Original Federation", "REMUS", "Debate Club SYNERGY",
+                "Sport Life", "ENACTUS", "MAFIA", "AlmaU Jaryq", "Welcome Club", "AlmaU PRIDE"
+            ],
+            "social_media": {  
+                "facebook": "https://www.facebook.com/almau.edu",
+                "instagram": "https://www.instagram.com/almau_edu/",
+                "youtube": "https://www.youtube.com/@AlmaUMab"
+            },
+            "accreditation": [
+                "National accreditation of the Ministry of Education and Science of the Republic of Kazakhstan",
+                "Central and East European Management Development Association (CEEMAN)",
+                "Association of MBA's, UK (AMBA)"
+            ],
+            "source": "almaty-management-university"
+        }
+    },
+
+
+
+    {
+        "model": "uns.university",
+        "pk": 10,
+        "fields": {
+            "university_name": "Suleiman Demirel University",
+            "short_name": "SDU",
+            "location": "st. Abylai Khan, 1/1 Kaskelen, Karasai district, Almaty region, Kazakhstan, 040900",
+            "latitude": 43.208711,
+            "longitude": 76.669633,
+            "description": "Suleiman Demirel University was opened in 1996 with the participation of the First President of Kazakhstan - Elbasy Nursultan Abishevich Nazarbayev and the 9th President of Turkey - Suleiman Demirel. The main goal of the University's Strategic Development Plan is to become one of the best international universities in the country and throughout Central Asia. SDU started its educational activities from a small building in the Orbita microdistrict in Almaty, then the university settled in Kaskelen, where a modern campus with an area of 46,000 sq.m and a dormitory with an area of 20,000 sq.m, meeting all modern requirements, were founded. Today SDU has a staff of 430 professors and over 8,000 students.",
+            "website": "https://sdu.edu.kz",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9f/New_logo_SDU.jpg",
+            "established_year": 1996,
+            "study_type": ["Bachelor's", "Master's", "Doctorate"],
+            "study_language": ["Kazakh", "Russian", "English"],
+            "study_year": [4, 2, 3],
+            "student_count":  7000,
+            "faculty_count": 4,
+            "faculty": [
+                "School of Business SDU",
+                "Faculty of Engineering and Natural Sciences",
+                "Faculty of Pedagogical and Humanities",
+                "Faculty of Law and Social Sciences"
+            ],
+            "edu_programm": [
+                "Digital Marketing",
+                "Management",
+                "Accounting and Auditing",
+                "Finance",
+                "Economy",
+                "EMBA Healthcare Management",
+                "MBA Healthcare Management",
+                "MBA Financial Technology",
+                "Management",
+                "Information Systems",
+                "Computer science",
+                "Mathematics",
+                "Mathematical and computer modeling",
+                "data science",
+                "Software engineering",
+                "financial mathematics",
+                "Two foreign languages",
+                "Preschool education and upbringing",
+                "Story",
+                "Kazakh language and literature",
+                "Mathematics (pedagogy)",
+                "Pedagogy and methodology of primary education",
+                "Pedagogy and psychology",
+                "Translation business",
+                "Applied Philology",
+                "Social pedagogy and self-knowledge",
+                "Physics and Computer Science",
+                "Chemistry and biology",
+                "Physics (pedagogy)",
+                "Chemistry",
+                "International law",
+                "International relationships",
+                "Multimedia and television journalism",
+                "The right of public administration",
+                "applied law",
+                "Date journalism",
+                "Media Studies and Journalism",
+                "multimedia journalism",
+                "Information technology law",
+                "Private right"
+            ],
+            "email": "info@sdu.edu.kz",
+            "phone_number": ["+7 (7273) 079-565 - office"],
+            "min_unt": 70,
+            "min_ielts": 6,
+            "tuition": 1000000,
+            "admission_criteria": ["UNT - Unified National Testing", "SDU english text"],
+            "dormitory": "The student house is located on campus 30 meters from the university itself. For students and guests there are football, volleyball and basketball courts. The campus is manned by a 24-hour security service and ensures the safety of all students and visitors. In addition, there are two guest rooms for foreign teachers and guests. each student room has: 4 beds, 2 desks, 4 storage cabinets, 4 bookshelves",
+            "student_life": "University life is not only study and practice, but also intellectual, research, creative, cultural development, art and sports. By participating in the work of more than 28 student clubs and organizations covering development in various fields, students have the opportunity to develop leadership, creativity. Our goal is to educate a person with a personal, professional and active citizenship, to develop the abilities of our students, ensuring the availability of various opportunities.",
+            "alumni": ["The SDU Alumni Department is a department that guides the fostering of alumni community building and creating University citizens of alumni and alumni volunteers. The main work of the Department focuses on developing volunteer leadership, increasing and deepening alumni engagement through an array of programs that support alumni communities worldwide."],
+            "athletics": "The university is important for the development of students not only as an education, but also as a person, a leader. The department supervises the work of student organizations, provides administrative support on behalf of the university on student initiatives.",
+            "financial_aid": "The university provides grants to students who enter the undergraduate program in the new academic year. The university supports not only applicants, but also current students of the undergraduate program, who have a high rate of academic achievement. All grants are distributed on a competitive basis according to approved criteria. The distribution takes into account the academic performance of the student, as well as the academic achievements of the international and national level over the past few years. Grants are provided in the form of financial support from the SDU University fund. The provision and amount of financial support are determined in accordance with the established rules and the financial capabilities of the University. SDU University does not guarantee the receipt of financial support for all students who apply, and also reserves the right to change the conditions, criteria, as well as the procedure for the distribution and provision of financial support.",
+            "required_tests": ["UNT - Unified National Testing", "SDU english text"],
+            "application_fee": "Free",
+            "application_deadline": "on website",
+            "acceptance_rate": 70.00,
+            "internship_opportunities": "Internship opportunities available through the career center",
+            "study_abroad_programs": [],
+            "clubs_and_organizations": [
+                "Red Cross", "Club Vision", "Academic club"
+            ],
+            "social_media": {  
+                "facebook": "https://www.facebook.com/sdukz",
+                "instagram": "https://www.instagram.com/sdukz/",
+                "youtube": "https://www.youtube.com/channel/UCAfCFHbt7ooyttq75uC0FuA",
+                "linkedin": "https://www.linkedin.com/company/suleyman-demirel-university-kazakhstan/"
+            },
+            "accreditation": [
+                "National accreditation of the Ministry of Education and Science of the Republic of Kazakhstan",
+                "Independent agency of accreditation and rating (HAAP)",
+                "Independent agency for accreditation and rating (IAAR)"
+            ],
+            "source": "suleiman-demirel-university"
+        }
+    },
+
+
+
+    {
+        "model": "uns.university",
+        "pk": 11,
+        "fields": {
+            "university_name": "International Information Technology University",
+            "short_name": "IITU",
+            "location": "st. Manas, 34/1, Almaty  Kazakhstan, 050000",
+            "latitude": 43.235085,
+            "longitude": 76.909734,
+            "description": "IITU is the only university in Kazakhstan that received ASIIN institutional international accreditation in 2019 and passed the procedure for official confirmation of compliance with international standards. “The International University of Information Technologies guarantees the fulfillment of institutional, procedural and cultural requirements for quality teaching and successful learning,” confirm ASIIN experts (Agency for the Accreditation of Educational Programs in Engineering, Computer Science, Science, Mathematics, Germany, Germany).",
+            "website": "https://iitu.edu.kz",
+            "logo": "https://iitu.edu.kz/static/images/logo_t.4952bf3bcd74.png",
+            "established_year": 2009,
+            "study_type": ["Bachelor's", "Master's", "Doctorate"],
+            "study_language": ["Kazakh", "Russian", "English"],
+            "study_year": [4, 2, 3],
+            "student_count":  5000,
+            "faculty_count": 4,
+            "faculty": [
+                "Information Technology",
+                "Information Security",
+                "Communications and communication technologies",
+                "Journalism and reporting",
+                "Management and management",
+                "Finance, economics, banking and insurance business",
+                "Journalism and reporting",
+                "Management and management",
+                "Finance, economics, banking and insurance business",
+                "Information Technology",
+                "Information Security",
+                "Communications and communication technologies"
+            ],
+            "edu_programm": [],
+            "email": "info@iitu.kz",
+            "phone_number": ["+7 (7273) 200-000  - office", "+7 (7273) 200-001  - office"],
+            "min_unt": 70,
+            "min_ielts": 5,
+            "tuition": 1300000,
+            "admission_criteria": ["UNT - Unified National Testing", "IITU english text", "IITU informatics test"],
+            "dormitory": "The dormitory rented by the University (hostel for students) provides a place of temporary residence for out-of-town students, undergraduates, doctoral students for the period of study. Places in the hostel rented by the University are provided in the order of priority determined by these Rules. A place in the Dormitory is provided to students on the basis of the decision of the commission for distribution in the Dormitory, formed in accordance with the order of the Chairman of the Board, the Rector.",
+            "student_life": "IITU pays special attention to the development of personal qualities, leadership skills and creative abilities of students. And the students themselves make sure that their life at the university is bright and unforgettable. Active and most talented students independently carry out various events, lead projects that cause admiration and surprise. That is why every day at IITU is a holiday.",
+            "alumni": ["IITU, according to recognized ratings, is one of the top three IT universities in the country. IITU students are distinguished by a high level of professional training, practical skills and high motivation, which makes them competitive in the labor market. Our graduates work in the backbone companies of the Republic of Kazakhstan - Samruk Kazyna, Halyk Bank, Kaspi bank, KPMG in government agencies and international companies: Google, Microsoft, Booking.com, Deloitte , 'Chocolife.me', 'Wheels', 'Roof' and many others."],
+            "athletics": "on website",
+            "required_tests": ["UNT - Unified National Testing", "IITU english text", "IITU informatics test"],
+            "application_fee": "Free",
+            "application_deadline": "on website",
+            "acceptance_rate": 70.00,
+            "internship_opportunities": "Internship opportunities available through the career center",
+            "study_abroad_programs": [
+                "KAIST (Korea Advanced Institute of Science and Technology)", "Inha University",
+                "University of Mar (UiTM)", "Universiti Tenaga National (UNITEN)", "Schmalkalden University of Applied Sciences",
+                "University of Applied Sciences Hof", "Fachhochschule Dortmund - University of Applied Sciences and Arts",
+                "University of Pisa (University of Pisa)", "University of Lorraine or University of Lorraine (UL)",
+                "IGlobal University, USA", "Green River College"
+            ],
+            "clubs_and_organizations": [
+                "ENACTUS IITU", "Veritas Team", "Shadows", "IITU DEBATE CLUB", 
+                "GOATS", "IITU FM", "ÁUEN", "BOSTAN", "GAMES IITU", "MOUNTAINKINGS"
+            ],
+            "social_media": {  
+                "facebook": "https://www.facebook.com/universityAlmaty/",
+                "instagram": "https://www.instagram.com/iitu_kz/",
+                "youtube": "https://www.youtube.com/user/IITUAlmaty"
+            },
+            "accreditation": [
+                "National accreditation of the Ministry of Education and Science of the Republic of Kazakhstan",
+                "European Quality Assurance Network for Informatics Education (EQANIE)",
+                "Independent Agency for. Quality Assurance in Education (IQAA)",
+                "Global Leader in Quality Assurance in Higher Education (ASIIN)"
+            ],
+            "source": "international-information-technology-university"
+        }
+    },
+
+
+
+    {
+        "model": "uns.university",
+        "pk": 12,
+        "fields": {
+            "university_name": "Eurasian Technological University",
+            "short_name": "ETU",
+            "location": "st. Tole bi 109 b, Almaty  Kazakhstan, 050000",
+            "latitude": 43.254244,
+            "longitude": 76.923477,
+            "description": "'Eurasian Technological University' is organized on the basis of the oldest educational institution of the Republic of Kazakhstan - Almaty Industrial College (founded in 1948), which in 2000 was reorganized into the Almaty Industrial Pedagogical Academy. Date of primary state registration March 3, 2000. In 2005, the Almaty Industrial Pedagogical Academy changed its status and was renamed the Institution 'Almaty Humanitarian and Technical University' (certificate of state re-registration of a legal entity. Institution 'Almaty Humanitarian and Technical University' on March 14, 2014 was renamed the Eurasian Technological University.",
+            "website": "https://etu.edu.kz",
+            "logo": "https://etu.edu.kz/assets/img/logo-color.png",
+            "established_year": 1998,
+            "study_type": ["Bachelor's", "Master's"],
+            "study_language": ["Kazakh", "Russian", "English"],
+            "study_year": [4, 2, 3],
+            "student_count":  1000,
+            "faculty_count": 4,
+            "faculty": [
+                "Information Technology", 
+                "Logistics and Tourism", 
+                "Economics, Business and Management", 
+                "Law", 
+                "Engineering", 
+                "Faculty of Basic and Language Training", 
+                "Communications", 
+                "Jurisprudence"
+            ],
+            "edu_programm": [
+                "Brand Management",
+                "Accounting and Auditing",
+                "Finance",
+                "Management",
+                "Jurisprudence",
+                "IT LAW",
+                "business law",
+                "mechanical engineering",
+                "Power industry",
+                "Transport, transport equipment and technologies",
+                "Jurisprudence",
+                "Computing and software",
+                "Information Systems",
+                "Design",
+                "Organization of transportation and logistics in transport",
+                "Restaurant business and hotel business",
+                "Tourism"
+            ],
+            "email": "info@etu.edu.kz",
+            "phone_number": ["+7 (777) 829 00 11 - office"],
+            "min_unt": 50,
+            "min_ielts": 0,
+            "tuition": 1000000,
+            "admission_criteria": ["UNT - Unified National Testing"],
+            "dormitory": "on website",
+            "student_life": "Student life at ETU. It is important for us that each student not only receives a quality education at ETU, but also acquires vivid memories, experience, and friends. Therefore, the Department of Student Affairs organized 10 clubs of interest, where each student can reveal his potential.",
+            "alumni": ["no info"],
+            "athletics": "on website",
+            "required_tests": ["UNT - Unified National Testing"],
+            "application_fee": "Free",
+            "application_deadline": "on website",
+            "acceptance_rate": 70.00,
+            "internship_opportunities": "Internship opportunities available through the career center",
+            "study_abroad_programs": [
+                "University of Geological Sciences", "Kimyo International University", "National Research University", 
+                "Tashkent Institute of Irrigation and Agricultural Mechanization Engineers", "University of Dundee",
+                "EE Baranovichi State University", "De Montfort University", "Innopolis University", "Osh State University"
+            ],
+            "clubs_and_organizations": [
+                "Charity club", "ETU команда", "ELITE club", "EVENT", "SLTS", 
+                "ETU HUB", "GO IT", "ETU SPORTS", "RGB", "X-Club"
+            ],
+            "social_media": {  
+                "facebook": "https://www.facebook.com/profile.php?id=100086781574182&mibextid=LQQJ4d",
+                "instagram": "https://www.instagram.com/etu.edu.kz",
+                "youtube": "https://www.youtube.com/@user-ul3br9ib3q"
+            },
+            "accreditation": [
+                "National accreditation of the Ministry of Education and Science of the Republic of Kazakhstan",
+                "Independent Agency for. Quality Assurance in Education (IQAA)",
+                "Accredited by Kazakhstan Association for Engineering Education (KazSEE)"
+            ],
+            "source": "eurasian-technological-university"
+        } 
+    },
+
+
+
+    {
+        "model": "uns.university",
+        "pk": 13,
+        "fields": {
+            "university_name": "Kazakh National Medical University S.D. Asfendiyarov",
+            "short_name": "KAZNMU",
+            "location": "st. Tole bi 88 b, Almaty  Kazakhstan, 050000",
+            "latitude": 43.252888,
+            "longitude": 76.93117,
+            "description": "KazNMU named after S.D. Asfendiyarov, well-known scientists and teachers of Kazakhstan, academicians of the National Academy of Sciences of the Republic of Kazakhstan, the Russian Academy of Medical Sciences, the Academy of Preventive Medicine of the Republic of Kazakhstan, International Academies, honored workers of science and education, honored doctors and pharmacists work. KazNMU them. S.D. Asfendiyarova has cooperation agreements with universities of near and far abroad countries, including: Nagasaki University (Nagasaki, Japan), Asia-Pacific University (Beppo, Japan), Parkway College (Singapore); University of Perugia (Perugia, Italy), Transdanubian University (Krems, Austria); Kyrgyz State Medical Academy (Bishkek, Kyrgyz Republic), National Medical University. A. Bogomolets (Kyiv, Ukraine), National Pharmaceutical University (Kharkiv, Ukraine), Moscow Medical Academy. I. Sechenova (Moscow, Russia) and others. University staff actively participate in the implementation of research work on international programs and grants.",
+            "website": "https://kaznmu.edu.kz",
+            "logo": "https://kaznmu.edu.kz/rus/wp-content/themes/understrap-child-en/images/logo2.png",
+            "established_year": 1930,
+            "study_type": ["Bachelor's", "Master's", "Internship", "Residency", "Doctorate's"],
+            "study_language": ["Kazakh", "Russian", "English"],
+            "study_year": [4, 2, 1, 2, 3],
+            "student_count":  7000,
+            "faculty_count": 10,
+            "faculty": [
+                "Pharmaceutical production technology",
+                "Public health",
+                "General Medicine",
+                "Pediatrics",
+                "Pediatrics",
+                "Dentistry",
+                "Nursing",
+                "Pharmacy",
+                "Management and management",
+                "Public health"
+            ],
+            "edu_programm": [
+                "Obstetrics and gynecology",
+                "Allergology and Immunology",
+                "Angiosurgery",
+                "Anesthesiology and resuscitation",
+                "Gastroenterology",
+                "Hematology",
+                "Dermatovenereology",
+                "Pediatric surgery",
+                "Infectious diseases",
+                "Cardiology",
+                "Cardiac surgery",
+                "Wedge. pharmacology",
+                "Radiation diagnostics",
+                "Radiation therapy",
+                "Honey. genetics",
+                "Neurology",
+                "Neurosurgery",
+                "Neonatology",
+                "Nephrology",
+                "General surgery",
+                "Oncology (adult)",
+                "Oncology and hematology for children",
+                "Orthodontics",
+                "Otorhinolaryngology",
+                "Ophthalmology",
+                "Pediatrics",
+                "Plastic surgery",
+                "Psychiatry",
+                "Pulmonology",
+                "Rheumatology",
+                "Family medicine",
+                "LUTS",
+                "Forensic-medical examination",
+                "Therapy",
+                "Traumatology and Orthopedics",
+                "Urology",
+                "Physical medicine",
+                "Maxillofacial Surgery",
+                "Endocrinology"
+            ],
+            "email": "info@kaznmu.kz",
+            "phone_number": ["+7 (777) 829 00 11 - office", "+7 (7273) 387-027 - admission"],
+            "min_unt": 65,
+            "min_ielts": 0,
+            "tuition": 1400000,
+            "admission_criteria": ["UNT - Unified National Testing", "Psychometric test"],
+            "dormitory": "on website",
+            "student_life": "on website",
+            "alumni": ["Each university has its own face. And this is not only science, scientific achievements and traditions of education. The face of the university is, first of all, people. People who graduated from this university, working in it, and most importantly, remembering it. Each university has its own energy, which consists of the synthesis of the energies of tens of thousands of graduates, staff, students and traditions of the university. The success of the university is the success of its graduates, who are united by their student years and student friendship."],
+            "athletics": "Basketball, Volleyball, Boxing, Rhythmic gymnastics, Table tennis, Football, Kazakh kures, Sambo, Greco-Roman wrestling, Tennis, Taekwondo, Freestyle wrestling, Badminton, Arm wrestling, Judo, Togyzkumalak, Handball.",
+            "required_tests": ["UNT - Unified National Testing"],
+            "application_fee": "Free",
+            "application_deadline": "on website",
+            "acceptance_rate": 70.00,
+            "internship_opportunities": "Internship opportunities available through the career center",
+            "study_abroad_programs": [
+                "Europe", "Central Asia"
+            ],
+            "clubs_and_organizations": [
+                "Student Drama Theater", "Dance group 'Concordia'", "Student Ensemble of Folk Instruments 'Dala Sazy'",
+                "Student group of poets", "Youth cultural center Vocalists", "Rock group 'VIA Syrttan'",
+                "Musical ensemble '16 Crash'", "KVN team 'Zhaydarly zhandar'", "Student Government University",
+                "University Student Team", "Student Council of Dormitories", "Student club 'TOP-100'", "Student Construction Squad",
+                "Debate club", "intellectual club", "Volunteer group (As part of the SPF, English-speaking students)",
+                "Student Anti-Corruption Group 'Anti Korr'", "Info Media Center", "Trade union 'Amanat'",
+                "Small Assembly 'Birlik'", "Meyirimdi Zhurek", "KazNMU students", "'ASF'", "KazMSA"
+            ],
+            "social_media": {  
+                "facebook": "https://www.facebook.com/KazNMU",
+                "instagram": "https://www.instagram.com/kaznmu/",
+                "youtube": "https://www.youtube.com/kaznmu"
+            },
+            "accreditation": [
+                "National accreditation of the Ministry of Education and Science of the Republic of Kazakhstan",
+                "Independent agency for accreditation and rating (IAAR)",
+                "European Quality Assurance Register (EQAR)",
+                "Eurasian Center for Accreditation and Quality Assurance in Education and Health (ECAQA)"
+            ],
+            "source": "kaznmu-asfendiyarov"
+        } 
+    },
+
+
+
+    {
+        "model": "uns.university",
+        "pk": 14,
+        "fields": {
+            "university_name": "Almaty University of Energy and Communications G. Daukeeva",
+            "short_name": "AUEC",
+            "location": "st. Baytursynuly 126/1, Almaty  Kazakhstan, 050000",
+            "latitude": 43.234757,
+            "longitude": 76.932248,
+            "description": "Almaty University of Energy and Communications was established on January 10, 1997 on the basis of the Almaty Energy Institute (AEI), which existed from 1975 to 1997. It is the first non-state technical university with the status of a non-profit organization. Education is conducted in Kazakh and Russian languages. In 2013, training in English began in two specialties so far: 'Radio Engineering, Electronics and Telecommunications' and 'Power Engineering'. In 1989, the Almaty Energy Institute was the first in Kazakhstan and one of the few in the Soviet Union to be certified by the Commission of the State Inspectorate of State Education of the USSR. The high level of training of specialists at the AEI was officially recognized at the union level, and this is an undoubted success for the team of students, teachers and the leadership of the institute. In May 1997, 'UNK EiTK' was transformed into the Almaty Institute of Energy and Communications with the status of a non-profit joint stock company. Gumarbek Zhusupbekovich Daukeev was elected rector of the new institute. Since July 2010, the Almaty Institute of Energy and Communications has received the status of a university with the right to train PhD undergraduates and doctoral students and a new name - non-profit joint stock company 'Almaty University of Energy and Communications' (AUES).",
+            "website": "https://aues.edu.kz",
+            "logo": "https://aues.edu.kz/backend/web/img/logo_aues_298.png",
+            "established_year": 1975,
+            "study_type": ["Bachelor's", "Master's", "Doctorate's"],
+            "study_language": ["Kazakh", "Russian", "English"],
+            "study_year": [4, 2, 3],
+            "student_count":  7000,
+            "faculty_count": 9,
+            "faculty": [
+                "Information Technology", 
+                "Information Security", 
+                "Communications and Communication Technologies", 
+                "Electrical and Automation", 
+                "Mechanics and Metalworking", 
+                "Air Transport and Technology", 
+                "Agricultural Engineering", 
+                "Sanitary and Preventive Measures", 
+                "Electrical and Energy"
+            ],
+            "edu_programm": [
+                "Computer science",
+                "Information Systems",
+                "Computing and software",
+                "Radio Engineering, Electronics and Telecommunications (Scientific and Pedagogical Master's Program)",
+                "Radio engineering, electronics and telecommunications (profile magistracy)",
+                "Modern and innovative renewable energy technologies",
+                "Electric power systems",
+                "Power industry",
+                "Thermal power engineering",
+                "Automation and control",
+                "Instrumentation",
+                "Space technics and technologies",
+                "Life safety and environmental protection",
+                "Software engineering",
+                "Information security systems",
+                "Information security of financial structures",
+                "Radio engineering, electronics and telecommunications",
+                "Electronic engineering",
+                "Automation and business process management",
+                "Instrumentation and systems in robotics",
+                "Biotechnical and medical systems and devices",
+                "Robotic systems",
+                "Space engineering",
+                "Energy supply for agriculture",
+                "Hybrid power supply systems for agro-industrial facilities",
+                "Life safety and environmental protection",
+                "Engineering ecology and safety in the energy sector",
+                "Industrial Safety",
+                "Thermal power engineering",
+                "Energy audit and energy management",
+                "Power supply of oil and gas pumping complexes",
+                "Automated electromechanical systems",
+                "Power industry",
+                "Integration and management of Smart technologies for energy saving and energy efficiency in the electric power industry",
+                "Electric power systems",
+                "Modern and innovative renewable energy technologies",
+                "Hydropower",
+                "Systems engineering",
+                "Entrepreneurship in Engineering"
+            ],
+            "email": "aues@aues.kz",
+            "phone_number": ["+7 (7273) 231-175 - office"],
+            "min_unt": 50,
+            "min_ielts": 0,
+            "tuition": 1000000,
+            "admission_criteria": ["UNT - Unified National Testing", "AUEC Interview"],
+            "dormitory": "University dormitories have the right to accommodate students studying on a state educational order or on a full-time basis and who come from remote regions of the Republic of Kazakhstan, as well as citizens of foreign states. First of all, the following categories of students are provided with places in the hostel: persons left without parental care at the time of reaching the age of majority; persons with disabilities from among disabled people of groups I and II, children with disabilities, or in the presence of parents - disabled people of groups I and II (both or one); persons from among rural youth enrolled in specialties that determine the socio-economic development of the village; students studying under the state educational order or on a full-time basis and who came from remote regions of the Republic; applicants and students from large families with 3 or more children under the age of 18, in addition to the student who is not more than 21 years old during the period of study.",
+            "student_life": "After spending your student years here, you will be able to understand that: - AUES is the ALMATY drive: laborious and sleepless, but cheerful and creative student life; - AUES is the best technical UNIVERSITY of the country; - AUES is a difficult, but surprisingly interesting study that will require all the ENERGY of the soul from you; And, finally, - AUES - these are friends with whom you will never lose CONNECTION; - AUES is the love that you found FOREVER! Why are we developing student life? Combining studies with creativity, science, sports, volunteering promotes self-realization, stimulates work activity, teaches you how to effectively plan your time, broadens your horizons. Participation in the extracurricular life of the university allows you to develop communication skills, learn how to work in a team, manage a team, which increases self-confidence and is the key to future success. A serious hobby can become a matter of a lifetime. Many well-known showmen, musicians, sportsmen got their way into life through the creative experience acquired in student sections and circles.",
+            "alumni": ["The Alumni Association of the Almaty University of Energy and Communications is a structural unit at the University, created in accordance with the order of the rector No. 26 dated 20.02.09. to unite the graduates of the University, their social promotion and development, as well as the effective use of their potential to strengthen the status of AUPET as the leading university in Kazakhstan. The Alumni Association is a unit that organizes the interaction of graduates with the university. In order to consolidate graduates, strengthen ties between the university and graduates, to strengthen the material and technical base of the university, to attract the scientific potential of the university to solve the scientific and practical problems of enterprises, the continuity of communication between generations, social support for students in need, and assistance in finding employment for young graduates. The organizational structure of the Association is based on the following principles: election of governing bodies, accountability to the members of the Association and the AUPET Academic Council, collegiality and democracy in decision-making, publicity of all activities of the Association."],
+            "athletics": "Students are waiting for a rich student life, in parallel engaged in participation in scientific projects, as well as in various sports sections and amateur art circles.",
+            "required_tests": ["UNT - Unified National Testing", "AUEC Interview"],
+            "application_fee": "Free",
+            "application_deadline": "on website",
+            "acceptance_rate": 70.00,
+            "internship_opportunities": "Internship opportunities available through the career center",
+            "study_abroad_programs": [
+                "The Republic of Kazakhstan", "Russian Federation", "Belarus", "Ukraine", "Uzbekistan", 
+                "Tajikistan", "Kyrgyzstan", "Azerbaijan", "Armenia", "Türkiye", "Latvia", "Lithuania", 
+                "Estonia", "Poland", "Bulgaria", "Serbia", "Spain"
+            ],
+            "clubs_and_organizations": [
+                "Gibrat", "ENACTUS AUPET", "Ulagat", "CCS (Children Charity Club)", "StudioA315",
+                "Dormitory Student Council", "KVN AUES (Russian league)", "Zhaidarman AUES",
+                "AUES Debate Club (Russian League)", "UNIX", "AUES Dance Club"
+            ],
+            "social_media": {  
+                "facebook": "https://www.facebook.com/aues.university/",
+                "instagram": "https://www.instagram.com/aues_university/",
+                "youtube": "https://www.youtube.com/channel/UCUnDGC1ddotzf1fpn-hyXDA"
+            },
+            "accreditation": [
+                "National accreditation of the Ministry of Education and Science of the Republic of Kazakhstan",
+                "Independent agency for accreditation and rating (IAAR)",
+                "Independent Agency for Quality Assurance in Education (IQAA)",
+                "European Association for Quality Assurance in Higher Education (ENQA)"
+            ],
+            "source": "auec-daukeev"
+        } 
+    },
+
+
+
+    {
+        "model": "uns.university",
+        "pk": 15,
+        "fields": {
+            "university_name": "Al-Farabi Kazakh National University",
+            "short_name": "KAZNUU",
+            "location": "st. Baytursynuly 126/1, Almaty  Kazakhstan, 050000",
+            "latitude": 43.225329,
+            "longitude": 76.92249,
+            "description": "The leading institution of the higher education system of the Republic of Kazakhstan, the first to pass the state certification and confirm the right to carry out educational activities in all specialties and levels. The leader of the General ranking of universities in Kazakhstan, the first in the history of the country the winner of the award of the President of the Republic of Kazakhstan 'For achievements in the field of quality', the winner of the Commonwealth of Independent States Prize for achievements in the field of quality of products and services. The University, being a member of the International Association of Universities and a co-founder of the Eurasian University Association, was the first among the universities of Kazakhstan and Central Asian countries to sign the Great Charter of Universities in Bologna, successfully passed the international certification for the compliance of the quality management system (QMS) with the requirements of international standards ISO 9000:2000 and received certificates from the world's largest certification centers - the International Certification System IQNET",
+            "website": "https://www.kaznu.kz",
+            "logo": "https://www.kaznu.kz/Content/kaznu/img/others/logo.png",
+            "established_year": 1934,
+            "study_type": ["Bachelor's", "Master's", "Doctorate's"],
+            "study_language": ["Kazakh", "Russian", "English"],
+            "study_year": [4, 2, 3],
+            "student_count":  25000,
+            "faculty_count": 9,
+            "faculty": [
+                "Faculty of Mechanics and Mathematics",
+                "Physics and Technology Faculty",
+                "Faculty of Chemistry and Chemical Technology",
+                "Faculty of History",
+                "Faculty of Biology and Biotechnology",
+                "Faculty of Geography and Nature Management",
+                "Faculty of Philology, Literary Studies and World Languages",
+                "Higher School of Economics and Business",
+                "Faculty of Law",
+                "Faculty of International Relations",
+                "Faculty of Oriental Studies",
+                "Faculty of Philosophy and Political Science",
+                "Faculty of Journalism"
+            ],
+            "edu_programm": [
+                "Big Data in geodesy",
+                "Big data and journalism",
+                "Data-journalism",
+                "IT Archiving and document science",
+                "IT Genetics",
+                "IT management",
+                "Aquaculture and Aquatic Biological Resources",
+                "Actuarial mathematics",
+                "Archeology",
+                "Archeology of Eurasia (Gylym Ordasy)",
+                "Archeology and ethnology",
+                "Archiving and documentation management",
+                "Archiving, document management and documentation support",
+                "Information security audit",
+                "Life safety and environmental protection",
+                "Library Information Systems",
+                "Business Analytics and Big Data",
+                "Business communication",
+                "Biology",
+                "Biology and Biotechnology",
+                "Biomedicine",
+                "Medicine and Health",
+                "Biomedical Engineering (KBTU)",
+                "Biotechnology",
+                "Environmental Biotechnology",
+                "Biophysics",
+                "Virology",
+                "Oriental studies",
+                "The World History",
+                "Computational linguistics",
+                "Computing Science and Statistics",
+                "Genetics",
+                "Geobotany",
+                "Geography",
+                "Geography and nature management",
+                "Geodesy",
+                "Geoinformatics",
+                "Geoinformation cartography",
+                "Geomatics and spatial planning",
+                "Geospatial Environmental Management",
+                "Geoecology and environmental management",
+                "Hygiene",
+                "Hydrology",
+                "Public policy",
+                "Public service and administrative activities",
+                "Public service and staffing",
+                "State and local government",
+                "Public administration",
+                "Public administration and public safety",
+                "Civil law",
+                "Civil procedural law"
+            ],
+            "email": "info@kaznu.edu.kz",
+            "phone_number": ["+7 (7273) 773-330 - office", "+7 (7273) 773-330 - admission"],
+            "min_unt": 70,
+            "min_ielts": 0,
+            "tuition": 1300000,
+            "admission_criteria": ["UNT - Unified National Testing"],
+            "dormitory": "There are 13 dormitories in KazNU, and all of them are distinguished by comfort, safety and all conditions for living. In order to solve the whole range of problems of students living in dormitories, there is a special body of student self-government - the Supreme Student Council of dormitories.",
+            "student_life": "Student self-government of the Kazakh National University. al-Farabi. The idea of student self-government is far from new, moreover, it has a long tradition at Al-Farabi KazNU. The world has changed, the processes of democratization and humanization of public life have begun actively, and interest in student self-government has awakened again, as an attribute of creating conditions for the free development of the individual. Today, at Al-Farabi KazNU, students are truly given the opportunity to realize themselves, to reveal their potential, opportunities and abilities to influence the state of affairs at the university. Goals, tasks of the student self-government of Al-Farabi KazNU. The main goals of student self-government are: - protection and representation of the rights and interests of students; - assistance to students in solving educational, social and other issues affecting their interests; - creation of conditions for the development of a sense of social responsibility of young people, participation in solving urgent problems of society; - Preservation and development of democratic traditions of students; - assistance to governing bodies in solving educational and scientific problems, in organizing the educational and educational process, as well as leisure and life of students.",
+            "alumni": ["Its alumni have achieved success in various fields, including politics, science, business, and culture. Notable alumni of KazNU Al-Farabi include the former President of Kazakhstan Nursultan Nazarbayev, the former Prime Minister of Kazakhstan Karim Massimov, the astronaut Aidyn Aimbetov, and the Nobel laureate in physics Zhores Alferov. Other successful alumni include prominent businessmen, academics, artists, and athletes who have made significant contributions to their respective fields."],
+            "athletics": "Movement is health, and sport is an integral part of the life of students and faculty of KazNU. Al-Farabi. Our university has all the conditions for playing sports to maintain a healthy lifestyle. Including organized sports clubs for volleyball, basketball, chess, tennis, football, athletics, weightlifting, etc. In order to maintain a healthy lifestyle, there is a sports complex, a football field, a gym and other places. These places are essential for efficient time management by students. The department also has its own principles for maintaining a healthy lifestyle. Head of the Department Doctor of Philological Sciences, Professor Madieva G.B., Deputy Head of the Department Mambetova M.K. Iskakova G.N., and other teachers of the department are engaged in gymnastics in the sports complex of the university.",
+            "required_tests": ["UNT - Unified National Testing"],
+            "application_fee": "Free",
+            "application_deadline": "on website",
+            "acceptance_rate": 70.00,
+            "internship_opportunities": "Internship opportunities available through the career center",
+            "study_abroad_programs": [
+                "Russia", "Korea", "Japan", "Turkey", "China", "USA", "France", "Germany", "Spain", "Italy", 
+                "India", "UK", "Poland", "Egypt", "Malaysia", "Austria", "Hungary", "Sweden", "Switzerland", 
+                "Czech Republic", "Portugal", "Brazil", "Ukraine", "Bulgaria", "Greece", "Israel", "Cyprus", 
+                "Saudi Arabia", "United Arab Emirates", "Iran", "Pakistan", "Tajikistan", "Uzbekistan", 
+                "Kyrgyzstan", "Republic of Belarus"
+            ],
+            "clubs_and_organizations": [
+                "Shygys Zhuldyzy", "Club 'Analyst'", "Club 'NATO WORLD'", "Student Association of Americanists",
+                "Diplomatic club 'Talleyrand'", "Discussion Club 'Law and Security'", "Student scientific and educational club 'Shygys alemi'",
+                "Student scientific and educational club 'English club'", "Scientific student circle on comparative law 'Comparative'"
+            ],
+            "social_media": {  
+                "facebook": "https://www.facebook.com/KazakhNationalUniversity",
+                "instagram": "https://www.instagram.com/farabi_university/",
+                "youtube": "https://www.youtube.com/channel/UCr6RCYKPPbHFKwOmqZXBi2w"
+            },
+            "accreditation": [
+                "National accreditation of the Ministry of Education and Science of the Republic of Kazakhstan",
+                "Independent agency for accreditation and rating (IAAR)",
+                "Global Leader in Quality Assurance in Higher Education (ASIIN)",
+                "The Accreditation, Certification and Quality Assurance Institute (ACQUIN)",
+                "Assessment and Qualifications Alliance (AQA)",
+                "Foundation for International Business Administration Accreditation (FIBAA)",
+                "Independent Agency for Quality Assurance in Education (IQAA)"
+            ],
+            "source": "kaznu-al-farabi"
+        } 
+    },
+
+
+
+    {
+        "model": "uns.university",
+        "pk": 16,
+        "fields": {
+            "university_name": "Astana International University",
+            "short_name": "AIU",
+            "location": "Ave. Kabanbai Batyra 8, Astana Kazakhstan, 020000",
+            "latitude": 51.144746,
+            "longitude": 71.422669,
+            "description": "Mission: to provide a high level of knowledge and competence, to educate world citizens with high moral values, through academic excellence, research and innovation to serve the nation and the world. Vision: Astana International University is a modern global university generating and disseminating knowledge, research and innovation for the Eurasian space, one of the top 20 universities in Eurasia",
+            "website": "https://www.aiu.kz",
+            "logo": "https://www.aiu.kz/lg.png",
+            "established_year": 2018,
+            "study_type": ["Bachelor's", "Master's", "Doctorate's"],
+            "study_language": ["Kazakh", "Russian", "English"],
+            "study_year": [4, 2, 3],
+            "student_count":  3000,
+            "faculty_count": 9,
+            "faculty": [
+                "Information and Communication Technologies", 
+                "Pedagogical Sciences", 
+                "Information and Communication Technologies", 
+                "Natural sciences, mathematics and statistics", 
+                "Business, management and law", 
+                "Social Sciences, Journalism and Information", 
+                "Arts and Humanities", 
+                "Pedagogical Sciences"
+            ],
+            "edu_programm": [
+                "Pedagogy and psychology",
+                "Pedagogy of preschool education and training",
+                "Training of teachers without subject specialization",
+                "Teacher training in science subjects",
+                "Training teachers in the humanities",
+                "Teacher training in languages and literature",
+                "Training of specialists in social pedagogy and self-knowledge",
+                "Special Pedagogy",
+                "Information and Communication Technologies",
+                "Information Security",
+                "Telecommunications",
+                "Biological and related sciences",
+                "Environment",
+                "Physical and chemical sciences",
+                "Mathematics and statistics",
+                "Business and management",
+                "Law",
+                "Social sciences",
+                "Journalism and information",
+                "Pedagogy and psychology of preschool education and training",
+                "Training of teachers without subject specialization",
+                "Teacher training in science subjects",
+                "Training teachers in the humanities",
+                "Teacher training in languages and literature",
+                "Training of specialists in social pedagogy and self-knowledge",
+                "Special Pedagogy",
+                "Art",
+                "Humanitarian sciences",
+                "Languages and Literature"
+            ],
+            "email": "info@aiu.kz",
+            "phone_number": ["+7 (7172) 476-677 - office"],
+            "min_unt": 70,
+            "min_ielts": 0,
+            "tuition": 1100000,
+            "admission_criteria": ["UNT - Unified National Testing", "Conducting creative exams (for creative specialties)"],
+            "dormitory": "AIU-Dormitory-dormitory of Astana International University. Number of seats - 136. AIU-DORMITORY is equipped with all the necessary equipment for teaching students that meets modern requirements. 1. in one room - 4 people; 2. the canteen is equipped with everything you need (electric stove, dishes for each student, microwave oven, washing machine (free use), iron, etc. 3. free Wi-Fi Internet access. To ensure the safety of students and supervise the order AIU -Dormitory is equipped with video surveillance on all internal and external floors.",
+            "student_life": "'UNION' Student Supreme Council. The purpose of the Union: to form a civic culture, an active citizenship position of students, to promote their social maturity, independence, self-organization and self-development ability, to ensure the implementation of the right of students to participate in the management of the university, joint management among students forming skills and abilities, preparing them for active participation in public life.",
+            "alumni": ["AIU has produced a number of successful alumni who have gone on to have notable careers in various industries. Some of the alumni of AIU are working in international organizations such as the United Nations, World Bank, and European Union. Others have gone on to have successful careers in the private sector, working for companies such as Deloitte, KPMG, and Coca-Cola. Many alumni of AIU have also become successful entrepreneurs, starting their own businesses in various fields such as technology, hospitality, and consulting. Some have also gone on to pursue further academic degrees and have become professors or researchers in their respective fields."],
+            "athletics": "Basketball, Football",
+            "required_tests": ["UNT - Unified National Testing", "Conducting creative exams (for creative specialties)"],
+            "application_fee": "Free",
+            "application_deadline": "on website",
+            "acceptance_rate": 70.00,
+            "internship_opportunities": "Internship opportunities available through the career center",
+            "study_abroad_programs": [
+                "Tomsk Polytechnic University", "Fudan University", "Russian Academy of National Economy and Public Administration under the President of the Russian Federation", 
+                "Universiti Sains Malaysia", "Peking University", "University of International Business and Economics", 
+                "Jamk University of Applied Sciences", "Moscow State University named after M. V. Lomonosov", 
+                "BELARUSIAN STATE UNIVERSITY OF ECONOMY", "Financial University under the Government of the Russian Federation", 
+                "Old Dominion University", "Beijing Foreign Studies University"
+            ],
+            "clubs_and_organizations": [
+                "UMIT SHYRAGY", "AIU TUNES", "AIU TOP TEAM", "AIU JOURNALISTS", "QUEENDOM", "GAMBIT",
+                "DANCING HIGH CLUB", "AIU VOLUNTEERS", "LEADER ALASH", "ENGFUN AIU", "HEALTHY LIFESTYLE", "TED X"
+            ],
+            "social_media": {
+                "instagram": "https://www.instagram.com/aiu_astana/"
+            },
+            "accreditation": [
+                "National accreditation of the Ministry of Education and Science of the Republic of Kazakhstan",
+                "European Quality Assurance Register (EQAR)",
+                "Independent Agency for Quality Assurance in Education (IQAA)"
+            ],
+            "source": "astana-international-university"
+        } 
+    },
+
+
+
+    {
+        "model": "uns.university",
+        "pk": 17,
+        "fields": {
+            "university_name": "Kazakh University of Technology and Business",
+            "short_name": "KAZUTB",
+            "location": "Ave. Kabanbai Batyra 8, Astana Kazakhstan, 020000",
+            "latitude": 51.144746,
+            "longitude": 71.422669,
+            "description": "Mission: to provide a high level of knowledge and competence, to educate world citizens with high moral values, through academic excellence, research and innovation to serve the nation and the world. Vision: Astana International University is a modern global university generating and disseminating knowledge, research and innovation for the Eurasian space, one of the top 20 universities in Eurasia",
+            "website": "https://kaztbu.edu.kz",
+            "logo": "https://kaztbu.edu.kz/storage/app/media/logo2.png",
+            "established_year": 2003,
+            "study_type": ["Bachelor's", "Master's"],
+            "study_language": ["Kazakh", "Russian", "English"],
+            "study_year": [4, 2],
+            "student_count":  2000,
+            "faculty_count": 10,
+            "faculty": [
+                "Art", 
+                "Business and management", 
+                "Biological and related sciences", 
+                "Environment", 
+                "Information and Communication Technologies", 
+                "Engineering and Engineering", 
+                "Manufacturing and manufacturing industries", 
+                "Standardization, certification and metrology (by industry)", 
+                "Service sector", 
+                "Hygiene and labor protection at work"
+            ],
+            "edu_programm": [
+                "Design", 
+                "Accounting and Auditing", 
+                "Management", 
+                "State and local government", 
+                "Finance", 
+                "Economy", 
+                "Biotechnology", 
+                "Ecology", 
+                "Information Systems", 
+                "IT management", 
+                "Artificial intelligence", 
+                "automation and control", 
+                "Chemical technology of organic substances", 
+                "Technological machines and equipment", 
+                "Mining", 
+                "Food technology", 
+                "Technology of processing industries", 
+                "Technology and design of light industry products", 
+                "Oil and gas business", 
+                "Standardization and certification (by industry)", 
+                "Restaurant business and hotel business", 
+                "Tourism", 
+                "IT-technologies in the field of service", 
+                "international tourism", 
+                "Life safety and environmental protection"
+            ],
+            "email": "info@aiu.kz",
+            "phone_number": ["+7 (775) 232 22 66, - office", "+7 (775) 828 88 66 - admission"],
+            "min_unt": 50,
+            "min_ielts": 0,
+            "tuition": 1100000,
+            "admission_criteria": ["UNT - Unified National Testing", "Conducting creative exams (for creative specialties)"],
+            "dormitory": "The house of university students is designed for 680 places. The hostel has a student dining room, and reading rooms on each floor with full Internet access. In the future, it is planned to open a coworking center, gym and conference rooms. We hope that living in a multifunctional Student House, thanks to comfortable conditions, will allow you to get high-quality knowledge and become highly qualified specialists. To accommodate visitors and foreign students, the university has a student hostel. Places in dormitories are provided by the deans of faculties, in accordance with the approved Regulations on the procedure for providing places to students and the Rules for living in student dormitories of KazUTB.",
+            "student_life": "Student government is an organization run by students at a university or college that represents and advocates for the student body. This organization is responsible for planning events, managing student clubs and organizations, and addressing any concerns or issues that arise on campus. Typically, student government consists of elected representatives from each grade level or academic program, as well as various appointed positions such as treasurer, secretary, and president. Through student government, students can learn valuable leadership skills, network with their peers, and make a positive impact on campus life.",
+            "alumni": ["on website"],
+            "athletics": "Formation among students of the values of a healthy lifestyle, stimulating the creation and implementation of innovative programs and projects in an educational institution of higher professional education aimed at promoting a healthy lifestyle, developing physical culture and health and sports work. Organization and conduct of physical culture, sports and recreational activities of a higher educational institution. Organization of the educational and training process in sports sections, combined teams of a higher educational institution.",
+            "required_tests": ["UNT - Unified National Testing", "Conducting creative exams (for creative specialties)"],
+            "application_fee": "Free",
+            "application_deadline": "on website",
+            "acceptance_rate": 70.00,
+            "internship_opportunities": "Internship opportunities available through the career center",
+            "study_abroad_programs": [
+                "Kazakhstan", "Universities", "Russian Federation", "Ukraine", "Republic of Belarus", 
+                "Uzbekistan", "Italy", "Germany", "Hungary", "Latvia", "Poland", "Bulgaria", "Turkey", 
+                "South Korea", "Northern Cyprus"
+            ],
+            "clubs_and_organizations": [
+                "Poetry club Shabyt", "Media Club", "KVN", "Music club Sound-UTB", "Fashion and theater club Sunrise", 
+                "Pentagon", "Volunteer club Meyirim", "Department of Culture and Organization DK LION", "'Delight' dance club", 
+                "Dance group AZURA", "Debate Club Ak Orda", "Department of Physical Education"
+            ],
+            "social_media": {
+                "instagram": "https://www.instagram.com/kazutb_university/",
+                "youtube": "https://www.youtube.com/channel/UCbiqgCy02KkeOUBxRhn39fQ"
+            },
+            "accreditation": [
+                "National accreditation of the Ministry of Education and Science of the Republic of Kazakhstan",
+                "Independent Agency for Quality Assurance in Education (IQAA)"
+            ],
+            "source": "kazakh-university-of-technology-and-business"
+        } 
+    },
+
+
+
+    {
+        "model": "uns.university",
+        "pk": 18,
+        "fields": {
+            "university_name": "Kazakh National University of Arts",
+            "short_name": "KAZNUA",
+            "location": "Ave. Tauelsizdik, 50, Astana Kazakhstan",
+            "latitude": 51.122805,
+            "longitude": 71.472711,
+            "description": "The Kazakh National Academy of Music (KazNAM) was founded on March 31, 1998 with the support of the President of Kazakhstan N.A. Nazarbayev. Education at the Kazakh National Academy of Music includes primary (grades 1-4), secondary (grades 5-9), higher (1-4 courses) and postgraduate (master's and doctoral) education. According to the decree of the government of Kazakhstan dated October 12, 2009, the Kazakh National Academy of Music received a new status and was renamed the Kazakh National University of Arts, in the same year the university moved to a new building located in Astana. Representatives of KazNAM were winners at musical competitions in Austria, Italy, Russia. Since 2000, the Akimat of Astana and the Kazakh National Academy of Music have been holding the Shabyt-Inspiration international competition.",
+            "website": "https://kaznui.edu.kz",
+            "logo": "https://kaznui.edu.kz/images/logo.png",
+            "established_year": 1998,
+            "study_type": ["Bachelor's", "Master's", "Doctorate's"],
+            "study_language": ["Kazakh", "Russian", "English"],
+            "study_year": [4, 2, 3],
+            "student_count":  3000,
+            "faculty_count": 8,
+            "faculty": [
+                "Faculty of Vocal, Choral, Variety Art and Music Education",
+                "Faculty of Orchestral Performance",
+                "Faculty of Musicology and Piano",
+                "Faculty of Traditional Musical Art",
+                "Faculty of Art",
+                "Faculty of Cinematography and Television",
+                "Faculty of Theater Arts and Art History",
+                "Department of Social and Humanitarian Disciplines and Art Management"
+            ],
+            "edu_programm": [
+                "Music teacher training", 
+                "Performing arts", 
+                "Musicology", 
+                "Art criticism", 
+                "Directing, art management",
+                "Conducting", 
+                "Composition", 
+                "Theatrical art", 
+                "Audiovisual and media production", 
+                "Art", 
+                "Fashion, design"
+            ],
+            "email": "no info",
+            "phone_number": ["+7 (7172) 705-503 - office"],
+            "min_unt": 70,
+            "min_ielts": 0,
+            "tuition": 1300000,
+            "admission_criteria": ["UNT - Unified National Testing", "Conducting creative exams (for creative specialties)"],
+            "dormitory": "The university provides residential complex 'Aigerim' for living, it is a 25-storey residential building. It is located on Satpayev Street, 29/1. There are only about one and a half thousand students in KazNUA. Therefore, there are no problems with getting a room in a hostel. We have comfortable conditions. Every year the administration of the hostel conducts an audit and makes repairs. Accommodation costs about 30,000 per year.",
+            "student_life": "on website",
+            "alumni": ["Shabyt is a poetry club in Kazakhstan that has produced several notable alumni. The alumni have gone on to achieve success in their respective fields and continue to inspire the next generation of Kazakhstani artists."],
+            "athletics": "Shabyt is known not only for its academic excellence in the arts and music, but also for its vibrant extracurricular activities, particularly in the field of sports. The university has various sports clubs and teams that cater to different interests and skill levels, making it possible for students to engage in physical activity and promote a healthy lifestyle. The university's sports clubs organize regular flash mobs, where students gather in public places to perform a coordinated dance routine, usually set to popular music. These flash mobs not only showcase the students' talent and creativity but also promote physical activity and a sense of community among the students.",
+            "required_tests": ["UNT - Unified National Testing", "Conducting creative exams (for creative specialties)"],
+            "application_fee": "Free",
+            "application_deadline": "on website",
+            "acceptance_rate": 70.00,
+            "internship_opportunities": "Internship opportunities available through the career center",
+            "study_abroad_programs": [
+                "Council of Young Scientists (SMU) KazNUA"
+            ],
+            "clubs_and_organizations": [
+                "Europe", "Asia", "USA"
+            ],
+            "social_media": {
+                "facebook": "https://www.facebook.com/kaznuikz/",
+                "instagram": "https://www.instagram.com/aiu_astana/",
+                "youtube": "https://www.youtube.com/channel/UC6CecmIGX4KW0ks28oZ_Bfw"
+            },
+            "accreditation": [
+                "National accreditation of the Ministry of Education and Science of the Republic of Kazakhstan",
+                "European Quality Assurance Register (EQAR)",
+                "Independent Agency for Quality Assurance in Education (IQAA)"
+            ],
+            "source": "astana-international-university"
+        } 
+    },
+
+
+
+    {
+        "model": "uns.university",
+        "pk": 19,
+        "fields": {
+            "university_name": "University 'Turan - Astana",
+            "short_name": "TAU",
+            "location": "Ast. Ykylas Dukenuly 29, Astana Kazakhstan",
+            "latitude": 51.181633,
+            "longitude": 71.430753,
+            "description": "The university provides training in 28 undergraduate educational programs, 18 master's programs, 6 PhD doctoral programs at 4 faculties: Economics, Humanities and Law, the Faculty of Digital Technologies and Arts and the Faculty of English STEM Programs. Students can study on state grants and grants from the rector of the university. Excellent students can apply for a scholarship from Kazakhstani and foreign companies and organizations. All this makes it possible to give students a quality education for their further employment and development in the competitive environment of modern society.",
+            "website": "https://tau-edu.kz/",
+            "logo": "https://tau-edu.kz/media/logo.png",
+            "established_year": 1992,
+            "study_type": ["Bachelor's", "Master's", "Doctorate's"],
+            "study_language": ["Kazakh", "Russian", "English"],
+            "study_year": [4, 2, 3],
+            "student_count":  3000,
+            "faculty_count": 8,
+            "faculty": [
+                "Department of Social Sciences, Humanities and Language Disciplines",
+                "Department of National and International Law",
+                "Department of Design, Service, Tourism",
+                "Department of Information Technology",
+                "Department of Business Administration"
+            ],
+            "edu_programm": [
+                "Jurisprudence", 
+                "International relationships", 
+                "International law", 
+                "Legal support of business (Corporate lawyer)", 
+                "Economy", 
+                "World economy", 
+                "Marketing", 
+                "Logistics", 
+                "Management", 
+                "Finance", 
+                "Accounting and Auditing", 
+                "Psychology", 
+                "Translation business", 
+                "Journalism", 
+                "Public Relations", 
+                "regional studies", 
+                "State and local government", 
+                "Intelligent Robotics", 
+                "Information Systems", 
+                "Computing and software", 
+                "Radio engineering, electronics and telecommunications", 
+                "Software engineering", 
+                "Tourism", 
+                "Restaurant business and hotel business", 
+                "Acting art", 
+                "Camera art", 
+                "directing", 
+                "Film and TV production"
+            ],
+            "email": "info@turan-edu.kz",
+            "phone_number": ["+7 (702) 912 39 97 - office", "+7 (7272) 604-000 - admission"],
+            "min_unt": 70,
+            "min_ielts": 0,
+            "tuition": 1000000,
+            "admission_criteria": ["UNT - Unified National Testing"],
+            "dormitory": "Accommodation of students in a hostel is carried out in accordance with the Rules for living in a hostel, in compliance with established sanitary standards. First of all, students under the state order are subject to accommodation in hostels, and students on a contractual basis for the remaining places. Upon arrival, the student is required to undergo a medical examination. The student provides the commandant of the hostel with an application, an identity card, a medical certificate, a receipt for payment for accommodation. The procedure for determining the amount of payment for the use of living space in hostels is established in accordance with the current legislation in the Republic of Kazakhstan and the actual costs of maintaining the hostel. Orphans live free of charge.",
+            "student_life": "Turan University has an active academic, social, creative, sports life, where the initiators and engines of creative ideas are the students themselves. The University creates favorable conditions for the professional development of students, the disclosure of their creative, entrepreneurial potential, promotes the establishment of links between youth public associations both within the Republic of Kazakhstan and abroad. Students who showed the best academic results throughout the year and conducted serious scientific activities are awarded the honorary title 'Student of the Year', and students who actively participate in the public life of the university receive the 'Activist of the Year' nomination. The best student organizations annually compete for the title of 'Breakthrough of the Year'.",
+            "alumni": ["The association was formed for the purpose of mutual cooperation of graduates of the University 'Turan-Astana' in the field of realization and protection of cultural, creative, material, and social rights and freedoms of its members, development of activity and amateur performance, satisfaction of professional and amateur interests. The main objectives of the association's activities are: - Association of graduates for the implementation of statutory tasks; - assistance in improving the professional level of graduates and students of the University 'Turan-Astana'; - involvement of students and young professionals in the implementation of projects on orders, both members of the association and other firms and companies."],
+            "athletics": "Shabyt is known not only for its academic excellence in the arts and music, but also for its vibrant extracurricular activities, particularly in the field of sports. The university has various sports clubs and teams that cater to different interests and skill levels, making it possible for students to engage in physical activity and promote a healthy lifestyle. The university's sports clubs organize regular flash mobs, where students gather in public places to perform a coordinated dance routine, usually set to popular music. These flash mobs not only showcase the students' talent and creativity but also promote physical activity and a sense of community among the students.",
+            "required_tests": ["UNT - Unified National Testing"],
+            "application_fee": "Free",
+            "application_deadline": "on website",
+            "acceptance_rate": 70.00,
+            "internship_opportunities": "Internship opportunities available through the career center",
+            "study_abroad_programs": [
+                "Turiba University",
+                "Varna Free University named after Chernorizets Brave",
+                "Spirou-Haret University",
+                "University of Compultense",
+                "University of San Pablo (CEU)",
+                "University of Salamanca",
+                "Webster University",
+                "University named after Allameh Tabata, Iran",
+                "National University Lewis, Republic of Poland",
+                "Tambov State University named after G.R. Derzhavin",
+                "Leningrad State University named after A.S. Pushkin",
+                "Zaporozhye National University",
+                "Siberian University of Consumer Cooperation",
+                "Russian State Academy of Intellectual Property",
+                "Moscow Pedagogical State University",
+                "International Graduate School of Business",
+                "Bucharest University of Economic Studies",
+                "Moscow Financial and Industrial University Synergy",
+                "Moscow Open Institute",
+                "Omsk Regional Institute",
+                "All-Russian State University of Justice (RPA of the Ministry of Justice of Russia)",
+                "Tomsk Polytechnic University",
+                "Belarusian State University",
+                "Karabuk University"
+            ],
+            "clubs_and_organizations": [
+                "Space Media Lab", "TAU TikTok House", "Jaidarman", "TAU-Rocket", "Debate club Speaker'",
+                "Turan-Astana, Volunteers", "Youth wing of 'Zhastar Rukhy'", "TAU-Voice", "Folk ensemble 'Dudar-Ay'"
+            ],
+            "social_media": {
+                "facebook": "https://www.facebook.com/turan.astana",
+                "instagram": "https://www.instagram.com/tau_edu.kz/",
+                "youtube": "https://www.youtube.com/channel/UCqnRq2ISMcTG7HF60n0LXdA"
+            },
+            "accreditation": [
+                "National accreditation of the Ministry of Education and Science of the Republic of Kazakhstan",
+                "Independent agency for accreditation and rating (IAAR)",
+                "European Quality Assurance Register (EQAR)",
+                "Independent Agency for Quality Assurance in Education (IQAA)"
+            ],
+            "source": "turan-astana-university"
+        } 
+    },
+
+
+
+    {
+        "model": "uns.university",
+        "pk": 20,
+        "fields": {
+            "university_name": "Almaty Technological University",
+            "short_name": "ATU",
+            "location": "100 Tole Bi street, Astana Kazakhstan, 050000",
+            "latitude": 43.252474,
+            "longitude": 76.926637,
+            "description": "ATU is one of the leading higher educational institutions in Kazakhstan and Central Asia, which has been training specialists and scientific personnel for the food, processing, textile and light industries, the service and hospitality industry for more than 65 years. ATU has been present on the market of educational services since 1957 and in recent years has been systematically implementing the principles of the Bologna Declaration, actively integrating into the global educational space and becoming more and more recognizable in the world. Since 2005, ATU has been operating a Quality Management System (QMS), certified for compliance with the requirements of international standards ISO 9001 - 2015. The effectiveness of the ATU QMS has been confirmed by independent audits conducted by the Certification Association - Russian Register - a member of the international certification network IQNet.",
+            "website": "https://atu.edu.kz/",
+            "logo": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://atu.edu.kz/wp-content/uploads/2022/03/logo.png",
+            "established_year": 1957,
+            "study_type": ["Bachelor's", "Master's", "Doctorate's"],
+            "study_language": ["Kazakh", "Russian", "English"],
+            "study_year": [4, 2, 3],
+            "student_count":  5000,
+            "faculty_count": 5,
+            "faculty": [
+                "Engineering and Information Technology",
+                "Economy and Business",
+                "Design, Technologies of textiles and clothing",
+                "Food technology",
+                "Distance learning"
+            ],
+            "edu_programm": [
+                "Machinery and apparatus for production processes", 
+                "Information Technology", 
+                "Social and humanitarian disciplines", 
+                "Automation and Robotics", 
+                "Higher mathematics and physics", 
+                "Technology of bakery products and processing industries", 
+                "Food Technology", 
+                "Food biotechnology", 
+                "Food safety and quality", 
+                "Chemistry, chemical technology and ecology", 
+                "Technology and design of light industry products (by industry)", 
+                "Technology and design of textile materials (by industry)", 
+                "Design (by industry)", 
+                "Machines and apparatuses of light industry", 
+                "Tourism and service", 
+                "Economics and management", 
+                "Accounting and finance"
+            ],
+            "email": "info@atu.kz",
+            "phone_number": ["+7 (7272) 218-808 - office"],
+            "min_unt": 50,
+            "min_ielts": 0,
+            "tuition": 1000000,
+            "admission_criteria": ["UNT - Unified National Testing"],
+            "dormitory": "To accommodate visitors and foreign students, the university has four student dormitories. Places in dormitories are provided by the deans of faculties, in accordance with the 'Regulations on the procedure for providing places to students and the Rules for living in student dormitories of ATU'.",
+            "student_life": "Information about the KDM of the faculties and about the interest clubs. The faculties' KDM organize events, paying attention to self-government and the development of competition among students. The committee encourages student youth to patriotism towards their university. Promotes efficient use of students' time.",
+            "alumni": ["on website"],
+            "athletics": "Educational-sports work: The department takes an active part in the educational work of the University. An important part of the work of the Department of Physical Culture is the holding of traditional mass health and sports events. The use of means of physical culture and sports in order to improve health, increase the efficiency of students and prepare them for professional activities. University students participate in mass sports events held at the university, district, city, Republic. For participation and holding competitions, the university management allocates large funds. Leading student-athletes enjoy the support of management.",
+            "required_tests": ["UNT - Unified National Testing"],
+            "application_fee": "Free",
+            "application_deadline": "on website",
+            "acceptance_rate": 70.00,
+            "internship_opportunities": "Internship opportunities available through the career center",
+            "study_abroad_programs": [
+                "Technical University of Gabrova (Bulgaria)", "Technical University of Kaunas (Lithuania)", 
+                "Dresden University of Technology (Germany)", "Institute of European Design (IED) (Italy)", 
+                "Russian State University A. N. Kosygina (Novosibirsk)", "Tashkent Institute of Textile and Light Industry (Tashkent)", 
+                "Hof University of Applied Sciences (Germany)", "Shandong University of Art and Design (China)", 
+                "Shanghai Jian Qiao University (China)", "Kyrgyz State Technical University named after I. Razzakov (Bishkek)"
+            ],
+            "clubs_and_organizations": [
+                "Modern dance circle 'Golden Team'", "'ATU Kuramasy' and 'Made in ATU'",
+                "Youth wing 'Jas Otan'", "School of vocalists 'MUSIC' ATU",
+                "Youth wing 'Jas Otan'", "Intellectual debate clubs 'Zhastar' and 'Brain storm'",
+                "Enactus A.T.U.", "'Dombyra-Dastan'", "ATU Volunteer League - 'SENIM'",
+                "Tai-Na Fashion Theater", "Dance Ensemble 'Tumar'"
+            ],
+            "social_media": {
+                "facebook": "https://www.facebook.com/atu.university",
+                "instagram": "https://www.instagram.com/atu_media/",
+                "youtube": "https://www.youtube.com/channel/UCckgmc8Fi-kWtbTSMakQi-w"
+            },
+            "accreditation": [
+                "National accreditation of the Ministry of Education and Science of the Republic of Kazakhstan",
+                "Independent agency for accreditation and rating (IAAR)",
+                "European Quality Assurance Register (EQAR)",
+                "Global Leader in Quality Assurance in Higher Education (ASIIN)",
+                "Independent Agency for Quality Assurance in Education (IQAA)"
+            ],
+            "source": "almaty-technological-university"
+        } 
+    }
+    
+]
+  

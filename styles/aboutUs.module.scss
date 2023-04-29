@@ -1,6 +1,193 @@
-.aboutUs{
+.aboutUs {
     margin: 2rem 0;
     gap: 1rem;
     display: flex;
     flex-direction: column;
+}
+
+.about-us {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 10rem;
+    color: black;
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 2.5rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+    }
+
+    ul {
+        list-style-type: disc;
+        padding-left: 2rem;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    li {
+        strong {
+            font-weight: 600;
+        }
+    }
+
+    .dots {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+
+        div {
+            background-color: rgb(224, 191, 200);
+            border-radius: 50%;
+            height: 0.7rem;
+            width: 0.7rem;
+            margin: 0 5px;
+        }
+    }
+
+    .image {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .about-us {
+        padding: 1rem 5rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .about-us {
+        padding: 1rem 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-us {
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about-us {
+        padding: 1rem 1rem;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+$font-stack: 'Montserrat', sans-serif;
+$primary-color: black;
+$secondary-color: black;
+
+.contact-us {
+    font-family: $font-stack;
+    max-width: 1200px;
+    margin: 0 auto 3rem;
+    padding: 1rem;
+    color: black;
+
+    h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: $primary-color;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+        font-weight: 400;
+        color: $secondary-color;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+    }
+
+    .team-members {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        .team-member {
+            flex: 1 1 250px;
+            background-color: rgba(224, 191, 200, 0.20);
+            padding: 1rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+            h2 {
+                font-size: 1.5rem;
+                font-weight: 500;
+                color: $secondary-color;
+                margin-bottom: 1rem;
+            }
+
+            .contact-method {
+                display: flex;
+                align-items: center;
+                font-size: 1rem;
+                font-weight: 400;
+                color: black;
+                margin-bottom: 0.5rem;
+
+                a {
+                    color: black;
+                }
+
+                svg {
+                    font-size: 1.25rem;
+                    margin-right: 0.5rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .contact-us {
+        padding: 0;
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        .team-members {
+            .team-member {
+                h2 {
+                    font-size: 1.6rem;
+                }
+
+                .contact-method {
+                    font-size: 0.9rem;
+
+                    svg {
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+    }
 }
