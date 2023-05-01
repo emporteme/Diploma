@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 70%;
 }
 
 .search input {
@@ -63,6 +64,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 .flex a {
@@ -70,6 +72,8 @@
 }
 
 .btn {
+    width: 153%;
+    text-align: center;
     padding: 0.3rem 0.5rem;
     border: solid #9997D6;
     border-radius: 0.5rem;
@@ -80,4 +84,53 @@
     background-color: #9997D6;
     color: white;
     padding: 0.4rem 0.6rem;
+}
+
+/* PC */
+@media only screen and (max-width: 1024px) {
+    .search {
+        width: 70%;
+    }
+
+    .search input {
+        width: 100%;
+    }
+
+    .list {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .item {
+        width: 14rem;
+        min-height: 13rem;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .mainText {
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+
+    .subText {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .list {
+        gap: 0.5rem;
+    }
+    .item {
+        width: 10.5rem;
+        min-height: 11rem;
+        padding: 0.5rem;
+        border-radius: 1rem;
+    }
+    .image {
+        width: 100%;
+        height: 5rem;
+    }
 }

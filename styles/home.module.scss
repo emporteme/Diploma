@@ -1,14 +1,17 @@
-.home{
+.home {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 2rem;
 }
-.info{
+
+.info {
     display: flex;
     flex-direction: column;
     gap: 2vh;
     width: 50vw;
 }
+
 .btn {
     margin-top: 4vh;
     border: solid #727CFF;
@@ -21,9 +24,58 @@
     border-radius: 1vw;
     width: 15vw;
 }
-.image{
+
+.image {
     width: 50vw;
 }
-.image img{
+
+.image img {
     width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .home {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .info {
+        width: 40vw;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 25vw;
+    }
+
+    .image {
+        width: 50vw;
+        margin-top: 4vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home{
+        flex-direction: column;
+    }
+    .info {
+        width: 90vw;
+    }
+
+    .btn {
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .info {
+        font-size: 1rem;
+        width: 95vw;
+    }
+
+    .btn {
+        width: 60vw;
+    }
 }

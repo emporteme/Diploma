@@ -9,7 +9,7 @@ import { BsArrowRight } from "react-icons/bs"
 import styles from '../styles/home.module.scss'
 
 
-export default function Index() {
+export default function HomePage() {
 	return (
 		<MainLayout spacing='0 5vw'>
 			<div className={styles.home}>
@@ -17,7 +17,7 @@ export default function Index() {
 					<div className='mainHeader'>We Help to <span style={{ color: '#757CFD' }}>Build</span> <br />
 						Your Dream
 					</div>
-					<div style={{ fontSize: '1.2rem', fontWeight: '500', width: '40vw' }}>
+					<div style={{ fontSize: '1.2rem', fontWeight: '500' }}>
 						We are always availed to consult on taking your higher
 						education to the next level so you can stay competitive in
 					</div>

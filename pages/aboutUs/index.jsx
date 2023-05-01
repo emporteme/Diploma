@@ -57,7 +57,7 @@ export default function Index() {
                 </div>
 
                 <p>
-                    We are proud to have worked on this project for the KazAeroSpace Hackathon and believe that our efforts have resulted in a valuable solution for users to find and explore shops in their area.
+                    We are proud to have worked on this project for the Diploma work and believe that our efforts have resulted in a valuable solution for users to find and explore universities in their area.
                 </p>
 
                 <div className={styles.dots}>
@@ -77,7 +77,7 @@ export default function Index() {
             <div className={styles["contact-us"]}>
                 <h1>Contact Us</h1>
                 <p>
-                    Our team at ShopLocater is always available to help you with any inquiries or concerns you may have. Whether you need assistance with finding a shop, getting directions, or exploring new stores, we're here to help. Please don't hesitate to get in touch with us through the contact information provided below.
+                    Our team at 'Diploma' is always available to help you with any inquiries or concerns you may have. Whether you need assistance with finding a university, getting directions, or exploring new stores, we're here to help. Please don't hesitate to get in touch with us through the contact information provided below.
                 </p>
                 <div className={styles["team-members"]}>
                     {/* Magzhan */}

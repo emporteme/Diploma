@@ -12,7 +12,9 @@ import styles from '../styles/footer.module.scss'
 export default function Footer() {
     return (
         <div className={styles.footer}>
-            <Logo />
+            <div className={styles.logo}>
+                <Logo />
+            </div>
             <div className={styles.info}>
                 <div className={styles.logo}>
                     <div className={styles.slogan}>

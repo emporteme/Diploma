@@ -1,5 +1,5 @@
 import MainLayout from '../../components/MainLayout'
-export default function Index() {
+export default function Account() {
     return (
         <MainLayout spacing='0 5vw'>
             <h1>Search Bar to choose university</h1>

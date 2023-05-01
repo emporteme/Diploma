@@ -1,8 +1,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from 'next/router';
-//import { FaUser, FaBars } from "react-icons/fa";
-//import SearchBar from "../components/SearchBar";
 import { Logo } from '../components/Logo'
 import styles from "../styles/header.module.scss";
 
@@ -31,7 +29,7 @@ export default function Header() {
             <>
                 <Logo />
             </>
-            <div className={styles.gap}>
+            <>
                 <div className={showLinks ? `${styles.links} ${styles.show}` : `${styles.links}`}>
                     <ul className="mainText">
                         <li className={router.pathname === '/' ? `${styles.activeHeader}` : ''}><Link href="/">Home</Link></li>
@@ -41,12 +39,12 @@ export default function Header() {
                         <li className={router.pathname === '/country' ? `${styles.activeHeader}` : ''}><Link href="/country">Country</Link></li>
                     </ul>
                 </div>
-                <Link href={'/apply'}>
-                    <div className={router.pathname === '/apply' ? `${styles.activeBtn} ${styles.btn}` : `${styles.btn}`} >
-                        <div className="mainText">Apply</div>
+                <Link href={'/account'}>
+                    <div className={router.pathname === '/account' ? `${styles.activeBtn} ${styles.btn}` : `${styles.btn}`} >
+                        <div className="mainText">Account</div>
                     </div>
                 </Link>
-            </div>
+            </>
 
             <div className={showLinks ? `${styles.burger} ${styles.active}` : `${styles.burger}`} onClick={toggleShowLinks}>
                 <div></div>

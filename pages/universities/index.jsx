@@ -50,8 +50,8 @@ export default function Universities() {
 									<div className='mainText'>{API.fields.university_name}</div>
 									<div className='subText'>{truncateDescription(API.fields.description)}</div>
 									<div className={styles.flex}>
-										<Link href={'/apply'}>
-											<div className={styles.btn}>Apply</div>
+										<Link href={`/universities/${API.pk}`}>
+											<div className={styles.btn}>See more</div>
 										</Link>
 									</div>
 								</div>
