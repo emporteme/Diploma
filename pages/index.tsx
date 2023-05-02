@@ -21,7 +21,7 @@ export default function HomePage() {
 						We are always availed to consult on taking your higher
 						education to the next level so you can stay competitive in
 					</div>
-					<Link href={'/apply'}>
+					<Link href={'/universities'}>
 						<div className={styles.btn}>
 							<div className='mainText'>Apply Online </div>
 							<BsArrowRight />
