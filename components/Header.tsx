@@ -34,7 +34,6 @@ export default function Header() {
                     <ul className="mainText">
                         <li className={router.pathname === '/' ? `${styles.activeHeader}` : ''}><Link href="/">Home</Link></li>
                         <li className={router.pathname === '/universities' ? `${styles.activeHeader}` : ''}><Link href="/universities">Universities</Link></li>
-                        <li className={router.pathname === '/rating' ? `${styles.activeHeader}` : ''}><Link href="/rating">Rating</Link></li>
                         <li className={router.pathname === '/aboutUs' ? `${styles.activeHeader}` : ''}><Link href="/aboutUs">About us</Link></li>
                         <li className={router.pathname === '/country' ? `${styles.activeHeader}` : ''}><Link href="/country">Country</Link></li>
                     </ul>
