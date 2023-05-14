@@ -54,6 +54,12 @@
         }
     }
 
+    .universityDetails {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
     .navbar {
         max-height: 80vh; // Modify this as per your requirements
         overflow-y: auto; // This will add the scrollbar
