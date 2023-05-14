@@ -36,13 +36,9 @@ export default function Header() {
                         <li className={router.pathname === '/universities' ? `${styles.activeHeader}` : ''}><Link href="/universities">Universities</Link></li>
                         <li className={router.pathname === '/aboutUs' ? `${styles.activeHeader}` : ''}><Link href="/aboutUs">About us</Link></li>
                         <li className={router.pathname === '/country' ? `${styles.activeHeader}` : ''}><Link href="/country">Country</Link></li>
+                        <li className={router.pathname === '/favourites' ? `${styles.activeHeader}` : ''}><Link href="/favourites">Favourites</Link></li>
                     </ul>
                 </div>
-                <Link href={'/account'}>
-                    <div className={router.pathname === '/account' ? `${styles.activeBtn} ${styles.btn}` : `${styles.btn}`} >
-                        <div className="mainText">Account</div>
-                    </div>
-                </Link>
             </>
 
             <div className={showLinks ? `${styles.burger} ${styles.active}` : `${styles.burger}`} onClick={toggleShowLinks}>

@@ -1,12 +1,38 @@
 /* eslint-disable @next/next/no-img-element */
 import MainLayout from '../../components/MainLayout';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import styles from '../../styles/universities.module.scss';
 import unikData from '../../data/unik.json';
+import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai';
+
 
 export default function Universities() {
 	const [search, setSearch] = useState('');
+	const [favorites, setFavorites] = useState([]);
+
+	useEffect(() => {
+		const storedFavorites = localStorage.getItem('favorites');
+		if (storedFavorites) {
+			setFavorites(JSON.parse(storedFavorites));
+		}
+	}, []);
+
+	const addToFavorites = (university) => {
+		const newFavorites = [...favorites, university];
+		setFavorites(newFavorites);
+		localStorage.setItem('favorites', JSON.stringify(newFavorites));
+	};
+
+	const removeFromFavorites = (universityId) => {
+		const newFavorites = favorites.filter(university => university.pk !== universityId);
+		setFavorites(newFavorites);
+		localStorage.setItem('favorites', JSON.stringify(newFavorites));
+	};
+
+	const isFavorite = (universityId) => {
+		return favorites.some(university => university.pk === universityId);
+	};
 
 	const truncateDescription = (description, maxLength = 125) => {
 		if (description.length > maxLength) {
@@ -42,8 +68,8 @@ export default function Universities() {
 							);
 						})
 						.map((API) => (
-							<Link href={`/universities/${API.pk}`} key={API.pk}>
-								<div className={styles.item}>
+							<>
+								<div className={styles.item} key={API.pk}>
 									<div className={styles.image}>
 										<img src={API.fields.logo} alt={API.fields.short_name} />
 									</div>
@@ -53,9 +79,21 @@ export default function Universities() {
 										<Link href={`/universities/${API.pk}`}>
 											<div className={styles.btn}>See more</div>
 										</Link>
+										{isFavorite(API.pk) ? (
+											<div onClick={() => removeFromFavorites(API.pk)}>
+												<AiFillHeart size={20} />
+											</div>
+										) : (
+											<div onClick={(e) => {
+												e.preventDefault();
+												addToFavorites(API);
+											}}>
+												<AiOutlineHeart size={20} />
+											</div>
+										)}
 									</div>
 								</div>
-							</Link>
+							</>
 						))}
 				</div>
 			</div>

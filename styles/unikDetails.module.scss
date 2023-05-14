@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: left;
     gap: 1rem;
+    min-height: 100vh;
 
     h1 {
         font-size: 2rem;
@@ -50,6 +51,63 @@
             text-align: justify;
             list-style-type: disc;
             margin-left: 2rem;
+        }
+    }
+
+    .navbar {
+        max-height: 80vh; // Modify this as per your requirements
+        overflow-y: auto; // This will add the scrollbar
+        background-color: #f8f9fa;
+        padding: 1rem 0;
+        margin-bottom: 2rem;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        margin-right: 2rem;
+
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            margin: 0;
+            padding: 0;
+
+            li {
+                a {
+                    color: #0070f3;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        /* Customize scrollbar */
+        &::-webkit-scrollbar {
+            width: 8px;
+            /* width of the entire scrollbar */
+        }
+
+        &::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            /* color of the tracking area */
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: #888;
+            /* color of the scroll thumb */
+            border-radius: 20px;
+            /* roundness of the scroll thumb */
+            border: 3px solid #f1f1f1;
+            /* creates padding around scroll thumb */
+        }
+
+        &::-webkit-scrollbar-thumb:hover {
+            background-color: #555;
+            /* color of the scroll thumb on hover */
         }
     }
 }
