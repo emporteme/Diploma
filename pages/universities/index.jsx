@@ -73,8 +73,8 @@ export default function Universities() {
 									<div className={styles.image}>
 										<img src={API.fields.logo} alt={API.fields.short_name} />
 									</div>
-									<div className='mainText'>{API.fields.university_name}</div>
-									<div className='subText'>{truncateDescription(API.fields.description)}</div>
+									<div className={styles.title}>{API.fields.university_name}</div>
+									<div className={styles.description}>{truncateDescription(API.fields.description)}</div>
 									<div className={styles.flex}>
 										<Link href={`/universities/${API.pk}`}>
 											<div className={styles.btn}>See more</div>

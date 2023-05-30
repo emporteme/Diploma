@@ -3,7 +3,7 @@
 import MainLayout from '../../components/MainLayout'
 // import styles
 import styles from '../../styles/aboutUs.module.scss'
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaTelegram } from "react-icons/fa";
+import { FaPhone, FaEnvelope, FaInstagram, FaLinkedin, FaTelegram } from "react-icons/fa";
 import { SiGithub } from "react-icons/si";
 
 export default function Index() {

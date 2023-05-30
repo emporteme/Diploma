@@ -18,7 +18,7 @@ export default function Footer() {
             <div className={styles.info}>
                 <div className={styles.logo}>
                     <div className={styles.slogan}>
-                        Our website is a platform that provides information and resources to individuals who are interested in pursuing higher education. We offer a comprehensive list of universities and educational programs from around the world, with detailed information about each institution's location, study programs, admission criteria, and more. Our goal is to help students make informed decisions about their education and provide them with the tools they need to succeed. Whether you're looking for undergraduate or graduate programs, our website has everything you need to start your journey towards academic excellence.
+                        Our website is a platform that provides information and resources to individuals who are interested in pursuing higher education
                     </div>
                 </div>
                 <div className={styles.pageLinks}>
