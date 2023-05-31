@@ -24,10 +24,11 @@ ApiClient.interceptors.request.use(config => {
 // Basic API links
 const unikUrl = '/django_api/universities';
 
+
 ApiClient.getUnik = async () => {
     const response = await ApiClient.get(unikUrl);
-    const data = await response.json(); // Parse the response as JSON
-    return data;
+    return response.data;
 };
+
 
 export default ApiClient;

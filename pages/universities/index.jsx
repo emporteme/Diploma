@@ -3,20 +3,28 @@ import MainLayout from '../../components/MainLayout';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import styles from '../../styles/universities.module.scss';
-import unikData from '../../data/unik.json';
+// import unikData from '../../data/unik.json';
 import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai';
-
+import ApiClient from '../../api/ApiClient';
 
 export default function Universities() {
 	const [search, setSearch] = useState('');
 	const [favorites, setFavorites] = useState([]);
+	const [universities, setUniversities] = useState([]);
+
 
 	useEffect(() => {
 		const storedFavorites = localStorage.getItem('favorites');
 		if (storedFavorites) {
 			setFavorites(JSON.parse(storedFavorites));
 		}
+		fetchUniversities();
 	}, []);
+
+	const fetchUniversities = async () => {
+		const response = await ApiClient.getUnik();
+		setUniversities(response);
+	};
 
 	const addToFavorites = (university) => {
 		const newFavorites = [...favorites, university];
@@ -53,7 +61,7 @@ export default function Universities() {
 					/>
 				</div>
 				<div className={styles.list}>
-					{unikData
+					{universities
 						.filter((API) => {
 							return (
 								API.fields.university_name
