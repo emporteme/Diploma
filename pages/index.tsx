@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import MainLayout from '../components/MainLayout'
 import { FeaturedUniversities } from '../components/FeaturedUniversities'
+import News from "../components/News"
 // import icons
 import { BsArrowRight } from "react-icons/bs"
 // import styles
@@ -32,6 +33,7 @@ export default function HomePage() {
 					<img src="/main.svg" alt="Photo of girl and guy" />
 				</div>
 			</div>
+			<News />
 			<FeaturedUniversities />
 		</MainLayout>
 	)
