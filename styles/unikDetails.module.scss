@@ -5,6 +5,32 @@
     gap: 1rem;
     min-height: 100vh;
 
+    .gallery {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .image {
+            width: 100%;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 100%;
+                border-radius: 0.5rem;
+            }
+        }
+
+
+    }
+
+    .logo {
+        margin: 0 auto;
+        border-radius: 1rem;
+    }
+
     h1 {
         font-size: 2rem;
         font-weight: bold;
