@@ -7,7 +7,7 @@ import styles from '../../styles/universities.module.scss';
 import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai';
 import ApiClient from '../../api/ApiClient';
 
-export default function Universities() {
+export default function Professions() {
 	const [search, setSearch] = useState('');
 	const [favorites, setFavorites] = useState([]);
 	const [universities, setUniversities] = useState([]);
@@ -25,10 +25,10 @@ export default function Universities() {
 	}, []);
 
 	const fetchUniversities = async () => {
-		const response = await ApiClient.getUnik();
-		console.log('Single university: ', response[0]); // logging single university data
+		const response = await ApiClient.getProfessions();
+		console.log('Single Profession: ', response[0]); // logging single university data
 		setUniversities(response);
-		console.log('Universities: ', response);
+		console.log('Professions: ', response);
 	};
 
 
@@ -39,13 +39,13 @@ export default function Universities() {
 	};
 
 	const removeFromFavorites = (universityId) => {
-		const newFavorites = favorites.filter(university => university.id !== universityId);
+		const newFavorites = favorites.filter(university => university.pk !== universityId);
 		setFavorites(newFavorites);
 		localStorage.setItem('favorites', JSON.stringify(newFavorites));
 	};
 
 	const isFavorite = (universityId) => {
-		return favorites.some(university => university.id === universityId);
+		return favorites.some(university => university.pk === universityId);
 	};
 
 	const truncateDescription = (description, maxLength = 125) => {
@@ -172,9 +172,6 @@ export default function Universities() {
 								return (
 									(search === "" || API.university_name.toLowerCase().includes(search.toLowerCase()) || API.short_name.toLowerCase().includes(search.toLowerCase()) || API.description.toLowerCase().includes(search.toLowerCase())) &&
 									// New filter conditions
-									((englishChecked && API.language.some(lang => lang.name.toLowerCase() === "english")) ||
-										(russianChecked && API.language.some(lang => lang.name.toLowerCase() === "russian")) ||
-										(kazakhChecked && API.language.some(lang => lang.name.toLowerCase() === "kazakh"))) &&
 									(yearFilter === "" || API.established_year >= parseInt(yearFilter)) &&
 									(tuitionFilterMin === "" || API.tuition_price >= parseInt(tuitionFilterMin)) &&
 									(tuitionFilterMax === "" || API.tuition_price <= parseInt(tuitionFilterMax)) &&
@@ -184,30 +181,28 @@ export default function Universities() {
 							})
 							.map((API) => (
 								<>
-									<div className={styles.item} key={API.id}>
+									<div className={styles.item} key={API.pk}>
 										<div className={styles.image}>
-											<img src={API.logo} alt={API.short_name} />
+											<img src={API.main_image} alt={API.short_name} />
 										</div>
-										<div className={styles.right}>
-											<div className={styles.title}>{API.university_name}</div>
-											<div className={styles.description}>{truncateDescription(API.description)}</div>
-											<div className={styles.flex}>
-												<Link href={`/universities/${API.id}`}>
-													<div className={styles.btn}>See more</div>
-												</Link>
-												{isFavorite(API.id) ? (
-													<div onClick={() => removeFromFavorites(API.id)}>
-														<AiFillHeart size={20} />
-													</div>
-												) : (
-													<div onClick={(e) => {
-														e.preventDefault();
-														addToFavorites(API);
-													}}>
-														<AiOutlineHeart size={20} />
-													</div>
-												)}
-											</div>
+										<div className={styles.title}>{API.profession_name}</div>
+										<div className={styles.description}>{truncateDescription(API.description)}</div>
+										<div className={styles.flex}>
+											<Link href={`/professions/${API.id}`}>
+												<div className={styles.btn}>See more</div>
+											</Link>
+											{isFavorite(API.pk) ? (
+												<div onClick={() => removeFromFavorites(API.pk)}>
+													<AiFillHeart size={20} />
+												</div>
+											) : (
+												<div onClick={(e) => {
+													e.preventDefault();
+													addToFavorites(API);
+												}}>
+													<AiOutlineHeart size={20} />
+												</div>
+											)}
 										</div>
 									</div>
 								</>

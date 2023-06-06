@@ -16,10 +16,10 @@ export default function Favourites() {
     }, []);
 
     const truncateDescription = (description, maxLength = 125) => {
-        if (description.length > maxLength) {
+        if (description && typeof description === 'string' && description.length > maxLength) {
             return description.substring(0, maxLength) + '...';
         } else {
-            return description;
+            return description || "";  // if description is undefined or null, return an empty string
         }
     };
 
@@ -30,13 +30,13 @@ export default function Favourites() {
     };
 
     const removeFromFavorites = (universityId) => {
-        const newFavorites = favorites.filter(university => university.pk !== universityId);
+        const newFavorites = favorites.filter(university => university.id !== universityId);
         setFavorites(newFavorites);
         localStorage.setItem('favorites', JSON.stringify(newFavorites));
     };
 
     const isFavorite = (universityId) => {
-        return favorites.some(university => university.pk === universityId);
+        return favorites.some(university => university.id === universityId);
     };
 
     return (
@@ -45,28 +45,30 @@ export default function Favourites() {
                 <div className={styles.list}>
                     {favorites.map((API) => (
                         <>
-                            <div className={styles.item} key={API.pk}>
+                            <div className={styles.item} key={API.id}>
                                 <div className={styles.image}>
-                                    <img src={API.fields.logo} alt={API.fields.short_name} />
+                                    <img src={API.logo} alt={API.short_name} />
                                 </div>
-                                <div className='mainText'>{API.fields.university_name}</div>
-                                <div className='subText'>{truncateDescription(API.fields.description)}</div>
-                                <div className={styles.flex}>
-                                    <Link href={`/universities/${API.pk}`}>
-                                        <div className={styles.btn}>See more</div>
-                                    </Link>
-                                    {isFavorite(API.pk) ? (
-                                        <div onClick={() => removeFromFavorites(API.pk)}>
-                                            <AiFillHeart size={20} />
-                                        </div>
-                                    ) : (
-                                        <div onClick={(e) => {
-                                            e.preventDefault();
-                                            addToFavorites(API);
-                                        }}>
-                                            <AiOutlineHeart size={20} />
-                                        </div>
-                                    )}
+                                <div className={styles.right}>
+                                    <div className={styles.title}>{API.university_name}</div>
+                                    <div className={styles.description}>{truncateDescription(API.description)}</div>
+                                    <div className={styles.flex}>
+                                        <Link href={`/universities/${API.id}`}>
+                                            <div className={styles.btn}>See more</div>
+                                        </Link>
+                                        {isFavorite(API.id) ? (
+                                            <div onClick={() => removeFromFavorites(API.id)}>
+                                                <AiFillHeart size={20} />
+                                            </div>
+                                        ) : (
+                                            <div onClick={(e) => {
+                                                e.preventDefault();
+                                                addToFavorites(API);
+                                            }}>
+                                                <AiOutlineHeart size={20} />
+                                            </div>
+                                        )}
+                                    </div>
                                 </div>
                             </div>
                         </>
