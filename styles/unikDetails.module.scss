@@ -84,18 +84,34 @@
         display: flex;
         flex-direction: column;
         gap: 2rem;
+        color: black;
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            background-color: #F0F2FC;
+            border-radius: 1rem;
+            padding: 1rem;
+        }
+
+        a {
+            color: black;
+        }
     }
 
     .navbar {
         max-height: 80vh; // Modify this as per your requirements
         overflow-y: auto; // This will add the scrollbar
-        background-color: #f8f9fa;
+        background-color: #F0F2FC;
         padding: 1rem 0;
         margin-bottom: 2rem;
         position: sticky;
-        top: 0;
+        top: 2rem;
         z-index: 10;
         margin-right: 2rem;
+        padding: 1rem;
+        border-radius: 1rem;
 
         ul {
             list-style: none;
@@ -107,8 +123,9 @@
 
             li {
                 a {
-                    color: #0070f3;
+                    color: #066FCC;
                     text-decoration: none;
+                    font-weight: 600;
 
                     &:hover {
                         text-decoration: underline;

@@ -15,7 +15,7 @@ export default function Map({ universities }) {
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
                 {universities.map((university) => (
-                    <Marker key={university.pk} position={[university.latitude, university.longitude]}>
+                    <Marker key={university.id} position={[university.latitude, university.longitude]}>
                         <Link href={`/universities/${university.id}`}>
                             <Popup>
                                 <div>

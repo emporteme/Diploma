@@ -5,6 +5,9 @@ import { useEffect, useState } from "react";
 // import unikData from "../../data/unik.json";
 import styles from "../../styles/unikDetails.module.scss"
 import ApiClient from '../../api/ApiClient';
+import { AiFillFacebook, AiFillInstagram, AiFillYoutube } from 'react-icons/ai'
+import Link from "next/link";
+
 
 export default function UniversityDetails() {
     const router = useRouter();
@@ -85,6 +88,7 @@ export default function UniversityDetails() {
                             <li><a href="#Location">Location</a></li>
                             <li><a href="#Description">Description</a></li>
                             <li><a href="#Website">Website</a></li>
+                            <li><a href="#Links">Links</a></li>
                             <li><a href="#Established_Year">Established Year</a></li>
                             <li><a href="#Type">Study Type</a></li>
                             <li><a href="#Language">Study Language</a></li>
@@ -115,13 +119,42 @@ export default function UniversityDetails() {
                     </div>
                     <div className={styles.universityDetails} style={{ width: '75%' }}>
                         <p id="Location"><strong>Location:</strong> {university.location}</p>
-                        <p id="Description"><strong>Description:</strong> {university.description}</p>
+                        <p id="Description"><strong>Description:</strong> {university.about_university}</p>
                         <p id="Website"><strong>Website:</strong> <a href={university.website}>{university.website}</a></p>
+                        <p id="Specialities"><strong>Specialities:</strong></p>
+                        <ul style={{ display: 'flex', alignItems: 'start', flexWrap: 'wrap', flexDirection: 'row', width: '100%', gap: '1rem 0', marginTop: '-1rem' }}>
+                            {university.specialities.map((item, index) => (
+                                <div key={index}>
+                                    < li className={styles.box} >
+                                        <div style={{ textAlign: 'center', marginBottom: '1rem', letterSpacing: '2px' }}>
+                                            <b> {item.speciality_name} </b>
+                                        </div>
+                                        <div>
+                                            <b> Speciality code:</b> {item.speciality_code}
+                                        </div>
+                                        <div>
+                                            <b>  UNT Subjects:</b> {item.subject_1}, {item.subject_2}
+                                        </div>
+                                    </li>
+                                </div>
+                            ))}
+                        </ul>
+                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'start', gap: '1rem' }}>
+                            <p id="Links"><strong>Social Links:</strong></p>
+                            <Link target="_blank" href={`${university.facebook}`}>
+                                <AiFillFacebook size={40} />
+                            </Link>
+                            <Link target="_blank" href={`${university.instagram}`}>
+                                <AiFillInstagram size={40} />
+                            </Link>
+                            <Link target="_blank" href={`${university.youtube}`}>
+                                <AiFillYoutube size={40} />
+                            </Link>
+                        </div>
                         <p id="Established_Year"><strong>Established Year:</strong> {university.established_year}</p>
                         <p id="Language"><strong>Study Language:</strong> {university.language.map(lang => lang.name).join(", ")}</p>
-                        {/* <p id="Year"><strong>Study Year:</strong> {university.study_year.join(", ")}</p> */}
+                        <p id="Year"><strong>Study Year:</strong></p>
                         <p id="Student"><strong>Student Count:</strong> {university.student_count}</p>
-                        <p id="Faculty"><strong>Faculty Count:</strong> {university.faculty_count}</p>
                         {/* <p id="Faculties"><strong>Faculties:</strong> {university.faculty.join(", ")}</p> */}
                         {/* <p id="Programs"><strong>Educational Programs:</strong></p>
                         <ul>
@@ -130,10 +163,10 @@ export default function UniversityDetails() {
                             ))}
                         </ul> */}
                         <p id="Email"><strong>Email:</strong> {university.email}</p>
-                        {/* <p id="Phone"><strong>Phone Number:</strong> {university.phone_number.join(", ")}</p> */}
+                        <p id="Phone"><strong>Phone Number:</strong> {university.phone_number}</p>
                         <p id="UNT"><strong>Minimum UNT Score:</strong> {university.min_unt}</p>
                         <p id="IELTS"><strong>Minimum IELTS Score:</strong> {university.min_ielts}</p>
-                        <p id="Tuition"><strong>Tuition Fee:</strong> {university.tuition}</p>
+                        <p id="Tuition"><strong>Tuition Fee:</strong> {university.tuition_price} tg</p>
                         {/* <p id="Criteria"><strong>Admission Criteria:</strong> {university.admission_criteria.join(", ")}</p> */}
                         <p id="Dormitory"><strong>Dormitory:</strong> {university.dormitory}</p>
                         <p id="Life"><strong>Student Life:</strong> {university.student_life}</p>
@@ -150,12 +183,6 @@ export default function UniversityDetails() {
                         <p id="Deadline"><strong>Application Deadline:</strong> {university.application_deadline}</p>
                         <p id="Acceptance"><strong>Acceptance Rate:</strong> {university.acceptance_rate}%</p>
                         <p id="Internship"><strong>Internship Opportunities:</strong> {university.internship_opportunities}</p>
-                        <p id="Specialities"><strong>Specialities:</strong></p>
-                        <ul>
-                            {university.specialities.map((item, index) => (
-                                <li key={index}>{item.speciality_name}</li>
-                            ))}
-                        </ul>
                         {/* <p id="Abroad"><strong>Study Abroad Programs:</strong></p>
                         <ul>
                             {university.study_abroad_programs.map((item, index) => (
@@ -170,7 +197,7 @@ export default function UniversityDetails() {
                         </ul> */}
                     </div>
                 </div>
-            </div>
-        </MainLayout>
+            </div >
+        </MainLayout >
     );
 }
