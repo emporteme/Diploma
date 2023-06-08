@@ -24,7 +24,7 @@ export default function Footer() {
                 <div className={styles.pageLinks}>
                     <Link href={'/'}>Home</Link>
                     <Link href={'/universities'}>Universities</Link>
-                    <Link href={'/rating'}>Rating</Link>
+                    <Link href={'/professions'}>Professions</Link>
                     <Link href={'/aboutUs'}>About Us</Link>
                     <Link href={'/country'}>Country</Link>
                 </div>

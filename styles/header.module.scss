@@ -41,7 +41,7 @@
 }
 
 .links ul li a:hover {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .search {
@@ -97,9 +97,7 @@
 }
 
 .activeHeader {
-    font-weight: 600;
-    border-bottom: solid 0.1rem #9997D6;
-    border-radius: 0.2rem;
+    font-weight: 700;
 }
 
 /* Responsive styles */
@@ -120,11 +118,11 @@
 
     .links {
         position: fixed;
-        top: 5rem;
+        top: 4rem;
         left: 0;
         width: 100%;
-        height: calc(100% - 5rem);
-        background-color: #7ce3ff;
+        height: calc(100% - 4rem);
+        background-color: #F0F2FC ;
         padding: 2rem;
         display: none;
         transition: all 0.3s ease-in-out;
@@ -137,7 +135,7 @@
 
     .links ul {
         flex-direction: column;
-        gap: 2vw;
+        gap: 5vw;
     }
 
     .burger {

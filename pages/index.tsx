@@ -15,7 +15,7 @@ export default function HomePage() {
 		<MainLayout spacing='0 5vw'>
 			<div className={styles.home}>
 				<div className={styles.info}>
-					<div className='mainHeader'>We Help to <span style={{ color: '#757CFD' }}>Build</span> <br />
+					<div className='mainHeader'>We Help to <span style={{ color: '#066FCC' }}>Build</span> <br />
 						Your Dream
 					</div>
 					<div style={{ fontSize: '1.2rem', fontWeight: '500' }}>
@@ -24,7 +24,7 @@ export default function HomePage() {
 					</div>
 					<Link href={'/universities'}>
 						<div className={styles.btn}>
-							<div className='mainText'>Apply Online </div>
+							<div>See universities</div>
 							<BsArrowRight />
 						</div>
 					</Link>

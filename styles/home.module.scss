@@ -14,15 +14,29 @@
 
 .btn {
     margin-top: 4vh;
-    border: solid #727CFF;
-    padding: 2vh 0;
+    border: solid #066FCC;
+    padding: 0.8rem 0;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.5vw;
-    background-color: #727CFF;
+    background-color: #F0F2FC;
     border-radius: 1vw;
-    width: 15vw;
+    width: 18vw;
+    color: black;
+    font-size: 1.1rem;
+    transition: 0.3s all ease;
+    font-weight: 700;
+
+    &:hover {
+        color: white;
+        background-color: #066FCC;
+    }
+
+    a {
+        color: white;
+        font-weight: 600;
+    }
 }
 
 .image {
@@ -57,9 +71,10 @@
 }
 
 @media screen and (max-width: 768px) {
-    .home{
+    .home {
         flex-direction: column;
     }
+
     .info {
         width: 90vw;
     }
