@@ -7,21 +7,19 @@ import styles from '../../styles/universities.module.scss';
 import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai';
 import ApiClient from '../../api/ApiClient';
 
-export default function Professions() {
+export default function Specialities() {
 	const [search, setSearch] = useState('');
 	const [universities, setUniversities] = useState([]);
-
-
 
 	useEffect(() => {
 		fetchUniversities();
 	}, []);
 
 	const fetchUniversities = async () => {
-		const response = await ApiClient.getProfessions();
-		console.log('Single getProfessions: ', response[0]); // logging single university data
+		const response = await ApiClient.getSpecialties();
+		console.log('Single getSpecialties: ', response[0]); // logging single university data
 		setUniversities(response);
-		console.log('getProfessions: ', response);
+		console.log('getSpecialties: ', response);
 	};
 
 	const truncateDescription = (description, maxLength = 125) => {
@@ -33,11 +31,11 @@ export default function Professions() {
 	};
 
 	// Filter states
+	const [speciality_code, setSpeciality_code] = useState("");
+	const [sub1, setSub1] = useState("");
+	const [sub2, setSub2] = useState("");
 	const [tuitionFilterMin, setTuitionFilterMin] = useState("");
 	const [tuitionFilterMax, setTuitionFilterMax] = useState("");
-	const [high, setHigh] = useState(true);
-	const [medium, setMedium] = useState(true);
-	const [low, setLow] = useState(true);
 
 
 	return (
@@ -56,33 +54,35 @@ export default function Professions() {
 				<div style={{ display: 'flex', position: 'relative', justifyContent: 'space-between', alignItems: 'start', width: '100%' }}>
 					<div className={styles.sidebar}>
 						<div>
-							<h3>Demand</h3>
-							<div style={{ width: '60%' }}>
+							<h3>Speciality code</h3>
+							<input
+								type='text'
+								onChange={(e) => {
+									setSpeciality_code(e.target.value);
+									console.log('Year Filter:', e.target.value);
+								}}
+								placeholder='Speciality code'
+							/>
+						</div>
+						<div>
+							<h3>UNT subjects</h3>
+							<div style={{ display: 'flex', justifyContent: 'space-between' }}>
 								<input
-									type="checkbox"
-									id="high"
-									checked={high}
-									onChange={(e) => setHigh(e.target.checked)}
+									type='text'
+									onChange={(e) => {
+										setSub1(e.target.value);
+										console.log('Year Filter:', e.target.value);
+									}}
+									placeholder='Subject 1'
 								/>
-								<label htmlFor="high">High</label>
-							</div>
-							<div style={{ width: '60%' }}>
 								<input
-									type="checkbox"
-									id="medium"
-									checked={medium}
-									onChange={(e) => setMedium(e.target.checked)}
+									type='text'
+									onChange={(e) => {
+										setSub2(e.target.value);
+										console.log('Year Filter:', e.target.value);
+									}}
+									placeholder='Subject 2'
 								/>
-								<label htmlFor="medium">Medium</label>
-							</div>
-							<div style={{ width: '60%' }}>
-								<input
-									type="checkbox"
-									id="low"
-									checked={low}
-									onChange={(e) => setLow(e.target.checked)}
-								/>
-								<label htmlFor="low">Low</label>
 							</div>
 						</div>
 						<div>
@@ -111,27 +111,26 @@ export default function Professions() {
 						{universities
 							.filter((API) => {
 								return (
-									(search === "" || API.profession_name.toLowerCase().includes(search.toLowerCase()) || API.description.toLowerCase().includes(search.toLowerCase())) &&
+									(search === "" || API.speciality_name.toLowerCase().includes(search.toLowerCase()) || API.speciality_code.toLowerCase().includes(search.toLowerCase()) || API.description.toLowerCase().includes(search.toLowerCase())) &&
 									// New filter conditions
-									((high && API.demand.toLowerCase() === "high")) ||
-									((medium && API.demand.toLowerCase() === "medium")) ||
-									((low && API.demand.toLowerCase() === "low")) &&
+									(speciality_code === "" || API.speciality_code.toLowerCase().includes(speciality_code.toLowerCase())) &&
+									(sub1 === "" || API.subject_1.toLowerCase().includes(sub1.toLowerCase())) &&
+									(sub2 === "" || API.subject_2.toLowerCase().includes(sub2.toLowerCase())) &&
 									(tuitionFilterMin === "" || API.salary_from <= parseInt(tuitionFilterMin)) &&
 									(tuitionFilterMax === "" || API.salary_to >= parseInt(tuitionFilterMax))
-
 								);
 							})
 							.map((API) => (
 								<>
 									<div className={styles.item} key={API.id}>
 										<div className={styles.image}>
-											<img src={API.main_image} alt={API.profession_name} />
+											<img src={API.main_image} alt={API.main_image} />
 										</div>
 										<div className={styles.right}>
-											<div className={styles.title}>{API.profession_name}</div>
+											<div className={styles.title}>{API.speciality_name}</div>
 											<div className={styles.description}>{truncateDescription(API.description)}</div>
 											<div className={styles.flex}>
-												<Link href={`/professions/${API.id}`}>
+												<Link href={`specialities/${API.id}`}>
 													<div className={styles.btn}>See more</div>
 												</Link>
 											</div>

@@ -9,11 +9,11 @@ import { AiFillFacebook, AiFillInstagram, AiFillYoutube } from 'react-icons/ai'
 import Link from "next/link";
 
 
-export default function ProfessionsDetails() {
+export default function SpecialitiesDetails() {
     const router = useRouter();
     const [university, setUniversity] = useState({
         id: 0,
-        specialties: [],
+        universities: [],
         language: [],
         university_name: "",
         short_name: "",
@@ -46,7 +46,7 @@ export default function ProfessionsDetails() {
     useEffect(() => {
         const { id } = router.query;
         if (typeof id === "string") {
-            ApiClient.getProfessions().then(unikData => {
+            ApiClient.getSpecialties().then(unikData => {
                 const universityData = unikData.find(
                     (item) => item.id === parseInt(id)
                 );
@@ -64,12 +64,13 @@ export default function ProfessionsDetails() {
 
     return (
         <MainLayout
-            title={`Diploma | ${university?.profession_name}`}
+            title={`Diploma | ${university?.university_name}`}
             spacing="2vw 5vw"
         >
             <div className={styles.university}>
-                <h1>{university.profession_name}</h1>
-                <img src={university.main_image} className={styles.logo} alt={styles.main_image} />
+                <h1>{university.speciality_name}</h1>
+                <img src={university.main_image} className={styles.logo} alt={university.main_image} />
+                <h2>{university.speciality_code}</h2>
                 <div className={styles.gallery}>
                     <div className={styles.image}>
                         <img src={university.carousel_1} alt={university.carousel_1} />
@@ -84,40 +85,40 @@ export default function ProfessionsDetails() {
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
                     <div className={styles.navbar} style={{ width: '25%' }}>
                         <ul>
-                            <li><a href="#description">Description</a></li>
-                            <li><a href="#education">Education</a></li>
-                            <li><a href="#employment_outlook">Employment outlook</a></li>
-                            <li><a href="#Specialities">Specialities</a></li>
-                            <li><a href="#salary_range">Salary range</a></li>
-                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#Description">Description</a></li>
+                            <li><a href="#Specialities">Universities</a></li>
+                            <li><a href="#Phone">Subject 1</a></li>
+                            <li><a href="#Phone2">Subject 2</a></li>
+                            <li><a href="#Phone3">Job outlook</a></li>
+                            <li><a href="#Phone4">Salary range</a></li>
                         </ul>
                     </div>
                     <div className={styles.universityDetails} style={{ width: '75%' }}>
-                        <p id="description"><strong>Description:</strong> {university.description}</p>
-                        <p id="education"><strong>Education:</strong> {university.education}</p>
-                        <p id="employment_outlook"><strong>Employment outlook:</strong>{university.employment_outlook}</p>
-                        <p id="Specialities"><strong>Specialities:</strong></p>
+                        <p id="Description"><strong>Description:</strong> {university.description}</p>
+                        <p id="Specialities"><strong>Universities:</strong></p>
                         <ul style={{ display: 'flex', alignItems: 'start', flexWrap: 'wrap', flexDirection: 'row', width: '100%', gap: '1rem 0', marginTop: '-1rem' }}>
-                            {university.specialties.map((item, index) => (
+                            {university.universities.map((item, index) => (
                                 <div key={item.id}>
-                                    <Link href={`/specialities/${item.id}`}>
-                                        <li className={styles.box} >
+                                    <Link href={`/universities/${item.id}`}>
+                                        < li className={styles.box} >
                                             <div style={{ textAlign: 'center', marginBottom: '1rem', letterSpacing: '2px' }}>
-                                                <b> {item.speciality_name} </b>
+                                                <b> {item.university_name} </b>
                                             </div>
                                             <div>
-                                                <b> Speciality code:</b> {item.speciality_code}
+                                                <b> University code:</b> {item.university_code}
                                             </div>
                                             <div>
-                                                <b>  UNT Subjects:</b> {item.subject_1}, {item.subject_2}
+                                                <b> Short name:</b> {item.short_name}
                                             </div>
                                         </li>
                                     </Link>
                                 </div>
                             ))}
                         </ul>
-                        <p id="salary_range"><strong>Salary range:</strong> {university.salary_range}</p>
-                        <p id="skills"><strong>Skills:</strong> {university.skills}</p>
+                        <p id="Phone"><strong>Subject 1:</strong> {university.subject_1}</p>
+                        <p id="Phone2"><strong>Subject 2:</strong> {university.subject_2}</p>
+                        <p id="Phone3"><strong>Job outlook:</strong> {university.job_outlook}</p>
+                        <p id="Phone4"><strong>Salary range:</strong> {university.salary_range}</p>
                     </div>
                 </div>
             </div >

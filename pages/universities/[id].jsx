@@ -57,10 +57,27 @@ export default function UniversityDetails() {
         }
     }, [router.query]);
 
+    useEffect(() => {
+        if (university) {
+            const emailLink = document.getElementById('emailLink');
+            const phoneLink = document.getElementById('phoneLink');
+
+            if (emailLink) {
+                emailLink.href = 'mailto:' + university.email;
+                emailLink.textContent = university.email;
+            }
+
+            if (phoneLink) {
+                phoneLink.href = 'tel:' + university.phone_number;
+                phoneLink.textContent = university.phone_number;
+            }
+        }
+    }, [university]);
 
     if (!university) {
         return <div>Loading...</div>;
     }
+
 
     return (
         <MainLayout
@@ -120,22 +137,24 @@ export default function UniversityDetails() {
                     <div className={styles.universityDetails} style={{ width: '75%' }}>
                         <p id="Location"><strong>Location:</strong> {university.location}</p>
                         <p id="Description"><strong>Description:</strong> {university.about_university}</p>
-                        <p id="Website"><strong>Website:</strong> <a href={university.website}>{university.website}</a></p>
+                        <p id="Website"><strong>Website:</strong> <a href={university.website} target="_blank">{university.website}</a></p>
                         <p id="Specialities"><strong>Specialities:</strong></p>
                         <ul style={{ display: 'flex', alignItems: 'start', flexWrap: 'wrap', flexDirection: 'row', width: '100%', gap: '1rem 0', marginTop: '-1rem' }}>
                             {university.specialities.map((item, index) => (
                                 <div key={index}>
-                                    < li className={styles.box} >
-                                        <div style={{ textAlign: 'center', marginBottom: '1rem', letterSpacing: '2px' }}>
-                                            <b> {item.speciality_name} </b>
-                                        </div>
-                                        <div>
-                                            <b> Speciality code:</b> {item.speciality_code}
-                                        </div>
-                                        <div>
-                                            <b>  UNT Subjects:</b> {item.subject_1}, {item.subject_2}
-                                        </div>
-                                    </li>
+                                    <Link href={`/specialities/${item.id}`}>
+                                        < li className={styles.box} >
+                                            <div style={{ textAlign: 'center', marginBottom: '1rem', letterSpacing: '2px' }}>
+                                                <b> {item.speciality_name} </b>
+                                            </div>
+                                            <div>
+                                                <b> Speciality code:</b> {item.speciality_code}
+                                            </div>
+                                            <div>
+                                                <b>  UNT Subjects:</b> {item.subject_1}, {item.subject_2}
+                                            </div>
+                                        </li>
+                                    </Link>
                                 </div>
                             ))}
                         </ul>
@@ -155,46 +174,19 @@ export default function UniversityDetails() {
                         <p id="Language"><strong>Study Language:</strong> {university.language.map(lang => lang.name).join(", ")}</p>
                         <p id="Year"><strong>Study Year:</strong></p>
                         <p id="Student"><strong>Student Count:</strong> {university.student_count}</p>
-                        {/* <p id="Faculties"><strong>Faculties:</strong> {university.faculty.join(", ")}</p> */}
-                        {/* <p id="Programs"><strong>Educational Programs:</strong></p>
-                        <ul>
-                            {university.edu_programm.map((item, index) => (
-                                <li key={index}>{item}</li>
-                            ))}
-                        </ul> */}
-                        <p id="Email"><strong>Email:</strong> {university.email}</p>
-                        <p id="Phone"><strong>Phone Number:</strong> {university.phone_number}</p>
+                        <p id="Email"><strong>Email:</strong> <a id="emailLink" href="#">Loading...</a></p>
+                        <p id="Phone"><strong>Phone Number:</strong> <a id="phoneLink" href="#">Loading...</a></p>
                         <p id="UNT"><strong>Minimum UNT Score:</strong> {university.min_unt}</p>
                         <p id="IELTS"><strong>Minimum IELTS Score:</strong> {university.min_ielts}</p>
                         <p id="Tuition"><strong>Tuition Fee:</strong> {university.tuition_price} tg</p>
-                        {/* <p id="Criteria"><strong>Admission Criteria:</strong> {university.admission_criteria.join(", ")}</p> */}
                         <p id="Dormitory"><strong>Dormitory:</strong> {university.dormitory}</p>
                         <p id="Life"><strong>Student Life:</strong> {university.student_life}</p>
-                        {/* <p id="Alumni"><strong>Alumni:</strong></p>
-                        <ul>
-                            {university.alumni.map((item, index) => (
-                                <li key={index}>{item}</li>
-                            ))}
-                        </ul> */}
                         <p id="Athletics"><strong>Athletics:</strong> {university.athletics}</p>
                         <p id="Financial"><strong>Financial Aid:</strong> {university.financial_aid}</p>
-                        {/* <p id="Tests"><strong>Required Tests:</strong> {university.required_tests.join(", ")}</p> */}
                         <p id="Fee"><strong>Application Fee:</strong> {university.application_fee}</p>
                         <p id="Deadline"><strong>Application Deadline:</strong> {university.application_deadline}</p>
                         <p id="Acceptance"><strong>Acceptance Rate:</strong> {university.acceptance_rate}%</p>
                         <p id="Internship"><strong>Internship Opportunities:</strong> {university.internship_opportunities}</p>
-                        {/* <p id="Abroad"><strong>Study Abroad Programs:</strong></p>
-                        <ul>
-                            {university.study_abroad_programs.map((item, index) => (
-                                <li key={index}>{item}</li>
-                            ))}
-                        </ul> */}
-                        {/* <p id="Clubs"><strong>Clubs and Organizations:</strong></p>
-                        <ul>
-                            {university.clubs_and_organizations.map((item, index) => (
-                                <li key={index}>{item}</li>
-                            ))}
-                        </ul> */}
                     </div>
                 </div>
             </div >
