@@ -23,7 +23,7 @@ export default function News() {
 
     return (
         <>
-            <div style={{ textAlign: 'center', fontSize: '1.5rem', fontWeight: '600', marginTop: '2rem' }}>News</div>
+            <div style={{ textAlign: 'center', fontSize: '1.7rem', fontWeight: '600', marginTop: '2rem' }}>News</div>
             <div className={styles.news}>
                 {news
                     .map((API) => (

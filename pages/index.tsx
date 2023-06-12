@@ -4,6 +4,7 @@ import Link from 'next/link'
 import MainLayout from '../components/MainLayout'
 import { FeaturedUniversities } from '../components/FeaturedUniversities'
 import News from "../components/News"
+import Four from "../components/Four"
 // import icons
 import { BsArrowRight } from "react-icons/bs"
 // import styles
@@ -30,9 +31,10 @@ export default function HomePage() {
 					</Link>
 				</div>
 				<div className={styles.image}>
-					<img src="/main.svg" alt="Photo of girl and guy" />
+					<img src="/main.avif" alt="Photo of girl and guy" />
 				</div>
 			</div>
+			<Four />
 			<News />
 			<FeaturedUniversities />
 		</MainLayout>

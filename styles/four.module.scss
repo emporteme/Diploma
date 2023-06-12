@@ -1,0 +1,27 @@
+.four {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .block {
+        text-align: center;
+        width: 23%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        border-radius: 1rem;
+        background-color: #F0F2FC;
+        color: black;
+        transition: 0.3s all ease;
+
+        &:hover {
+            background-color: #066FCC;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}

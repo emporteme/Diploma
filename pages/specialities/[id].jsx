@@ -64,7 +64,7 @@ export default function SpecialitiesDetails() {
 
     return (
         <MainLayout
-            title={`Diploma | ${university?.university_name}`}
+            title={`UniTree | ${university?.university_name}`}
             spacing="2vw 5vw"
         >
             <div className={styles.university}>

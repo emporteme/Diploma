@@ -106,7 +106,7 @@
 
 .title {
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 700;
     height: 3rem;
 }
 
@@ -114,13 +114,17 @@
     font-size: 0.8rem;
     font-weight: 400;
     height: 6rem;
+
+    a {
+        color: black;
+    }
 }
 
 .sidebar {
     width: 20%;
     padding: 0.5rem;
     position: sticky;
-    top: 2rem;
+    top: 5rem;
     border: solid #066FCC;
     border-radius: 1rem;
 

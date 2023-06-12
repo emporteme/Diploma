@@ -3,8 +3,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1vh 5vw;
+    padding: 2vh 5vw;
     width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .logo {
@@ -122,7 +127,7 @@
         left: 0;
         width: 100%;
         height: calc(100% - 4rem);
-        background-color: #F0F2FC ;
+        background-color: #F0F2FC;
         padding: 2rem;
         display: none;
         transition: all 0.3s ease-in-out;

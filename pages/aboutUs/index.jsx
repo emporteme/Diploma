@@ -77,7 +77,7 @@ export default function Index() {
             <div className={styles["contact-us"]}>
                 <h1>Contact Us</h1>
                 <p>
-                    Our team at 'Diploma' is always available to help you with any inquiries or concerns you may have. Whether you need assistance with finding a university, getting directions, or exploring new stores, we're here to help. Please don't hesitate to get in touch with us through the contact information provided below.
+                    Our team at 'UniTree' is always available to help you with any inquiries or concerns you may have. Whether you need assistance with finding a university, getting directions, or exploring new stores, we're here to help. Please don't hesitate to get in touch with us through the contact information provided below.
                 </p>
                 <div className={styles["team-members"]}>
                     {/* Magzhan */}
