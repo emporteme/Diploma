@@ -12,12 +12,24 @@ export default function Index() {
             <div className={styles["about-us"]}>
                 <h1>About Our Team</h1>
                 <p>
-                    We are a team of 3 dedicated professionals, each with their unique
+                    <span style={{ color: 'transparent' }}>g</span>  We are a team of 3 dedicated professionals, each with their unique
                     expertise and passion for creating an exceptional website for searching universities with
                     and without a map. Our collaboration has resulted in a platform that caters to the
-                    needs of users looking to find the best analitics experiences in their area.
+                    needs of users looking to find the best analytics experiences in their area.
                 </p>
-
+                <div className={styles.dots}>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div className={styles.image}>
+                    <img src="/about0.avif" alt="Team Photo 1" />
+                </div>
+                <div className={styles.dots}>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
                 <h2>Our Team Members:</h2>
                 <ul>
                     <li><strong>Magzhan</strong> - Frontend Developer (TypeScript and Next.js)</li>
@@ -26,19 +38,43 @@ export default function Index() {
                 </ul>
 
                 <p>
-                    Each member of our team has a diverse set of skills that contribute to
+                    <span style={{ color: 'transparent' }}>g</span> Each member of our team has a diverse set of skills that contribute to
                     the success of our platform. We have collaborated to create a seamless user
                     experience, from the frontend interface to the backend infrastructure.
                 </p>
-
+                <div className={styles.dots}>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div className={styles.image}>
+                    <img src="/about1.avif" alt="Team Photo 1" />
+                </div>
+                <div className={styles.dots}>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
                 <h2>Our Mission</h2>
                 <p>
-                    Our mission is to make it easy for users to discover the best universities in Astana by providing a reliable and user-friendly platform. We believe that by connecting people to local universities, we can help support higher education and foster a sense of academic community.
+                    <span style={{ color: 'transparent' }}>g</span> Our mission is to make it easy for users to discover the best universities in Astana by providing a reliable and user-friendly platform. We believe that by connecting people to local universities, we can help support higher education and foster a sense of academic community.
                 </p>
-
+                <div className={styles.dots}>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div className={styles.image}>
+                    <img src="/about3.avif" alt="Team Photo 1" />
+                </div>
+                <div className={styles.dots}>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
                 <h2>Our Vision</h2>
                 <p>
-                    Our vision is to become the go-to platform for users seeking a comprehensive and up-to-date directory of universities in Astana. We strive to continuously improve our platform, incorporating user feedback and the latest technology to create an even better experience for our users.
+                    <span style={{ color: 'transparent' }}>g</span> Our vision is to become the go-to platform for users seeking a comprehensive and up-to-date directory of universities in Astana. We strive to continuously improve our platform, incorporating user feedback and the latest technology to create an even better experience for our users.
                 </p>
 
 
@@ -48,7 +84,7 @@ export default function Index() {
                     <div></div>
                 </div>
                 <div className={styles.image}>
-                    <img src="/team1.jpg" alt="Team Photo 1" />
+                    <img src="/about4.avif" alt="Team Photo 1" />
                 </div>
                 <div className={styles.dots}>
                     <div></div>
@@ -57,7 +93,7 @@ export default function Index() {
                 </div>
 
                 <p>
-                    We are proud to have worked on this project for the Diploma work and believe that our efforts have resulted in a valuable solution for users to find and explore universities in their area.
+                    <span style={{ color: 'transparent' }}>g</span> We are proud to have worked on this project for the Diploma work and believe that our efforts have resulted in a valuable solution for users to find and explore universities in their area.
                 </p>
 
                 <div className={styles.dots}>
@@ -66,99 +102,9 @@ export default function Index() {
                     <div></div>
                 </div>
                 <div className={styles.image}>
-                    <img src="/team2.jpg" alt="Team Photo 2" />
-                </div>
-                <div className={styles.dots}>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <img src="/about2.avif" alt="Team Photo 2" />
                 </div>
             </div>
-            <div className={styles["contact-us"]}>
-                <h1>Contact Us</h1>
-                <p>
-                    Our team at 'UniTree' is always available to help you with any inquiries or concerns you may have. Whether you need assistance with finding a university, getting directions, or exploring new stores, we're here to help. Please don't hesitate to get in touch with us through the contact information provided below.
-                </p>
-                <div className={styles["team-members"]}>
-                    {/* Magzhan */}
-                    <div className={styles["team-member"]}>
-                        <h2>Magzhan</h2>
-                        <div className={styles["contact-method"]}>
-                            <FaPhone />
-                            <a href="tel:+77766860653">+7 (776) 686 06 53</a>
-                        </div>
-                        <div className={styles["contact-method"]}>
-                            <FaEnvelope />
-                            <a href="mailto:magzhan_volk@outlook.com">magzhan_volk@outlook.com</a>
-                        </div>
-                        <div className={styles["contact-method"]}>
-                            <SiGithub />
-                            <a href="https://github.com/emporteme" target="_blank" rel="noopener noreferrer">GitHub</a>
-                        </div>
-                        <div className={styles["contact-method"]}>
-                            <FaLinkedin />
-                            <a href="https://www.linkedin.com/in/magzhan-karatayev-87126b243/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                        </div>
-                        <div className={styles["contact-method"]}>
-                            <FaInstagram />
-                            <a href="https://instagram.com/emporteme?igshid=ZDdkNTZiNTM=" target="_blank" rel="noopener noreferrer">Instagram</a>
-                        </div>
-                        <div className={styles["contact-method"]}>
-                            <FaTelegram />
-                            <a href="https://t.me/emporteme" target="_blank" rel="noopener noreferrer">Telegram</a>
-                        </div>
-                    </div>
-                    {/* Danial */}
-                    <div className={styles["team-member"]}>
-                        <h2>Danial</h2>
-                        <div className={styles["contact-method"]}>
-                            <FaPhone />
-                            <a href="tel:+77760076001">+7 (776) 007 60 01</a>
-                        </div>
-                        <div className={styles["contact-method"]}>
-                            <FaEnvelope />
-                            <a href="mailto:danialserekov@gmail.com">danialserekov@gmail.com</a>
-                        </div>
-                        <div className={styles["contact-method"]}>
-                            <SiGithub />
-                            <a href="https://github.com/danialss" target="_blank" rel="noopener noreferrer">GitHub</a>
-                        </div>
-                        <div className={styles["contact-method"]}>
-                            <FaInstagram />
-                            <a href="https://www.instagram.com/daniallsk/" target="_blank" rel="noopener noreferrer">Instagram</a>
-                        </div>
-                        <div className={styles["contact-method"]}>
-                            <FaTelegram />
-                            <a href="https://t.me/daniallsk" target="_blank" rel="noopener noreferrer">Telegram</a>
-                        </div>
-                    </div>
-
-                    {/* Manas */}
-                    < div className={styles["team-member"]} >
-                        <h2>Manas</h2>
-                        <div className={styles["contact-method"]}>
-                            <FaPhone />
-                            <a href="tel:+77075693448">+7 (707) 569 3448</a>
-                        </div>
-                        <div className={styles["contact-method"]}>
-                            <FaEnvelope />
-                            <a href="mailto:iskandermns@gmail.com">iskandermns@gmail.com</a>
-                        </div>
-                        <div className={styles["contact-method"]}>
-                            <SiGithub />
-                            <a href="https://github.com/i2wnik" target="_blank" rel="noopener noreferrer">GitHub</a>
-                        </div>
-                        <div className={styles["contact-method"]}>
-                            <FaInstagram />
-                            <a href="https://www.instagram.com/oinamamenimen/" target="_blank" rel="noopener noreferrer">Instagram</a>
-                        </div>
-                        <div className={styles["contact-method"]}>
-                            <FaTelegram />
-                            <a href="https://t.me/oinamamenimen" target="_blank" rel="noopener noreferrer">Telegram</a>
-                        </div>
-                    </ div>
-                </div >
-            </div >
         </MainLayout>
     )
 }
