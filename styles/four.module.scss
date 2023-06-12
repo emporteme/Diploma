@@ -18,10 +18,19 @@
         color: black;
         transition: 0.3s all ease;
 
+        .color {
+            color: #066FCC;
+            transition: 0.3s all ease;
+        }
+
         &:hover {
             background-color: #066FCC;
-            color: white;
+            color: white !important;
             cursor: pointer;
+
+            .color {
+                color: white !important;
+            }
         }
     }
 }

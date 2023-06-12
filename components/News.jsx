@@ -33,15 +33,15 @@ export default function News() {
                                     <img src={API.main_image} alt={API.main_image} />
                                 </div>
                                 <div className={styles.title}>{API.news_title}</div>
-                                <div className={styles.description}>{API.description}</div>
+                                <div className={styles.description}><span style={{ color: 'transparent' }}>kk</span> {API.description}</div>
                                 {showMore[API.id] ? (
                                     <>
                                         <div className={styles.gallery}>
                                             <img src={API.image_1} alt={API.image_1} />
                                             <img src={API.image_2} alt={API.image_2} />
                                         </div>
-                                        <div className={styles.description}>{API.paragraph_1}</div>
-                                        <div className={styles.description}>{API.paragraph_2}</div>
+                                        <div className={styles.description}><span style={{ color: 'transparent' }}>kk</span> {API.paragraph_1}</div>
+                                        <div className={styles.description}> <span style={{ color: 'transparent' }}>kk</span> {API.paragraph_2}</div>
                                     </>
                                 ) : null}
                                 <div className={styles.flex}>

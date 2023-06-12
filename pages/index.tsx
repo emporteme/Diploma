@@ -24,7 +24,7 @@ export default function HomePage() {
 						We are always here to provide expert guidance and support in elevating your higher education journey to new heights.
 					</div>
 					<div style={{ fontSize: '1.2rem', fontWeight: '500' }}>
-						Let us help you stay ahead and thrive in today's competitive landscape! 💪🎓🌟
+						Let us help you stay ahead and thrive in today's competitive landscape!
 					</div>
 					<Link href={'/universities'}>
 						<div className={styles.btn}>
