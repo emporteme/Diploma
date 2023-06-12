@@ -1,10 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from '../styles/four.module.scss';
-import { FaGraduationCap, FaEarthAmericas, FaHome, FaBookOpen } from 'react-icons/fa'
+import { FaGraduationCap, FaHome, FaBookOpen } from 'react-icons/fa'
 import { RiEarthFill } from 'react-icons/ri'
 
 export default function Four() {
-
     return (
         <>
             <div style={{ textAlign: 'center', fontSize: '1.7rem', fontWeight: '600', marginBottom: '2rem' }}>Our features</div>

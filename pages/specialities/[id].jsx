@@ -90,7 +90,6 @@ export default function SpecialitiesDetails() {
                             <li><a href="#Phone">Subject 1</a></li>
                             <li><a href="#Phone2">Subject 2</a></li>
                             <li><a href="#Phone3">Job outlook</a></li>
-                            <li><a href="#Phone4">Salary range</a></li>
                         </ul>
                     </div>
                     <div className={styles.universityDetails} style={{ width: '75%' }}>
@@ -118,7 +117,6 @@ export default function SpecialitiesDetails() {
                         <p id="Phone"><strong>Subject 1:</strong> {university.subject_1}</p>
                         <p id="Phone2"><strong>Subject 2:</strong> {university.subject_2}</p>
                         <p id="Phone3"><strong>Job outlook:</strong> {university.job_outlook}</p>
-                        <p id="Phone4"><strong>Salary range:</strong> {university.salary_range}</p>
                     </div>
                 </div>
             </div >

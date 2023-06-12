@@ -11,7 +11,7 @@ import { AiOutlineCopyrightCircle } from "react-icons/ai"
 import styles from '../styles/footer.module.scss'
 export default function Footer() {
     return (
-        <div className={styles.footer}>
+        <div className={styles.footer} style={{ marginTop: '5rem' }}>
             <div className={styles.logo}>
                 <Logo />
             </div>

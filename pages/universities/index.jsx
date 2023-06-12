@@ -84,7 +84,7 @@ export default function Universities() {
 					<div className={styles.sidebar}>
 						<div>
 							<h3>Study Language</h3>
-							<div style={{ width: '60%' }}>
+							<div style={{ width: '45%' }}>
 								<input
 									type="checkbox"
 									id="english"
@@ -93,7 +93,7 @@ export default function Universities() {
 								/>
 								<label htmlFor="english">English</label>
 							</div>
-							<div style={{ width: '60%' }}>
+							<div style={{ width: '45%' }}>
 								<input
 									type="checkbox"
 									id="russian"
@@ -102,7 +102,7 @@ export default function Universities() {
 								/>
 								<label htmlFor="russian">Russian</label>
 							</div>
-							<div style={{ width: '60%' }}>
+							<div style={{ width: '45%' }}>
 								<input
 									type="checkbox"
 									id="kazakh"
