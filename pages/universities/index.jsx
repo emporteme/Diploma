@@ -12,6 +12,10 @@ export default function Universities() {
 	const [favorites, setFavorites] = useState([]);
 	const [universities, setUniversities] = useState([]);
 
+	// Page routing
+	const [currentPage, setCurrentPage] = useState(1);
+	const universitiesPerPage = 4;
+
 	useEffect(() => {
 		const storedFavorites = localStorage.getItem('favorites');
 		if (storedFavorites) {
@@ -67,6 +71,23 @@ export default function Universities() {
 	const [kazakhChecked, setKazakhChecked] = useState(true);
 	const [cityFilter, setCityFilter] = useState("");
 
+	const displayedUniversities = universities
+		.filter((API) => {
+			return (
+				(search === "" || API.university_name.toLowerCase().includes(search.toLowerCase()) || API.short_name.toLowerCase().includes(search.toLowerCase()) || API.description.toLowerCase().includes(search.toLowerCase())) &&
+				// New filter conditions
+				((englishChecked && API.language.some(lang => lang.name.toLowerCase() === "english")) ||
+					(russianChecked && API.language.some(lang => lang.name.toLowerCase() === "russian")) ||
+					(kazakhChecked && API.language.some(lang => lang.name.toLowerCase() === "kazakh"))) &&
+				(yearFilter === "" || API.established_year >= parseInt(yearFilter)) &&
+				(tuitionFilterMin === "" || API.tuition_price >= parseInt(tuitionFilterMin)) &&
+				(tuitionFilterMax === "" || API.tuition_price <= parseInt(tuitionFilterMax)) &&
+				(studentCountFilterMin === "" || API.student_count >= parseInt(studentCountFilterMin)) &&
+				(studentCountFilterMax === "" || API.student_count <= parseInt(studentCountFilterMax)) &&
+				(cityFilter === "" || API.city === cityFilter)
+			);
+		})
+		.slice((currentPage - 1) * universitiesPerPage, currentPage * universitiesPerPage);
 
 	return (
 		<MainLayout spacing='0 5vw'>
@@ -199,22 +220,7 @@ export default function Universities() {
 						</div>
 					</div>
 					<div className={styles.list}>
-						{universities
-							.filter((API) => {
-								return (
-									(search === "" || API.university_name.toLowerCase().includes(search.toLowerCase()) || API.short_name.toLowerCase().includes(search.toLowerCase()) || API.description.toLowerCase().includes(search.toLowerCase())) &&
-									// New filter conditions
-									((englishChecked && API.language.some(lang => lang.name.toLowerCase() === "english")) ||
-										(russianChecked && API.language.some(lang => lang.name.toLowerCase() === "russian")) ||
-										(kazakhChecked && API.language.some(lang => lang.name.toLowerCase() === "kazakh"))) &&
-									(yearFilter === "" || API.established_year >= parseInt(yearFilter)) &&
-									(tuitionFilterMin === "" || API.tuition_price >= parseInt(tuitionFilterMin)) &&
-									(tuitionFilterMax === "" || API.tuition_price <= parseInt(tuitionFilterMax)) &&
-									(studentCountFilterMin === "" || API.student_count >= parseInt(studentCountFilterMin)) &&
-									(studentCountFilterMax === "" || API.student_count <= parseInt(studentCountFilterMax)) &&
-									(cityFilter === "" || API.city === cityFilter)
-								);
-							})
+						{displayedUniversities
 							.map((API) => (
 								<>
 									<div className={styles.item} key={API.id}>
@@ -245,6 +251,10 @@ export default function Universities() {
 									</div>
 								</>
 							))}
+						<div className={styles.buttons}>
+							<button onClick={() => setCurrentPage(currentPage > 1 ? currentPage - 1 : 1)}>Previous</button>
+							<button onClick={() => setCurrentPage(currentPage < Math.ceil(universities.length / universitiesPerPage) ? currentPage + 1 : currentPage)}>Next</button>
+						</div>
 					</div>
 				</div>
 			</div>

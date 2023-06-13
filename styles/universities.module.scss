@@ -30,6 +30,29 @@
     gap: 1.5rem;
     flex-wrap: wrap;
     padding: 0 1rem;
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        width: 100%;
+
+        button {
+            background-color: #066FCC;
+            border: #066FCC solid;
+            border-radius: 0.7rem;
+            width: 7rem;
+            padding: 0.4rem;
+            text-align: center;
+            color: #fff;
+            font-weight: 700;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
 }
 
 .item {

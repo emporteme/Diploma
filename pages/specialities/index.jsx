@@ -10,6 +10,9 @@ import ApiClient from '../../api/ApiClient';
 export default function Specialities() {
 	const [search, setSearch] = useState('');
 	const [universities, setUniversities] = useState([]);
+	// Page routing
+	const [currentPage, setCurrentPage] = useState(1);
+	const universitiesPerPage = 4;
 
 	useEffect(() => {
 		fetchUniversities();
@@ -53,6 +56,19 @@ export default function Specialities() {
 		{ value: 'fundamentals of Law', label: 'Fundamentals of Law' },
 	];
 
+	const displayedUniversities = universities
+		.filter((API) => {
+			return (
+				(search === "" || API.speciality_name.toLowerCase().includes(search.toLowerCase()) || API.speciality_code.toLowerCase().includes(search.toLowerCase()) || API.description.toLowerCase().includes(search.toLowerCase())) &&
+				// New filter conditions
+				(speciality_code === "" || API.speciality_code.toLowerCase().includes(speciality_code.toLowerCase())) &&
+				(sub1 === "" || API.subject_1.toLowerCase() === sub1) &&
+				(sub2 === "" || API.subject_2.toLowerCase() === sub2) &&
+				(tuitionFilterMin === "" || API.salary_from <= parseInt(tuitionFilterMin)) &&
+				(tuitionFilterMax === "" || API.salary_to >= parseInt(tuitionFilterMax))
+			);
+		})
+		.slice((currentPage - 1) * universitiesPerPage, currentPage * universitiesPerPage);
 
 	return (
 		<MainLayout spacing='0 5vw'>
@@ -133,18 +149,7 @@ export default function Specialities() {
 						</div>
 					</div>
 					<div className={styles.list}>
-						{universities
-							.filter((API) => {
-								return (
-									(search === "" || API.speciality_name.toLowerCase().includes(search.toLowerCase()) || API.speciality_code.toLowerCase().includes(search.toLowerCase()) || API.description.toLowerCase().includes(search.toLowerCase())) &&
-									// New filter conditions
-									(speciality_code === "" || API.speciality_code.toLowerCase().includes(speciality_code.toLowerCase())) &&
-									(sub1 === "" || API.subject_1.toLowerCase() === sub1) &&
-									(sub2 === "" || API.subject_2.toLowerCase() === sub2) &&
-									(tuitionFilterMin === "" || API.salary_from <= parseInt(tuitionFilterMin)) &&
-									(tuitionFilterMax === "" || API.salary_to >= parseInt(tuitionFilterMax))
-								);
-							})
+						{displayedUniversities
 							.map((API) => (
 								<>
 									<div className={styles.item} key={API.id}>
@@ -163,6 +168,10 @@ export default function Specialities() {
 									</div>
 								</>
 							))}
+						<div className={styles.buttons}>
+							<button onClick={() => setCurrentPage(currentPage > 1 ? currentPage - 1 : 1)}>Previous</button>
+							<button onClick={() => setCurrentPage(currentPage < Math.ceil(universities.length / universitiesPerPage) ? currentPage + 1 : currentPage)}>Next</button>
+						</div>
 					</div>
 				</div>
 			</div>

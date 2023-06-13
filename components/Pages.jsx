@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Pages() {
     return (
         <>
-            <div style={{ textAlign: 'center', fontSize: '1.7rem', fontWeight: '600', marginBottom: '2rem' }}>Main functionalities</div>
+            <div style={{ textAlign: 'center', fontSize: '1.7rem', fontWeight: '600', margin: '3rem 0 2rem' }}>Explore our <span style={{ color: '#066FCC' }}>Possibilities</span> </div>
             <div className={styles.pages}>
                 <div className={styles.left}>
                     <Link href={'/universities'} className={styles.up}>

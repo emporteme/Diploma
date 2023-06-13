@@ -10,7 +10,9 @@ import ApiClient from '../../api/ApiClient';
 export default function Professions() {
 	const [search, setSearch] = useState('');
 	const [universities, setUniversities] = useState([]);
-
+	// Page routing
+	const [currentPage, setCurrentPage] = useState(1);
+	const universitiesPerPage = 4;
 
 
 	useEffect(() => {
@@ -39,6 +41,20 @@ export default function Professions() {
 	const [medium, setMedium] = useState(true);
 	const [low, setLow] = useState(true);
 
+	const displayedUniversities = universities
+		.filter((API) => {
+			return (
+				(search === "" || API.profession_name.toLowerCase().includes(search.toLowerCase()) || API.description.toLowerCase().includes(search.toLowerCase())) &&
+				// New filter conditions
+				((high && API.demand.toLowerCase() === "high")) ||
+				((medium && API.demand.toLowerCase() === "medium")) ||
+				((low && API.demand.toLowerCase() === "low")) &&
+				(tuitionFilterMin === "" || API.salary_from <= parseInt(tuitionFilterMin)) &&
+				(tuitionFilterMax === "" || API.salary_to >= parseInt(tuitionFilterMax))
+
+			);
+		})
+		.slice((currentPage - 1) * universitiesPerPage, currentPage * universitiesPerPage);
 
 	return (
 		<MainLayout spacing='0 5vw'>
@@ -108,19 +124,7 @@ export default function Professions() {
 						</div>
 					</div>
 					<div className={styles.list}>
-						{universities
-							.filter((API) => {
-								return (
-									(search === "" || API.profession_name.toLowerCase().includes(search.toLowerCase()) || API.description.toLowerCase().includes(search.toLowerCase())) &&
-									// New filter conditions
-									((high && API.demand.toLowerCase() === "high")) ||
-									((medium && API.demand.toLowerCase() === "medium")) ||
-									((low && API.demand.toLowerCase() === "low")) &&
-									(tuitionFilterMin === "" || API.salary_from <= parseInt(tuitionFilterMin)) &&
-									(tuitionFilterMax === "" || API.salary_to >= parseInt(tuitionFilterMax))
-
-								);
-							})
+						{displayedUniversities
 							.map((API) => (
 								<>
 									<div className={styles.item} key={API.id}>
@@ -139,6 +143,10 @@ export default function Professions() {
 									</div>
 								</>
 							))}
+						<div className={styles.buttons}>
+							<button onClick={() => setCurrentPage(currentPage > 1 ? currentPage - 1 : 1)}>Previous</button>
+							<button onClick={() => setCurrentPage(currentPage < Math.ceil(universities.length / universitiesPerPage) ? currentPage + 1 : currentPage)}>Next</button>
+						</div>
 					</div>
 				</div>
 			</div>
