@@ -99,39 +99,26 @@ export default function UniversityDetails() {
                         <img src={university.carousel_3} alt={university.carousel_3} />
                     </div>
                 </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', position: 'relative' }}>
                     <div className={styles.navbar} style={{ width: '25%' }}>
                         <ul>
                             <li><a href="#Location">Location</a></li>
                             <li><a href="#Description">Description</a></li>
                             <li><a href="#Website">Website</a></li>
+                            <li><a href="#Specialities">Specialities</a></li>
                             <li><a href="#Links">Links</a></li>
                             <li><a href="#Established_Year">Established Year</a></li>
                             <li><a href="#Type">Study Type</a></li>
                             <li><a href="#Language">Study Language</a></li>
                             <li><a href="#Year">Study Year</a></li>
                             <li><a href="#Student">Student Count</a></li>
-                            <li><a href="#Faculty">Faculty Count</a></li>
-                            <li><a href="#Faculties">Faculties</a></li>
-                            <li><a href="#Programs">Educational Programs</a></li>
                             <li><a href="#Email">Email</a></li>
                             <li><a href="#Phone">Phone Number</a></li>
                             <li><a href="#UNT">Minimum UNT Score</a></li>
                             <li><a href="#IELTS">Minimum IELTS Score</a></li>
                             <li><a href="#Tuition">Tuition Fee</a></li>
-                            <li><a href="#Criteria">Admission Criteria</a></li>
                             <li><a href="#Dormitory">Dormitory</a></li>
                             <li><a href="#Life">Student Life</a></li>
-                            <li><a href="#Alumni">Alumni</a></li>
-                            <li><a href="#Athletics">Athletics</a></li>
-                            <li><a href="#Financial">Financial Aid</a></li>
-                            <li><a href="#Tests">Required Tests</a></li>
-                            <li><a href="#Fee">Application Fee</a></li>
-                            <li><a href="#Deadline">Application Deadline</a></li>
-                            <li><a href="#Acceptance">Acceptance Rate</a></li>
-                            <li><a href="#Internship">Internship Opportunities</a></li>
-                            <li><a href="#Abroad">Study Abroad Programs</a></li>
-                            <li><a href="#Clubs">Clubs and Organizations</a></li>
                         </ul>
                     </div>
                     <div className={styles.universityDetails} style={{ width: '75%' }}>
@@ -181,12 +168,6 @@ export default function UniversityDetails() {
                         <p id="Tuition"><strong>Tuition Fee:</strong> {university.tuition_price} tg</p>
                         <p id="Dormitory"><strong>Dormitory:</strong> {university.dormitory}</p>
                         <p id="Life"><strong>Student Life:</strong> {university.student_life}</p>
-                        <p id="Athletics"><strong>Athletics:</strong> {university.athletics}</p>
-                        <p id="Financial"><strong>Financial Aid:</strong> {university.financial_aid}</p>
-                        <p id="Fee"><strong>Application Fee:</strong> {university.application_fee}</p>
-                        <p id="Deadline"><strong>Application Deadline:</strong> {university.application_deadline}</p>
-                        <p id="Acceptance"><strong>Acceptance Rate:</strong> {university.acceptance_rate}%</p>
-                        <p id="Internship"><strong>Internship Opportunities:</strong> {university.internship_opportunities}</p>
                     </div>
                 </div>
             </div >

@@ -36,6 +36,22 @@ export default function Specialities() {
 	const [sub2, setSub2] = useState("");
 	const [tuitionFilterMin, setTuitionFilterMin] = useState("");
 	const [tuitionFilterMax, setTuitionFilterMax] = useState("");
+	const subjectOptions = [
+		{ value: 'biology', label: 'Biology' },
+		{ value: 'geography', label: 'Geography' },
+		{ value: 'creative exam', label: 'Creative exam' },
+		{ value: 'the World History', label: 'The World History' },
+		{ value: 'mathematics', label: 'Mathematics' },
+		{ value: 'physics', label: 'Physics' },
+		{ value: 'informatics', label: 'Informatics' },
+		{ value: 'chemistry', label: 'Chemistry' },
+		{ value: 'kazakh language', label: 'Kazakh language' },
+		{ value: 'kazakh literature', label: 'Kazakh literature' },
+		{ value: 'russian language', label: 'Russian language' },
+		{ value: 'russian literature', label: 'Russian literature' },
+		{ value: 'foreign language', label: 'Foreign language' },
+		{ value: 'fundamentals of Law', label: 'Fundamentals of Law' },
+	];
 
 
 	return (
@@ -67,22 +83,31 @@ export default function Specialities() {
 						<div>
 							<h3>UNT subjects</h3>
 							<div style={{ display: 'flex', justifyContent: 'space-between' }}>
-								<input
-									type='text'
+								<select
+									value={sub1}
 									onChange={(e) => {
 										setSub1(e.target.value);
-										console.log('Year Filter:', e.target.value);
+										console.log('Subject 1:', e.target.value);
 									}}
-									placeholder='Subject 1'
-								/>
-								<input
-									type='text'
+								>
+									<option value="">Select Subject 1</option>
+									{subjectOptions.map((option) => (
+										<option key={option.value} value={option.value}>{option.label}</option>
+									))}
+								</select>
+
+								<select
+									value={sub2}
 									onChange={(e) => {
 										setSub2(e.target.value);
-										console.log('Year Filter:', e.target.value);
+										console.log('Subject 2:', e.target.value);
 									}}
-									placeholder='Subject 2'
-								/>
+								>
+									<option value="">Select Subject 2</option>
+									{subjectOptions.map((option) => (
+										<option key={option.value} value={option.value}>{option.label}</option>
+									))}
+								</select>
 							</div>
 						</div>
 						<div>
@@ -114,8 +139,8 @@ export default function Specialities() {
 									(search === "" || API.speciality_name.toLowerCase().includes(search.toLowerCase()) || API.speciality_code.toLowerCase().includes(search.toLowerCase()) || API.description.toLowerCase().includes(search.toLowerCase())) &&
 									// New filter conditions
 									(speciality_code === "" || API.speciality_code.toLowerCase().includes(speciality_code.toLowerCase())) &&
-									(sub1 === "" || API.subject_1.toLowerCase().includes(sub1.toLowerCase())) &&
-									(sub2 === "" || API.subject_2.toLowerCase().includes(sub2.toLowerCase())) &&
+									(sub1 === "" || API.subject_1.toLowerCase() === sub1) &&
+									(sub2 === "" || API.subject_2.toLowerCase() === sub2) &&
 									(tuitionFilterMin === "" || API.salary_from <= parseInt(tuitionFilterMin)) &&
 									(tuitionFilterMax === "" || API.salary_to >= parseInt(tuitionFilterMax))
 								);

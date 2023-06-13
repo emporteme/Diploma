@@ -85,6 +85,9 @@
         flex-direction: column;
         gap: 2rem;
         color: black;
+        position: sticky;
+        top: 6rem;
+        z-index: 10;
 
         .box {
             display: flex;
@@ -107,7 +110,7 @@
         padding: 1rem 0;
         margin-bottom: 2rem;
         position: sticky;
-        top: 2rem;
+        top: 5rem;
         z-index: 10;
         margin-right: 2rem;
         padding: 1rem;

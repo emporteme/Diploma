@@ -16,7 +16,7 @@ export default function MainLayout({ children, spacing = "5vw", title = "UniTree
       <Head>
         <title>{title}</title>
       </Head>
-      <div>
+      <div style={{ position: 'relative' }}>
         <Header />
         <main style={{ padding: spacing }}>
           {children}

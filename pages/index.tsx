@@ -18,6 +18,9 @@ export default function HomePage() {
 	return (
 		<MainLayout spacing='0 5vw'>
 			<div className={styles.home}>
+				<div className={styles.image}>
+					<img src="/main.avif" alt="Photo of girl and guy" />
+				</div>
 				<div className={styles.info}>
 					<div className='mainHeader'>Welcome to <span style={{ color: '#066FCC' }}>UniTree</span></div>
 					<div style={{ fontSize: '1.2rem', fontWeight: '500' }}>
@@ -32,9 +35,6 @@ export default function HomePage() {
 							<BsArrowRight />
 						</div>
 					</Link>
-				</div>
-				<div className={styles.image}>
-					<img src="/main.avif" alt="Photo of girl and guy" />
 				</div>
 			</div>
 			<Four />

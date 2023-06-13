@@ -6,11 +6,26 @@ import { ZoomControl, AttributionControl, LayersControl, ScaleControl } from 're
 import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.webpack.css'; // Re-uses images from ~leaflet package
 import 'leaflet-defaulticon-compatibility';
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
+
 
 export default function Map({ universities }) {
+    const [currentLocation, setCurrentLocation] = useState([51.090991, 71.417755]);
+
+    useEffect(() => {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition((position) => {
+                setCurrentLocation([position.coords.latitude, position.coords.longitude]);
+            }, (error) => {
+                console.log('Error getting location', error);
+            });
+        } else {
+            console.log("Geolocation is not supported by this browser");
+        }
+    }, []);
     return (
         <MainLayout spacing='0 5vw'>
-            <MapContainer className={styles.map} center={[51.155578, 71.469551]} zoom={10} scrollWheelZoom={true} zoomControl={false}>
+            <MapContainer className={styles.map} center={currentLocation} zoom={15} scrollWheelZoom={true} zoomControl={false}>
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

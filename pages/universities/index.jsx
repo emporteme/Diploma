@@ -65,6 +65,7 @@ export default function Universities() {
 	const [englishChecked, setEnglishChecked] = useState(true);
 	const [russianChecked, setRussianChecked] = useState(true);
 	const [kazakhChecked, setKazakhChecked] = useState(true);
+	const [cityFilter, setCityFilter] = useState("");
 
 
 	return (
@@ -111,6 +112,37 @@ export default function Universities() {
 								/>
 								<label htmlFor="kazakh">Kazakh</label>
 							</div>
+						</div>
+						<div>
+							<h3>City</h3>
+							<select
+								value={cityFilter}
+								onChange={(e) => {
+									setCityFilter(e.target.value);
+									console.log('City Filter:', e.target.value);
+								}}
+							>
+								<option value="">--All--</option>
+								<option value="Aktobe">Aktobe</option>
+								<option value="Aktau">Aktau</option>
+								<option value="Almaty">Almaty</option>
+								<option value="Astana">Astana</option>
+								<option value="Atyrau">Atyrau</option>
+								<option value="Karaganda">Karaganda</option>
+								<option value="Kokshetau">Kokshetau</option>
+								<option value="Kostanay">Kostanay</option>
+								<option value="Kyzylorda">Kyzylorda</option>
+								<option value="Pavlodar">Pavlodar</option>
+								<option value="Petropavlovsk">Petropavlovsk</option>
+								<option value="Semey">Semey</option>
+								<option value="Shymkent">Shymkent</option>
+								<option value="Taldykorgan">Taldykorgan</option>
+								<option value="Taraz">Taraz</option>
+								<option value="Turkestan">Turkestan</option>
+								<option value="Uralsk">Uralsk</option>
+								<option value="Ust-Kamenogorsk">Ust-Kamenogorsk</option>
+								<option value="Zhezkazgan">Zhezkazgan</option>
+							</select>
 						</div>
 						<div>
 							<h3>Established Year</h3>
@@ -179,7 +211,8 @@ export default function Universities() {
 									(tuitionFilterMin === "" || API.tuition_price >= parseInt(tuitionFilterMin)) &&
 									(tuitionFilterMax === "" || API.tuition_price <= parseInt(tuitionFilterMax)) &&
 									(studentCountFilterMin === "" || API.student_count >= parseInt(studentCountFilterMin)) &&
-									(studentCountFilterMax === "" || API.student_count <= parseInt(studentCountFilterMax))
+									(studentCountFilterMax === "" || API.student_count <= parseInt(studentCountFilterMax)) &&
+									(cityFilter === "" || API.city === cityFilter)
 								);
 							})
 							.map((API) => (
