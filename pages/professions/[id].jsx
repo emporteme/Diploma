@@ -88,7 +88,6 @@ export default function ProfessionsDetails() {
                             <li><a href="#education">Education</a></li>
                             <li><a href="#employment_outlook">Employment outlook</a></li>
                             <li><a href="#Specialities">Specialities</a></li>
-                            <li><a href="#salary_range">Salary range</a></li>
                             <li><a href="#skills">Skills</a></li>
                         </ul>
                     </div>
@@ -116,7 +115,6 @@ export default function ProfessionsDetails() {
                                 </div>
                             ))}
                         </ul>
-                        <p id="salary_range"><strong>Salary range:</strong> {university.salary_range}</p>
                         <p id="skills"><strong>Skills:</strong> {university.skills}</p>
                     </div>
                 </div>
