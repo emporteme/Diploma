@@ -110,7 +110,6 @@ export default function UniversityDetails() {
                             <li><a href="#Established_Year">Established Year</a></li>
                             <li><a href="#Type">Study Type</a></li>
                             <li><a href="#Language">Study Language</a></li>
-                            <li><a href="#Year">Study Year</a></li>
                             <li><a href="#Student">Student Count</a></li>
                             <li><a href="#Email">Email</a></li>
                             <li><a href="#Phone">Phone Number</a></li>
@@ -159,7 +158,6 @@ export default function UniversityDetails() {
                         </div>
                         <p id="Established_Year"><strong>Established Year:</strong> {university.established_year}</p>
                         <p id="Language"><strong>Study Language:</strong> {university.language.map(lang => lang.name).join(", ")}</p>
-                        <p id="Year"><strong>Study Year:</strong></p>
                         <p id="Student"><strong>Student Count:</strong> {university.student_count}</p>
                         <p id="Email"><strong>Email:</strong> <a id="emailLink" href="#">Loading...</a></p>
                         <p id="Phone"><strong>Phone Number:</strong> <a id="phoneLink" href="#">Loading...</a></p>
